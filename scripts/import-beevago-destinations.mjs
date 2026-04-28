@@ -56,7 +56,9 @@ function trim(entry) {
     countryName: countryNameFor(primaryCountryCode),
     continent: entry.continent,
     hemisphere: entry.hemisphere,
-    image: entry.image,
+    image: entry.image
+      ? entry.image.replace(/^\/destinations\//, "/img/destinations/")
+      : entry.image,
     description: entry.description,
     bestTime: entry.bestTime,
     minDays: entry.minDays,
