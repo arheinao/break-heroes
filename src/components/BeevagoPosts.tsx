@@ -35,7 +35,7 @@ export default function BeevagoPosts({
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={p.image}
-                    alt=""
+                    alt={p.title}
                     loading="lazy"
                     className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
