@@ -1,0 +1,174 @@
+[
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "schoolBreaks": [
+      {
+        "key": "autumn_half_term",
+        "name": "Autumn half-term",
+        "approxMonth": "Oct",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "christmas",
+        "name": "Christmas holiday",
+        "approxMonth": "Dec-Jan",
+        "demandImpact": "high"
+      },
+      {
+        "key": "spring_half_term",
+        "name": "Spring half-term",
+        "approxMonth": "Feb",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "easter",
+        "name": "Easter holiday",
+        "approxMonth": "Mar-Apr",
+        "demandImpact": "high"
+      },
+      {
+        "key": "summer_half_term",
+        "name": "Summer half-term",
+        "approxMonth": "May-Jun",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "summer_holiday",
+        "name": "Summer holiday",
+        "approxMonth": "Jul-Sep",
+        "demandImpact": "severe"
+      }
+    ]
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "schoolBreaks": [
+      {
+        "key": "mlk_presidents",
+        "name": "MLK / Presidents' Day breaks",
+        "approxMonth": "Jan-Feb",
+        "demandImpact": "low"
+      },
+      {
+        "key": "spring_break",
+        "name": "Spring break",
+        "approxMonth": "Mar-Apr",
+        "demandImpact": "high"
+      },
+      {
+        "key": "memorial_day",
+        "name": "Memorial Day weekend",
+        "approxMonth": "May",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "summer_break",
+        "name": "Summer break",
+        "approxMonth": "Jun-Aug",
+        "demandImpact": "severe"
+      },
+      {
+        "key": "labor_day",
+        "name": "Labor Day weekend",
+        "approxMonth": "Sep",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "thanksgiving",
+        "name": "Thanksgiving week",
+        "approxMonth": "Nov",
+        "demandImpact": "high"
+      },
+      {
+        "key": "winter_holidays",
+        "name": "Winter holidays",
+        "approxMonth": "Dec-Jan",
+        "demandImpact": "high"
+      }
+    ]
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "schoolBreaks": [
+      {
+        "key": "winter_break",
+        "name": "Winter holidays",
+        "approxMonth": "Feb",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "easter_break",
+        "name": "Easter holidays",
+        "approxMonth": "Mar-Apr",
+        "demandImpact": "high"
+      },
+      {
+        "key": "pentecost_break",
+        "name": "Pentecost break",
+        "approxMonth": "May-Jun",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "summer_break",
+        "name": "Summer holidays",
+        "approxMonth": "Jun-Sep",
+        "demandImpact": "severe"
+      },
+      {
+        "key": "autumn_break",
+        "name": "Autumn holidays",
+        "approxMonth": "Oct",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "christmas_break",
+        "name": "Christmas holidays",
+        "approxMonth": "Dec-Jan",
+        "demandImpact": "high"
+      }
+    ]
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "flag": "🇫🇷",
+    "schoolBreaks": [
+      {
+        "key": "winter_zones",
+        "name": "Winter zone holidays",
+        "approxMonth": "Feb-Mar",
+        "demandImpact": "high"
+      },
+      {
+        "key": "spring_zones",
+        "name": "Spring zone holidays",
+        "approxMonth": "Apr-May",
+        "demandImpact": "high"
+      },
+      {
+        "key": "summer_break",
+        "name": "Grandes vacances",
+        "approxMonth": "Jul-Aug",
+        "demandImpact": "severe"
+      },
+      {
+        "key": "toussaint",
+        "name": "Toussaint",
+        "approxMonth": "Oct-Nov",
+        "demandImpact": "medium"
+      },
+      {
+        "key": "christmas_break",
+        "name": "Christmas holidays",
+        "approxMonth": "Dec-Jan",
+        "demandImpact": "high"
+      }
+    ]
+  }
+]

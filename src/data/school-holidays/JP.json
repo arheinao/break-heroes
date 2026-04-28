@@ -1,0 +1,197 @@
+{
+    "metadata": {
+        "countryCode": "JP",
+        "countryName": "Japan",
+        "version": "1.0.0",
+        "lastUpdated": "2025-07-22",
+        "schoolHolidayType": "national",
+        "schoolHolidayNotes": [
+            "no_school_public_holidays",
+            "jp_three_term_system_gakki",
+            "jp_april_to_march_academic_year",
+            "jp_mext_standardized_calendar",
+            "jp_regional_variations_permitted"
+        ],
+        "academicYearStructure": "three_terms",
+        "governingBody": "Ministry of Education, Culture, Sports, Science and Technology (MEXT)",
+        "governingBodyJapanese": "文部科学省",
+        "sources": [
+            {
+                "name": "Ministry of Education, Culture, Sports, Science and Technology (MEXT)",
+                "url": "https://www.mext.go.jp/en/policy/education/index.htm"
+            }
+        ]
+    },
+    "schoolHolidays": {
+        "2024-2025": [
+            {
+                "key": "summer_break",
+                "name": "Summer Break",
+                "nameOriginal": "夏休み",
+                "nameRomanized": "natsu yasumi",
+                "startDate": "2024-07-20",
+                "endDate": "2024-08-31",
+                "termType": "between_1st_and_2nd_term",
+                "description": "Longest school holiday period, popular time for family vacations and festivals"
+            },
+            {
+                "key": "winter_break",
+                "name": "Winter Break",
+                "nameOriginal": "冬休み",
+                "nameRomanized": "fuyu yasumi",
+                "startDate": "2024-12-26",
+                "endDate": "2025-01-06",
+                "termType": "between_2nd_and_3rd_term",
+                "description": "Includes New Year celebrations, one of the most important periods in Japan"
+            },
+            {
+                "key": "spring_break",
+                "name": "Spring Break",
+                "nameOriginal": "春休み",
+                "nameRomanized": "haru yasumi",
+                "startDate": "2025-03-25",
+                "endDate": "2025-04-05",
+                "termType": "between_academic_years",
+                "description": "End of academic year break, preparation time for entrance exams and new school year"
+            }
+        ],
+        "2025-2026": [
+            {
+                "key": "summer_break",
+                "name": "Summer Break",
+                "nameOriginal": "夏休み",
+                "nameRomanized": "natsu yasumi",
+                "startDate": "2025-07-19",
+                "endDate": "2025-08-24",
+                "termType": "between_1st_and_2nd_term",
+                "description": "Longest school holiday period, popular time for family vacations and festivals"
+            },
+            {
+                "key": "winter_break",
+                "name": "Winter Break",
+                "nameOriginal": "冬休み",
+                "nameRomanized": "fuyu yasumi",
+                "startDate": "2025-12-24",
+                "endDate": "2026-01-06",
+                "termType": "between_2nd_and_3rd_term",
+                "description": "Includes New Year celebrations, one of the most important periods in Japan"
+            },
+            {
+                "key": "spring_break",
+                "name": "Spring Break",
+                "nameOriginal": "春休み",
+                "nameRomanized": "haru yasumi",
+                "startDate": "2026-03-24",
+                "endDate": "2026-04-04",
+                "termType": "between_academic_years",
+                "description": "End of academic year break, preparation time for entrance exams and new school year"
+            }
+        ],
+        "2026-2027": [
+            {
+                "key": "summer_break",
+                "name": "Summer Break",
+                "nameOriginal": "夏休み",
+                "nameRomanized": "natsu yasumi",
+                "startDate": "2026-07-20",
+                "endDate": "2026-08-31",
+                "termType": "between_1st_and_2nd_term",
+                "description": "Longest school holiday period, popular time for family vacations and festivals"
+            },
+            {
+                "key": "winter_break",
+                "name": "Winter Break",
+                "nameOriginal": "冬休み",
+                "nameRomanized": "fuyu yasumi",
+                "startDate": "2026-12-26",
+                "endDate": "2027-01-06",
+                "termType": "between_2nd_and_3rd_term",
+                "description": "Includes New Year celebrations, one of the most important periods in Japan"
+            },
+            {
+                "key": "spring_break",
+                "name": "Spring Break",
+                "nameOriginal": "春休み",
+                "nameRomanized": "haru yasumi",
+                "startDate": "2027-03-25",
+                "endDate": "2027-04-05",
+                "termType": "between_academic_years",
+                "description": "End of academic year break, preparation time for entrance exams and new school year"
+            }
+        ]
+    },
+    "termStructure": {
+        "description": "Japanese schools follow a three-term system (三学期制)",
+        "terms": [
+            {
+                "termNumber": 1,
+                "name": "First Term",
+                "nameOriginal": "第一学期",
+                "nameRomanized": "dai ichi gakki",
+                "typicalStartDate": "early April (around April 6)",
+                "typicalEndDate": "around July 20",
+                "seasonalNote": "Begins with cherry blossom season, symbolizing new beginnings"
+            },
+            {
+                "termNumber": 2,
+                "name": "Second Term",
+                "nameOriginal": "第二学期",
+                "nameRomanized": "dai ni gakki",
+                "typicalStartDate": "early September (around September 1)",
+                "typicalEndDate": "around December 25"
+            },
+            {
+                "termNumber": 3,
+                "name": "Third Term",
+                "nameOriginal": "第三学期",
+                "nameRomanized": "dai san gakki",
+                "typicalStartDate": "early January (around January 7)",
+                "typicalEndDate": "late March (around March 25)"
+            }
+        ]
+    },
+    "specialPeriods": {
+        "goldenWeek": {
+            "name": "Golden Week",
+            "nameOriginal": "ゴールデンウィーク",
+            "description": "Series of national holidays from late April to early May",
+            "period": "April 29 - May 6",
+            "note": "Popular travel period, schools closed for national holidays"
+        },
+        "obon": {
+            "name": "Obon",
+            "nameOriginal": "お盆",
+            "description": "Traditional period when ancestors' spirits return to Japan",
+            "period": "August 13-16",
+            "note": "Not official school holiday but culturally significant, occurs during summer break"
+        },
+        "silverWeek": {
+            "name": "Silver Week",
+            "nameOriginal": "シルバーウィーク",
+            "description": "Occurs when Respect for the Aged Day and Autumnal Equinox Day align for long weekend",
+            "note": "Irregular occurrence, approximately every 6 years"
+        }
+    },
+    "regionalSchoolHolidays": {
+        "note": "While MEXT sets the national framework, municipalities (市区町村) can make minor adjustments to dates",
+        "variations": [
+            "Exact start/end dates may vary by 1-3 days between prefectures",
+            "Northern regions may have slightly different winter break periods",
+            "Some areas may have additional local festival days"
+        ]
+    },
+    "internationalSchools": {
+        "note": "International schools in Japan often follow different calendar systems",
+        "commonPattern": "Two-semester system with autumn, winter, spring, and summer breaks",
+        "startPattern": "Many follow Western patterns starting in August/September"
+    },
+    "higherEducation": {
+        "universities": {
+            "system": "Two-semester system",
+            "firstSemester": "April to July",
+            "summerBreak": "August to September",
+            "secondSemester": "October to February",
+            "springBreak": "March"
+        }
+    }
+}

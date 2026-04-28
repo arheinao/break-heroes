@@ -1,0 +1,852 @@
+{
+  "metadata": {
+    "countryCode": "FR",
+    "countryName": "France",
+    "version": "1.1.0",
+    "lastUpdated": "2025-06-27",
+    "schoolHolidayType": "zones",
+    "schoolHolidayNotes": [
+      "no_school_public_holidays",
+      "pl_school_holidays_start_after_classes",
+      "pl_school_classes_resume_morning",
+      "pl_winter_holidays_staggered_groups"
+    ],
+    "sources": [
+      {
+        "name": "Ministère de l'Éducation nationale",
+        "url": "https://www.education.gouv.fr/calendrier-scolaire-100148"
+      }
+    ]
+  },
+  "schoolHolidays": {
+    "national": {
+      "2024-2025": [
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2024-10-19",
+          "endDate": "2024-11-04",
+          "appliesTo": "all_zones"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2024-12-21",
+          "endDate": "2025-01-06",
+          "appliesTo": "all_zones"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2025-07-05",
+          "endDate": "2025-09-01",
+          "appliesTo": "all_zones"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2025-10-18",
+          "endDate": "2025-11-03",
+          "appliesTo": "all_zones"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2025-12-20",
+          "endDate": "2026-01-05",
+          "appliesTo": "all_zones"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2026-07-04",
+          "endDate": "2026-09-01",
+          "appliesTo": "all_zones"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-16",
+          "appliesTo": "all_zones"
+        },
+        {
+          "key": "no_classes_day_solidarity",
+          "name": "No classes day (Solidarity day)",
+          "startDate": "2026-05-25",
+          "endDate": "2026-05-25",
+          "appliesTo": "all_zones"
+        }
+      ]
+    }
+  },
+  "regionalSchoolHolidays": {
+    "A": {
+      "zoneName": "Zone A",
+      "academies": [
+        "Besançon",
+        "Bordeaux",
+        "Clermont-Ferrand",
+        "Dijon",
+        "Grenoble",
+        "Limoges",
+        "Lyon",
+        "Poitiers"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_winter_break_a",
+          "name": "Winter Break",
+          "startDate": "2025-02-23",
+          "endDate": "2025-03-09"
+        },
+        {
+          "key": "fr_spring_break_a",
+          "name": "Spring Break",
+          "startDate": "2025-04-20",
+          "endDate": "2025-05-04"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "fr_winter_break_a",
+          "name": "Winter Break",
+          "startDate": "2026-02-07",
+          "endDate": "2026-02-23"
+        },
+        {
+          "key": "fr_spring_break_a",
+          "name": "Spring Break",
+          "startDate": "2026-04-04",
+          "endDate": "2026-04-20"
+        }
+      ]
+    },
+    "B": {
+      "zoneName": "Zone B",
+      "academies": [
+        "Aix-Marseille",
+        "Amiens",
+        "Caen",
+        "Lille",
+        "Nancy-Metz",
+        "Nantes",
+        "Nice",
+        "Orléans-Tours",
+        "Reims",
+        "Rennes",
+        "Rouen",
+        "Strasbourg"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_winter_break_b",
+          "name": "Winter Break",
+          "startDate": "2025-02-09",
+          "endDate": "2025-02-23"
+        },
+        {
+          "key": "fr_spring_break_b",
+          "name": "Spring Break",
+          "startDate": "2025-04-06",
+          "endDate": "2025-04-21"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "fr_winter_break_b",
+          "name": "Winter Break",
+          "startDate": "2026-02-14",
+          "endDate": "2026-03-02"
+        },
+        {
+          "key": "fr_spring_break_b",
+          "name": "Spring Break",
+          "startDate": "2026-04-11",
+          "endDate": "2026-04-27"
+        }
+      ]
+    },
+    "C": {
+      "zoneName": "Zone C",
+      "academies": [
+        "Créteil",
+        "Montpellier",
+        "Paris",
+        "Toulouse",
+        "Versailles"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_winter_break_c",
+          "name": "Winter Break",
+          "startDate": "2025-02-16",
+          "endDate": "2025-03-02"
+        },
+        {
+          "key": "fr_spring_break_c",
+          "name": "Spring Break",
+          "startDate": "2025-04-13",
+          "endDate": "2025-04-27"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "fr_winter_break_c",
+          "name": "Winter Break",
+          "startDate": "2026-02-21",
+          "endDate": "2026-03-09"
+        },
+        {
+          "key": "fr_spring_break_c",
+          "name": "Spring Break",
+          "startDate": "2026-04-18",
+          "endDate": "2026-05-04"
+        }
+      ]
+    },
+    "CORSE": {
+      "zoneName": "Corsica",
+      "academies": [
+        "Corse"
+      ],
+      "schoolHolidayNotes": [
+        "fr_corse_school_holidays_free_days"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_winter_break_corse",
+          "name": "Winter Break",
+          "startDate": "2025-02-15",
+          "endDate": "2025-03-03"
+        },
+        {
+          "key": "fr_spring_break_corse",
+          "name": "Spring Break",
+          "startDate": "2025-04-12",
+          "endDate": "2025-04-28"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2025-09-08",
+          "endDate": "2025-09-08"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2025-12-08",
+          "endDate": "2025-12-08"
+        },
+        {
+          "key": "fr_winter_break_corse",
+          "name": "Winter Break",
+          "startDate": "2026-02-14",
+          "endDate": "2026-03-02"
+        },
+        {
+          "key": "fr_spring_break_corse",
+          "name": "Spring Break",
+          "startDate": "2026-04-11",
+          "endDate": "2026-04-27"
+        }
+      ]
+    }
+  },
+  "overseasTerritories": {
+    "GUA": {
+      "zoneName": "Guadeloupe",
+      "academies": ["Guadeloupe"],
+      "schoolHolidayNotes": [
+        "fr_guad_school_holidays_compensation_days", "fr_school_holiday_notice_guad"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_abolition_of_slavery_saint_barthélemy",
+          "name": "Abolition of slavery (Saint-Barthélemy)",
+          "startDate": "2024-10-09",
+          "endDate": "2024-10-09"
+        },
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2024-10-23",
+          "endDate": "2024-11-04"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2024-12-21",
+          "endDate": "2025-01-06"
+        },
+        {
+          "key": "fr_carnival_break_guadeloupe",
+          "name": "Carnival",
+          "startDate": "2025-02-22",
+          "endDate": "2025-03-10"
+        },
+        {
+          "key": "fr_mid_lent_guadeloupe",
+          "name": "Mid-Lent",
+          "startDate": "2025-03-27",
+          "endDate": "2025-03-27"
+        },
+        {
+          "key": "fr_easter_break",
+          "name": "Easter",
+          "startDate": "2025-04-17",
+          "endDate": "2025-05-05"
+        },
+        {
+          "key": "fr_week_in_may_guadeloupe",
+          "name": "Week in May, Abolition os Slavery Day and Ascension Day",
+          "startDate": "2025-05-26",
+          "endDate": "2025-05-31"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2025-07-05",
+          "endDate": "2025-09-01"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "fr_abolition_of_slavery_saint_barthélemy",
+          "name": "Abolition of slavery (Saint-Barthélemy)",
+          "startDate": "2025-10-09",
+          "endDate": "2025-10-09"
+        },
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2025-10-18",
+          "endDate": "2025-11-03"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2025-12-20",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "fr_carnival_break_guadeloupe",
+          "name": "Carnival",
+          "startDate": "2026-02-07",
+          "endDate": "2026-02-23"
+        },
+        {
+          "key": "fr_mid_lent_guadeloupe",
+          "name": "Mid-Lent",
+          "startDate": "2026-03-12",
+          "endDate": "2026-03-27"
+        },
+        {
+          "key": "fr_easter_break",
+          "name": "Easter",
+          "startDate": "2026-04-02",
+          "endDate": "2026-04-20"
+        },
+        {
+          "key": "fr_week_in_may_guadeloupe",
+          "name": "Week in May and Ascension Day",
+          "startDate": "2026-05-14",
+          "endDate": "2026-05-16"
+        },
+        {
+          "key": "fr_abolition_of_slavery",
+          "name": "Abolition os Slavery Day",
+          "startDate": "2026-05-27",
+          "endDate": "2026-05-27"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2026-07-04",
+          "endDate": "2026-09-01"
+        }
+      ]
+    },
+    "GUY": {
+      "zoneName": "Guyane",
+      "academies": ["Guyane"],
+      "2024-2025": [
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2024-10-19",
+          "endDate": "2024-11-04"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2024-12-21",
+          "endDate": "2025-01-06"
+        },
+        {
+          "key": "fr_carnival_break",
+          "name": "Carnival",
+          "startDate": "2025-02-22",
+          "endDate": "2025-03-10"
+        },
+        {
+          "key": "fr_easter_break",
+          "name": "Easter",
+          "startDate": "2025-04-17",
+          "endDate": "2025-05-05"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2025-05-30",
+          "endDate": "2025-05-31"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2025-07-05",
+          "endDate": "2025-09-01"
+        }
+      ],
+      "2025-2026": [
+        
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2025-10-18",
+          "endDate": "2025-11-03"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2025-12-20",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "fr_carnival_break",
+          "name": "Carnival",
+          "startDate": "2026-02-07",
+          "endDate": "2026-02-23"
+        },
+        {
+          "key": "fr_easter_break",
+          "name": "Easter",
+          "startDate": "2026-04-02",
+          "endDate": "2026-04-20"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-16"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2026-07-04",
+          "endDate": "2026-09-01"
+        }
+      ]
+    },
+    "MAR": {
+      "zoneName": "Martinique",
+      "academies": ["Martinique"],
+      "schoolHolidayNotes": [
+        "fr_school_holiday_notice_martinique"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2024-10-19",
+          "endDate": "2024-11-04"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2024-12-21",
+          "endDate": "2025-01-06"
+        },
+        {
+          "key": "fr_carnival_break",
+          "name": "Carnival",
+          "startDate": "2025-02-22",
+          "endDate": "2025-03-10"
+        },
+        {
+          "key": "fr_easter_break",
+          "name": "Easter",
+          "startDate": "2025-04-12",
+          "endDate": "2025-04-28"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2025-05-30",
+          "endDate": "2025-05-31"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2025-07-05",
+          "endDate": "2025-09-01"
+        }
+      ],
+      "2025-2026": [
+        
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2025-10-18",
+          "endDate": "2025-11-03"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2025-12-20",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "fr_carnival_break",
+          "name": "Carnival",
+          "startDate": "2026-02-07",
+          "endDate": "2026-02-23"
+        },
+        {
+          "key": "fr_easter_break",
+          "name": "Easter",
+          "startDate": "2026-04-02",
+          "endDate": "2026-04-20"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No classes day",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-16"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2026-07-04",
+          "endDate": "2026-09-01"
+        }
+      ]
+    },
+    "REU": {
+      "zoneName": "Reunion",
+      "academies": ["Reunion"],
+      "schoolHolidayNotes": [
+        "fr_school_holiday_notice_reunion"
+      ],
+      "2024-2025": [
+        {
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2024-10-12",
+          "endDate": "2024-10-28"
+        },
+        {
+          "key": "fr_southern_summer_holidays",
+          "name": "Southern summer holidays",
+          "startDate": "2024-12-19",
+          "endDate": "2025-01-21"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2025-03-01",
+          "endDate": "2025-03-17"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2025-05-03",
+          "endDate": "2025-05-19"
+        },
+        {
+          "key": "fr_southern_winter_holidays",
+          "name": "Southern winter holidays",
+          "startDate": "2025-07-05",
+          "endDate": "2025-08-19"
+        }
+      ],
+      "2025-2026": [
+      {
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2025-10-11",
+          "endDate": "2025-10-27"
+        },
+        {
+          "key": "fr_southern_summer_holidays",
+          "name": "Southern summer holidays",
+          "startDate": "2025-12-19",
+          "endDate": "2026-01-21"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2026-02-28",
+          "endDate": "2026-03-16"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2026-05-02",
+          "endDate": "2026-05-18"
+        },
+        {
+          "key": "fr_southern_winter_holidays",
+          "name": "Southern winter holidays",
+          "startDate": "2026-07-04",
+          "endDate": "2026-08-19"
+        }
+      ]
+    },
+    "WLF": {
+      "zoneName": "Wallis and Futuna",
+      "academies": ["Wallis and Futuna"],
+      "2025": [
+      {
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2025-04-05",
+          "endDate": "2025-04-20"
+        },
+        {
+          "key": "fr_second_period_holidays",
+          "name": "2nd period holidays",
+          "startDate": "2025-06-07",
+          "endDate": "2025-06-22"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2025-08-09",
+          "endDate": "2025-08-24"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2025-10-11",
+          "endDate": "2025-10-26"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer holidays",
+          "startDate": "2025-12-20",
+          "endDate": "2026-02-16"
+        }
+      ]
+    },
+    "SPM": {
+      "zoneName": "Saint Pierre and Miquelon",
+      "academies": ["Saint Pierre and Miquelon"],
+      "2025-2026": [
+        {
+          "key": "fr_all_saints_break",
+          "name": "All Saints Break",
+          "startDate": "2025-10-21",
+          "endDate": "2025-11-03"
+        },
+        {
+          "key": "fr_christmas_break",
+          "name": "Christmas Break",
+          "startDate": "2025-12-19",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-13",
+          "endDate": "2026-03-02"
+        },
+        {
+          "key": "spring_break",
+          "name": "Spring Break",
+          "startDate": "2026-04-10",
+          "endDate": "2026-04-27"
+        },
+        {
+          "key": "ascension_holiday",
+          "name": "Ascension bridge holidays",
+          "startDate": "2026-05-13",
+          "endDate": "2026-05-18"
+        },
+        {
+          "key": "fr_summer_break",
+          "name": "Summer Break",
+          "startDate": "2026-07-02",
+          "endDate": "2026-09-01"
+        }
+      ]
+    },
+    "NCL": {
+      "zoneName": "New Caledonia",
+      "academies": ["New Caledonia"],
+       "2025": [
+      { 
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2025-04-05",
+          "endDate": "2025-04-20"
+        },
+        {
+          "key": "fr_second_period_holidays",
+          "name": "2nd period holidays",
+          "startDate": "2025-06-07",
+          "endDate": "2025-06-22"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2025-08-09",
+          "endDate": "2025-08-24"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2025-10-11",
+          "endDate": "2025-10-26"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer holidays",
+          "startDate": "2025-12-20",
+          "endDate": "2026-02-16"
+        }
+      ],
+      "2026": [
+      {
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2026-04-04",
+          "endDate": "2026-04-19"
+        },
+        {
+          "key": "fr_second_period_holidays",
+          "name": "2nd period holidays",
+          "startDate": "2026-06-06",
+          "endDate": "2026-06-21"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2026-08-08",
+          "endDate": "2026-08-23"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2026-10-10",
+          "endDate": "2026-10-25"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer holidays",
+          "startDate": "2026-12-19",
+          "endDate": "2027-02-16"
+        }
+      ],
+      "2027": [
+      {
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2026-04-03",
+          "endDate": "2026-04-18"
+        },
+        {
+          "key": "fr_second_period_holidays",
+          "name": "2nd period holidays",
+          "startDate": "2026-06-05",
+          "endDate": "2026-06-20"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2026-08-07",
+          "endDate": "2026-08-22"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2026-10-09",
+          "endDate": "2026-10-25"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer holidays",
+          "startDate": "2026-12-18",
+          "endDate": "2027-02-16"
+        }
+      ],
+      "2028": [
+      {
+          "key": "fr_first_period_holidays",
+          "name": "1st period holidays",
+          "startDate": "2026-04-08",
+          "endDate": "2026-04-23"
+        },
+        {
+          "key": "fr_second_period_holidays",
+          "name": "2nd period holidays",
+          "startDate": "2026-06-10",
+          "endDate": "2026-06-25"
+        },
+        {
+          "key": "fr_third_period_holidays",
+          "name": "3rd period holidays",
+          "startDate": "2026-08-12",
+          "endDate": "2026-08-27"
+        },
+        {
+          "key": "fr_forth_period_holidays",
+          "name": "4th period holidays",
+          "startDate": "2026-10-14",
+          "endDate": "2026-10-29"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer holidays",
+          "startDate": "2026-12-16",
+          "endDate": "2027-02-16"
+        }
+      ]
+    }
+  },
+  "additionalInfo": {
+    "notes": [
+      "Holidays begin after classes on the indicated dates",
+      "For students who don't have Saturday classes, holidays begin Friday after classes",
+      "Classes resume on the morning of the indicated return dates",
+      "Students in zones A, B, and C won't have classes on Friday May 30 and Saturday May 31, 2025",
+      "Students in zones A, B, and C won't have classes on Friday May 15 and Saturday May 16, 2026"
+    ],
+    "specialDays": {
+      "2024-2025": [
+        {
+          "date": "2025-05-30",
+          "description": "No classes (Friday) - all metropolitan zones"
+        },
+        {
+          "date": "2025-05-31",
+          "description": "No classes (Saturday) - all metropolitan zones"
+        }
+      ],
+      "2025-2026": [
+        {
+          "date": "2026-05-15",
+          "description": "No classes (Friday) - all metropolitan zones"
+        },
+        {
+          "date": "2026-05-16",
+          "description": "No classes (Saturday) - all metropolitan zones"
+        }
+      ]
+    }
+  }
+}

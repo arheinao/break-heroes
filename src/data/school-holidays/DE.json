@@ -1,0 +1,1210 @@
+{
+  "metadata": {
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "version": "2.0.0",
+    "lastUpdated": "2025-06-12",
+    "schoolHolidayType": "regions",
+    "disclaimer": "de_disclaimer_dates_vary",
+    "schoolHolidayNotes": [
+      "no_school_public_holidays"
+    ],
+    "sources": [
+      {
+        "name": "Standing Conference of the Ministers of Education (KMK)",
+        "url": "https://www.kmk.org/service/ferien.html"
+      }
+    ]
+  },
+  "schoolHolidays": {},
+  "regionalSchoolHolidays": {
+    "BW": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-28",
+          "endDate": "2024-11-01"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2025-06-09",
+          "endDate": "2025-06-20"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-31",
+          "endDate": "2025-09-12"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-27",
+          "endDate": "2025-10-31"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-05-25",
+          "endDate": "2026-06-05"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-30",
+          "endDate": "2026-09-11"
+        }
+      ]
+    },
+    "BY": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-28",
+          "endDate": "2024-10-31"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "winter_holidays",
+          "name": "Spring Holiday",
+          "startDate": "2025-03-03",
+          "endDate": "2025-03-07"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2025-06-09",
+          "endDate": "2025-06-20"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-08-01",
+          "endDate": "2025-09-15"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-11-03",
+          "endDate": "2025-11-07"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "winter_holidays",
+          "name": "Winter Holiday",
+          "startDate": "2026-02-16",
+          "endDate": "2026-02-20"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-05-26",
+          "endDate": "2026-06-05"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-08-03",
+          "endDate": "2026-09-14"
+        }
+      ]
+    },
+    "BE": {
+      "2024-2025": [
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-22",
+          "endDate": "2024-12-31"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-02",
+          "endDate": "2025-02-08"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day",
+          "startDate": "2025-05-02",
+          "endDate": "2025-05-02"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day",
+          "startDate": "2025-05-30",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day",
+          "startDate": "2025-06-10",
+          "endDate": "2025-06-10"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-24",
+          "endDate": "2025-09-06"
+        },
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-20",
+          "endDate": "2025-11-01"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-02"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-02",
+          "endDate": "2026-02-07"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-05-26",
+          "endDate": "2026-05-26"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day",
+          "startDate": "2026-05-30",
+          "endDate": "2026-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-09",
+          "endDate": "2026-08-22"
+        },
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2026-10-19",
+          "endDate": "2026-10-31"
+        }
+      ]
+    },
+    "BB": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-21",
+          "endDate": "2024-11-02"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2024-12-31"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-03",
+          "endDate": "2025-02-07"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day (Ascension)",
+          "startDate": "2025-05-30",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "startDate": "2025-06-10",
+          "endDate": "2025-06-10"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-24",
+          "endDate": "2025-09-05"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-20",
+          "endDate": "2025-10-31"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-02"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-02",
+          "endDate": "2026-02-06"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day (Ascension)",
+          "startDate": "2026-05-15",
+          "endDate": "2026-05-15"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-09",
+          "endDate": "2026-08-21"
+        }
+      ]
+    },
+    "HB": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-04",
+          "endDate": "2024-10-18"
+        },
+        {
+          "key": "reformation_holidays",
+          "name": "Reformation Day Holiday",
+          "startDate": "2024-10-31",
+          "endDate": "2024-11-01"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-03",
+          "endDate": "2025-02-04"
+        },
+        {
+          "key": "easter_holidays",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-07",
+          "endDate": "2025-04-21"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-29",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-03",
+          "endDate": "2025-08-13"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-24"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-02",
+          "endDate": "2026-02-03"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-23",
+          "endDate": "2026-04-07"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2026-05-14",
+          "endDate": "2026-05-15"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2025-05-25",
+          "endDate": "2025-05-26"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-02",
+          "endDate": "2026-08-12"
+        }
+      ]
+    },
+    "HH": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-21",
+          "endDate": "2024-11-01"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-20",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Spring Holiday",
+          "startDate": "2025-03-10",
+          "endDate": "2025-03-21"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-26",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-24",
+          "endDate": "2025-09-03"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-20",
+          "endDate": "2025-10-31"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-17",
+          "endDate": "2026-01-02"
+        },
+        {
+          "key": "spring_break",
+          "name": "Spring Break",
+          "startDate": "2026-03-02",
+          "endDate": "2026-03-13"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Ascension Holiday",
+          "startDate": "2026-05-11",
+          "endDate": "2026-05-15"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-09",
+          "endDate": "2026-08-19"
+        }
+      ]
+    },
+    "HE": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-14",
+          "endDate": "2024-10-25"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-10"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-07",
+          "endDate": "2025-04-21"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-07",
+          "endDate": "2025-08-15"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-06",
+          "endDate": "2025-10-17"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-09"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-06-29",
+          "endDate": "2026-08-07"
+        }
+      ]
+    },
+    "MV": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-21",
+          "endDate": "2024-10-25"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-06"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-03",
+          "endDate": "2025-02-14"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-23"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2025-06-06",
+          "endDate": "2025-06-10"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-28",
+          "endDate": "2025-09-05"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-21",
+          "endDate": "2025-10-25"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-23",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-03",
+          "endDate": "2026-02-14"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-04-14",
+          "endDate": "2026-04-23"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-06-06",
+          "endDate": "2026-05-26"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-28",
+          "endDate": "2026-09-05"
+        }
+      ]
+    },
+    "NI": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-03",
+          "endDate": "2024-10-18"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-03",
+          "endDate": "2025-02-04"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-07",
+          "endDate": "2025-04-21"
+        },
+        {
+          "key": "no_classes_day",
+          "name": "No Classes Day (Ascension)",
+          "startDate": "2025-05-30",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-03",
+          "endDate": "2025-08-13"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-24"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-02",
+          "endDate": "2026-02-03"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-23",
+          "endDate": "2026-04-07"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-05-25",
+          "endDate": "2026-05-26"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-02",
+          "endDate": "2026-08-12"
+        }
+      ]
+    },
+    "NW": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-14",
+          "endDate": "2024-10-25"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-06"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2025-06-09",
+          "endDate": "2025-06-10"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-14",
+          "endDate": "2025-08-26"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-24"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-06"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-05-25",
+          "endDate": "2026-05-26"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-20",
+          "endDate": "2026-09-01"
+        }
+      ]
+    },
+    "RP": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-14",
+          "endDate": "2024-10-25"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-08"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-07",
+          "endDate": "2025-08-15"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-24"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-07"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-06-29",
+          "endDate": "2026-08-07"
+        }
+      ]
+    },
+    "SL": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-14",
+          "endDate": "2024-10-25"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "carnival_holiday",
+          "name": "Carnival Holiday",
+          "startDate": "2025-02-24",
+          "endDate": "2025-03-04"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-14",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-07",
+          "endDate": "2025-08-14"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-24"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-02"
+        },
+        {
+          "key": "carnival_holiday",
+          "name": "Carnival Holiday",
+          "startDate": "2026-02-16",
+          "endDate": "2026-02-20"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-04-07",
+          "endDate": "2026-04-17"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-06-29",
+          "endDate": "2026-08-07"
+        }
+      ]
+    },
+    "SN": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-07",
+          "endDate": "2024-10-18"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-17",
+          "endDate": "2025-02-28"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-18",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-29",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-06-30",
+          "endDate": "2025-08-08"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-06",
+          "endDate": "2025-10-15"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-02"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-09",
+          "endDate": "2026-02-20"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-04-03",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2026-05-14",
+          "endDate": "2026-05-15"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-06",
+          "endDate": "2026-08-14"
+        }
+      ]
+    },
+    "ST": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-09-30",
+          "endDate": "2024-10-11"
+        },
+        {
+          "key": "reformation_day_holiday",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-31",
+          "endDate": "2024-11-01"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-01-27",
+          "endDate": "2025-01-31"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-07",
+          "endDate": "2025-04-21"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-29",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-06-30",
+          "endDate": "2025-08-08"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-13",
+          "endDate": "2025-10-24"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-05"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-02",
+          "endDate": "2026-02-06"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-30",
+          "endDate": "2026-04-06"
+        },
+        {
+          "key": "pentecost_holiday",
+          "name": "Pentecost Holiday",
+          "startDate": "2026-05-26",
+          "endDate": "2026-05-29"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-07",
+          "endDate": "2026-08-14"
+        }
+      ]
+    },
+    "SH": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-10-21",
+          "endDate": "2024-11-01"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-19",
+          "endDate": "2025-01-07"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-11",
+          "endDate": "2025-04-25"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-29",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-07-28",
+          "endDate": "2025-09-06"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-20",
+          "endDate": "2025-10-30"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-19",
+          "endDate": "2026-01-06"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-03-26",
+          "endDate": "2026-04-10"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-14",
+          "endDate": "2025-05-15"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-06",
+          "endDate": "2026-08-14"
+        }
+      ]
+    },
+    "TH": {
+      "2024-2025": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2024-09-30",
+          "endDate": "2024-10-11"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2024-12-23",
+          "endDate": "2025-01-03"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2025-02-03",
+          "endDate": "2025-02-07"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2025-04-07",
+          "endDate": "2025-04-21"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-29",
+          "endDate": "2025-05-30"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2025-06-28",
+          "endDate": "2025-08-08"
+        }
+      ],
+      "2025-2026": [
+        {
+          "key": "autumn_holidays",
+          "name": "Autumn Holiday",
+          "startDate": "2025-10-06",
+          "endDate": "2025-10-17"
+        },
+        {
+          "key": "christmas_holiday",
+          "name": "Christmas Holiday",
+          "startDate": "2025-12-22",
+          "endDate": "2026-01-02"
+        },
+        {
+          "key": "winter_break",
+          "name": "Winter Break",
+          "startDate": "2026-02-16",
+          "endDate": "2026-02-20"
+        },
+        {
+          "key": "easter_holiday",
+          "name": "Easter Holiday",
+          "startDate": "2026-04-07",
+          "endDate": "2026-04-17"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Holiday",
+          "startDate": "2025-05-14",
+          "endDate": "2025-05-15"
+        },
+        {
+          "key": "summer_holidays",
+          "name": "Summer Holiday",
+          "startDate": "2026-07-06",
+          "endDate": "2026-08-14"
+        }
+      ]
+    }
+  }
+}

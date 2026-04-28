@@ -1,0 +1,26 @@
+name: Monthly rebuild
+
+# Triggers a fresh Cloudflare Pages build on the 1st of every month so the
+# precompute script re-generates holiday data for the rolling 3-year window.
+# Cloudflare Pages listens to pushes on main and rebuilds automatically.
+on:
+  schedule:
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create empty commit to trigger Cloudflare Pages rebuild
+        run: |
+          git config user.name "breakheroes-bot"
+          git config user.email "bot@breakheroes.com"
+          git commit --allow-empty -m "chore: monthly rebuild to refresh precomputed holiday data"
+          git push origin HEAD:main

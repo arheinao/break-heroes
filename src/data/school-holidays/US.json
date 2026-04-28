@@ -1,0 +1,2602 @@
+{
+    "metadata": {
+        "countryCode": "US",
+        "countryName": "United States",
+        "version": "2.0.0",
+        "lastUpdated": "2025-06-21",
+        "disclaimer": "us_disclaimer_dates_vary",
+        "schoolHolidayNotes": [
+            "no_school_public_holidays",
+            "us_note_verify_local_dates",
+            "us_note_holiday_observances_vary",
+            "us_note_unique_local_holidays",
+            "us_note_cultural_observances",
+            "us_note_emergency_makeup_days",
+            "us_note_professional_development_vary",
+            "us_note_charter_private_different",
+            "us_note_early_release_days",
+            "us_note_parent_teacher_holidays",
+            "us_note_state_testing_periods",
+            "us_note_individual_school_variations"
+        ],
+        "sources": [
+            {
+                "name": "Education Commission of the States",
+                "url": "https://www.ecs.org/50-state-comparison-school-calendar/"
+            }
+        ]
+    },
+    "schoolHolidays": {},
+    "regionalSchoolHolidays": {
+        "CA": {
+            "name": "California",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2026-01-29",
+                    "endDate": "2026-01-30"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-17",
+                    "endDate": "2026-09-01"
+                }
+            ]
+        },
+        "TX": {
+            "name": "Texas",
+            "notes": "Based on major districts. Texas law requires schools start after 4th Monday in August.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-29",
+                    "endDate": "2026-08-18"
+                }
+            ]
+        },
+        "AL": {
+            "name": "Alabama",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-21",
+                    "endDate": "2026-08-18"
+                }
+            ]
+        },
+        "AK": {
+            "name": "Alaska",
+            "2025-2026": [
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-09",
+                    "endDate": "2026-03-13"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-21",
+                    "endDate": "2026-08-18"
+                }
+            ]
+        },
+        "AZ": {
+            "name": "Arizona",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-14"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-09",
+                    "endDate": "2026-03-13"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-21",
+                    "endDate": "2026-08-05"
+                }
+            ]
+        },
+        "NY": {
+            "name": "New York",
+            "notes": "Many districts observe additional religious holidays.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "indigenous_peoples_day",
+                    "name": "Indigenous Peoples' Day",
+                    "startDate": "2025-10-13",
+                    "endDate": "2025-10-13"
+                },
+                {
+                    "key": "diwali",
+                    "name": "Diwali",
+                    "startDate": "2025-10-20",
+                    "endDate": "2025-10-20"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "midwinter_break",
+                    "name": "Midwinter Break",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-02",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "eid_al_adha",
+                    "name": "Eid al-Adha",
+                    "startDate": "2025-05-27",
+                    "endDate": "2025-05-27"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-20",
+                    "endDate": "2026-09-06"
+                }
+            ]
+        },
+        "FL": {
+            "name": "Florida",
+            "notes": "Hurricane makeup days may affect dates.",
+            "2025-2026": [
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-01",
+                    "endDate": "2026-08-29"
+                }
+            ]
+        },
+        "IL": {
+            "name": "Illinois",
+            "notes": "Based on major districts including Chicago Public Schools.",
+            "2025-2026": [
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-23",
+                    "endDate": "2026-03-27"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-05",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "OH": {
+            "name": "Ohio",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-14",
+                    "endDate": "2025-10-14"
+                },
+                {
+                    "key": "wellness_week",
+                    "name": "Wellness Week",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-16"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-29",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "PA": {
+            "name": "Pennsylvania",
+            "notes": "Based on major districts. Many observe Good Friday and Easter Monday.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-12-01"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "eid_al_fiter",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-13",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "GA": {
+            "name": "Georgia",
+            "notes": "Based on major districts including Atlanta Public Schools.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-19",
+                    "endDate": "2026-08-04"
+                }
+            ]
+        },
+        "NC": {
+            "name": "North Carolina",
+            "notes": "Based on major districts. Some districts operate year-round schedules.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-05"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-19",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "VA": {
+            "name": "Virginia",
+            "notes": "Based on major districts. King's Dominion Law affects start dates.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-02",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "indigenous_peoples_day",
+                    "name": "Indigenous Peoples' Day",
+                    "startDate": "2025-10-13",
+                    "endDate": "2025-10-13"
+                },
+                {
+                    "key": "diwali",
+                    "name": "Diwali",
+                    "startDate": "2025-10-21",
+                    "endDate": "2025-10-21"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2026-01-30",
+                    "endDate": "2026-01-30"
+                },
+                {
+                    "key": "eid_al_fiter",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-01",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2026-04-13",
+                    "endDate": "2026-04-13"
+                },
+                {
+                    "key": "eid_al_adha",
+                    "name": "Eid al-Adha",
+                    "startDate": "2025-05-27",
+                    "endDate": "2025-05-27"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-19",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "CO": {
+            "name": "Colorado",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-01",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "OR": {
+            "name": "Oregon",
+            "2025-2026": [
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-10-31",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-01-26",
+                    "endDate": "2025-01-26"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-03-30"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-15",
+                    "endDate": "2026-09-01"
+                }
+            ]
+        },
+        "WA": {
+            "name": "Washington",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-16",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-01-19",
+                    "endDate": "2025-01-19"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-24",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "ID": {
+            "name": "Idaho",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-16",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-01-19",
+                    "endDate": "2025-01-19"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-24",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "MT": {
+            "name": "Montana",
+            "2025-2026": [
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-10-16",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-03-13",
+                    "endDate": "2025-03-13"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-10-06"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-14",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "WY": {
+            "name": "Wyoming",
+            "notes": "Many districts observe additional religious holidays.",
+            "2025-2026": [
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-09-26",
+                    "endDate": "2025-09-26"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-10-31",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2026-01-30",
+                    "endDate": "2026-01-30"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "midwinter_break",
+                    "name": "Midwinter Break",
+                    "startDate": "2026-02-13",
+                    "endDate": "2026-02-16"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-01",
+                    "endDate": "2026-08-19"
+                }
+            ]
+        },
+        "UT": {
+            "name": "Washington",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-16",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-01-19",
+                    "endDate": "2025-01-19"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-24",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "NV": {
+            "name": "Washington",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-16",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2025-01-19",
+                    "endDate": "2025-01-19"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-24",
+                    "endDate": "2026-08-16"
+                }
+            ]
+        },
+        "NM": {
+            "name": "New /mexico",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No classes day",
+                    "startDate": "2026-01-29",
+                    "endDate": "2026-01-30"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-17",
+                    "endDate": "2026-09-01"
+                }
+            ]
+        },
+        "MA": {
+            "name": "Massachusetts",
+            "notes": "Based on major districts. Many observe Good Friday and Easter Monday.",
+            "2025-2026": [
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-12-01"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-13",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "CT": {
+            "name": "Connecticut",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-12-01"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "eid_al_fiter",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-13",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "VT": {
+            "name": "Vermont",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-12-01"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "eid_al_fiter",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-13",
+                    "endDate": "2026-08-23"
+                }
+            ]
+        },
+        "NH": {
+            "name": "New Hampshire",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_half_term_break",
+                    "name": "Spring half-term Break",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "easter_break",
+                    "name": "Easter Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "summer_half_term_break",
+                    "name": "Summer half-term Break",
+                    "startDate": "2026-05-25",
+                    "endDate": "2026-05-29"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-07-23",
+                    "endDate": "2026-08-31"
+                }
+            ]
+        },
+        "ME": {
+            "name": "Maine",
+            "notes": "Based on Child Development Services Academic Staff Calendar. Dates may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "indigenous_peoples_day",
+                    "name": "Indigenous Peoples' Day",
+                    "startDate": "2025-10-13",
+                    "endDate": "2025-10-13"
+                },
+                {
+                    "key": "no_classes_day",
+                    "name": "No School Day",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-26"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2025-12-31"
+                },
+                {
+                    "key": "midwinter_break",
+                    "name": "School Break",
+                    "startDate": "2026-02-17",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "School Break",
+                    "startDate": "2026-04-21",
+                    "endDate": "2026-04-24"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-10",
+                    "endDate": "2026-09-01"
+                }
+            ]
+        },
+        "MI": {
+            "name": "Michigan",
+            "notes": "Based on Troy School District calendar. Dates may vary by district. Includes comprehensive religious and cultural observances.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-22",
+                    "endDate": "2025-09-24"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-01",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "diwali",
+                    "name": "Diwali",
+                    "startDate": "2025-10-20",
+                    "endDate": "2025-10-20"
+                },
+                {
+                    "key": "all_saints_day",
+                    "name": "All Saints' Day",
+                    "startDate": "2025-11-01",
+                    "endDate": "2025-11-01"
+                },
+                {
+                    "key": "election_day",
+                    "name": "Election Day",
+                    "startDate": "2025-11-04",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "chanukah",
+                    "name": "Chanukah",
+                    "startDate": "2025-12-14",
+                    "endDate": "2025-12-22"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-04"
+                },
+                {
+                    "key": "orthodox_christmas",
+                    "name": "Orthodox Christmas",
+                    "startDate": "2026-01-07",
+                    "endDate": "2026-01-07"
+                },
+                {
+                    "key": "midwinter_break",
+                    "name": "Winter Break",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-17"
+                },
+                {
+                    "key": "lunar_chinese_new_year",
+                    "name": "Lunar & Chinese New Year",
+                    "startDate": "2026-02-17",
+                    "endDate": "2026-02-17"
+                },
+                {
+                    "key": "ash_wednesday",
+                    "name": "Ash Wednesday",
+                    "startDate": "2026-02-18",
+                    "endDate": "2026-02-18"
+                },
+                {
+                    "key": "ramadan",
+                    "name": "Ramadan",
+                    "startDate": "2026-02-18",
+                    "endDate": "2026-03-18"
+                },
+                {
+                    "key": "holi",
+                    "name": "Holi",
+                    "startDate": "2026-03-04",
+                    "endDate": "2026-03-04"
+                },
+                {
+                    "key": "eid_al_fitr",
+                    "name": "Eid-al-Fitr",
+                    "startDate": "2026-03-19",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-03-31"
+                },
+                {
+                    "key": "passover",
+                    "name": "Passover",
+                    "startDate": "2026-04-01",
+                    "endDate": "2026-04-09"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "easter",
+                    "name": "Easter",
+                    "startDate": "2026-04-05",
+                    "endDate": "2026-04-05"
+                },
+                {
+                    "key": "orthodox_good_friday",
+                    "name": "Orthodox Good Friday",
+                    "startDate": "2026-04-10",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "orthodox_easter",
+                    "name": "Orthodox Easter",
+                    "startDate": "2026-04-12",
+                    "endDate": "2026-04-12"
+                },
+                {
+                    "key": "eid_al_adha",
+                    "name": "Eid-al-Adha",
+                    "startDate": "2026-05-26",
+                    "endDate": "2026-05-27"
+                },
+                {
+                    "key": "juneteenth",
+                    "name": "Juneteenth",
+                    "startDate": "2026-06-19",
+                    "endDate": "2026-06-19"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-04",
+                    "endDate": "2026-08-25"
+                }
+            ]
+        },
+        "WI": {
+            "name": "Wisconsin",
+            "notes": "Based on Barron Area School District calendar. Dates may vary by district. Uses trimester system for high school.",
+            "2025-2026": [
+                {
+                    "key": "no_classes_day",
+                    "name": "No School - Elementary/Middle School Only",
+                    "startDate": "2025-10-10",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "no_classes_day_elem_ms",
+                    "name": "No School - Elementary/MS Only",
+                    "startDate": "2026-03-13",
+                    "endDate": "2026-03-13"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "no_school_day",
+                    "name": "No School",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-04",
+                    "endDate": "2026-08-26"
+                }
+            ]
+        },
+        "MN": {
+            "name": "Minnesota",
+            "notes": "Based on Minneapolis Public Schools calendar. Dates may vary by district. Includes religious observances and MEA break.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-02",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "mea_break",
+                    "name": "MEA Break",
+                    "startDate": "2025-10-16",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "record_keeping_day",
+                    "name": "Record Keeping Day",
+                    "startDate": "2025-11-04",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "record_keeping_day_2",
+                    "name": "Record Keeping Day",
+                    "startDate": "2026-01-23",
+                    "endDate": "2026-01-23"
+                },
+                {
+                    "key": "eid_al_fitr",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "record_keeping_day_3",
+                    "name": "Record Keeping Day",
+                    "startDate": "2026-03-27",
+                    "endDate": "2026-03-27"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "eid_al_adha",
+                    "name": "Eid al-Adha",
+                    "startDate": "2026-05-27",
+                    "endDate": "2026-05-27"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-11",
+                    "endDate": "2026-09-01"
+                }
+            ]
+        },
+        "MS": {
+            "name": "Mississippi",
+            "notes": "Based on Enterprise School District calendar. Dates may vary by district. Uses 9-week quarters system.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-13",
+                    "endDate": "2025-10-14"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "early_release_day",
+                    "name": "60% Day",
+                    "startDate": "2025-12-19",
+                    "endDate": "2025-12-19"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Christmas Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-05"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-09",
+                    "endDate": "2026-03-13"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "easter_break",
+                    "name": "Easter Break/Weather Day",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "early_release_day_2",
+                    "name": "60% Day",
+                    "startDate": "2026-05-21",
+                    "endDate": "2026-05-21"
+                },
+                {
+                    "key": "teacher_pd_day",
+                    "name": "Teacher PD Day",
+                    "startDate": "2026-05-22",
+                    "endDate": "2026-05-22"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-08-03"
+                }
+            ]
+        },
+        "LA": {
+            "name": "Louisiana",
+            "notes": "Based on St. James Parish Schools calendar. Includes unique Louisiana holidays like Mardi Gras. Dates may vary by parish.",
+            "2025-2026": [
+                {
+                    "key": "admin_day_sept",
+                    "name": "Admin Day (Student Holiday)",
+                    "startDate": "2025-09-24",
+                    "endDate": "2025-09-24"
+                },
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break/Weather Make-Up Days",
+                    "startDate": "2025-10-13",
+                    "endDate": "2025-10-14"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Holiday",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Christmas Holiday",
+                    "startDate": "2025-12-22",
+                    "endDate": "2025-12-31"
+                },
+                {
+                    "key": "new_years_day",
+                    "name": "New Year's Day Holiday",
+                    "startDate": "2026-01-01",
+                    "endDate": "2026-01-01"
+                },
+                {
+                    "key": "admin_day_jan",
+                    "name": "Admin Day (Student Holiday)",
+                    "startDate": "2026-01-02",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "students_return_jan",
+                    "name": "Students Return",
+                    "startDate": "2026-01-05",
+                    "endDate": "2026-01-05"
+                },
+                {
+                    "key": "mardi_gras_break",
+                    "name": "Mardi Gras Holiday",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-20"
+                },
+                {
+                    "key": "easter_break",
+                    "name": "Easter Holiday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "admin_day_may",
+                    "name": "Admin Day",
+                    "startDate": "2026-05-22",
+                    "endDate": "2026-05-22"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-23",
+                    "endDate": "2025-07-30"
+                }
+            ]
+        },
+        "AR": {
+            "name": "Arkansas",
+            "notes": "Based on academic calendar with boarding school features. Includes extended breaks and professional development days. Some schools may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "long_weekend_aug",
+                    "name": "Long Weekend",
+                    "startDate": "2025-08-29",
+                    "endDate": "2025-09-01"
+                },
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "long_weekend_jan",
+                    "name": "Long Weekend",
+                    "startDate": "2026-01-16",
+                    "endDate": "2026-01-19"
+                },
+                {
+                    "key": "long_weekend_feb",
+                    "name": "Long Weekend",
+                    "startDate": "2026-02-13",
+                    "endDate": "2026-02-16"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-23",
+                    "endDate": "2026-03-27"
+                },
+                {
+                    "key": "long_weekend_april",
+                    "name": "Long Weekend",
+                    "startDate": "2026-04-24",
+                    "endDate": "2026-04-24"
+                },
+                {
+                    "key": "long_weekend_may",
+                    "name": "Long Weekend",
+                    "startDate": "2026-05-22",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "teacher_work_day",
+                    "name": "Teacher Work Day",
+                    "startDate": "2026-06-08",
+                    "endDate": "2026-06-08"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-09",
+                    "endDate": "2025-07-27"
+                }
+            ]
+        },
+        "TN": {
+            "name": "Tennessee",
+            "notes": "Based on Knox County Schools calendar. Uses 9-week grading periods with 4½-week intervals. 180 instructional days with weather makeup allowance. May vary by district.",
+            "2025-2026": [
+                {
+                    "key": "systemwide_inservice_aug1",
+                    "name": "Systemwide In-Service Day (PreK-12)",
+                    "startDate": "2025-08-01",
+                    "endDate": "2025-08-01"
+                },
+                {
+                    "key": "orientation_day",
+                    "name": "6th and 9th Grade Orientation",
+                    "startDate": "2025-08-05",
+                    "endDate": "2025-08-05"
+                },
+                {
+                    "key": "us_labor_day",
+                    "name": "Labor Day Holiday",
+                    "startDate": "2025-09-01",
+                    "endDate": "2025-09-01"
+                },
+                {
+                    "key": "end_4_5_weeks_1",
+                    "name": "End 4½-weeks Grading Period",
+                    "startDate": "2025-09-05",
+                    "endDate": "2025-09-05"
+                },
+                {
+                    "key": "constitution_day",
+                    "name": "Constitution Day (Half-Day for Students)",
+                    "startDate": "2025-09-17",
+                    "endDate": "2025-09-17"
+                },
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "systemwide_inservice_nov",
+                    "name": "Systemwide In-Service Day (Student Holiday)",
+                    "startDate": "2025-11-04",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Holidays",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "systemwide_inservice_jan",
+                    "name": "Systemwide In-service Day",
+                    "startDate": "2026-01-02",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "mlk_day",
+                    "name": "Martin Luther King, Jr. Day",
+                    "startDate": "2026-01-19",
+                    "endDate": "2026-01-19"
+                },
+                {
+                    "key": "systemwide_inservice_feb",
+                    "name": "Systemwide In-Service Day (Student Holiday)",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-16"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-09",
+                    "endDate": "2026-03-13"
+                },
+                {
+                    "key": "end_quarter_3",
+                    "name": "End Third 9-weeks Grading Period",
+                    "startDate": "2026-03-17",
+                    "endDate": "2026-03-17"
+                },
+                {
+                    "key": "april_holiday",
+                    "name": "Holiday (Knox County Schools Closed)",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "systemwide_inservice_may",
+                    "name": "Systemwide In-Service Day (School-based)",
+                    "startDate": "2026-05-05",
+                    "endDate": "2026-05-05"
+                },
+                {
+                    "key": "juneteenth",
+                    "name": "Juneteenth Holiday",
+                    "startDate": "2026-06-19",
+                    "endDate": "2026-06-19"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-07-30"
+                }
+            ]
+        },
+        "KY": {
+            "name": "Kentucky",
+            "notes": "Based on Fleming County Schools calendar. Uses 9-week grading periods. 165 instructional days with built-in makeup days. May vary by district.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "staff_work_day_nov",
+                    "name": "Staff Work Day (No School for Students)",
+                    "startDate": "2025-11-04",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Break - Thanksgiving",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "christmas_break",
+                    "name": "Break - Christmas",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-01"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "staff_work_day_may",
+                    "name": "Staff Work Day (No School for Students)",
+                    "startDate": "2026-05-19",
+                    "endDate": "2026-05-19"
+                },
+                {
+                    "key": "staff_work_days_may",
+                    "name": "Staff Work Day (No School for Students)",
+                    "startDate": "2026-05-26",
+                    "endDate": "2026-05-28"
+                },
+                {
+                    "key": "closing_day",
+                    "name": "Closing Day (No School for Students)",
+                    "startDate": "2026-05-29",
+                    "endDate": "2026-05-29"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-30",
+                    "endDate": "2025-08-12"
+                }
+            ]
+        },
+        "SC": {
+            "name": "South Carolina",
+            "notes": "Based on composite of all SC districts. Uses most common dates across districts. Modified calendar with extensive breaks. May vary significantly by district.",
+            "2025-2026": [
+                {
+                    "key": "teacher_inservice_oct",
+                    "name": "Teacher In-Service Day (No Students)",
+                    "startDate": "2025-10-10",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-13",
+                    "endDate": "2025-10-17"
+                },
+                {
+                    "key": "teacher_inservice_nov",
+                    "name": "Teacher In-Service Day (No Students)",
+                    "startDate": "2025-11-04",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "teacher_inservice_jan",
+                    "name": "Teacher In-Service Day (No Students)",
+                    "startDate": "2026-01-05",
+                    "endDate": "2026-01-05"
+                },
+                {
+                    "key": "teacher_inservice_feb",
+                    "name": "Teacher In-Service Day (No Students)",
+                    "startDate": "2026-02-13",
+                    "endDate": "2026-02-13"
+                },
+                {
+                    "key": "teacher_inservice_mar",
+                    "name": "Teacher In-Service Day (No Students)",
+                    "startDate": "2026-03-13",
+                    "endDate": "2026-03-13"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "teacher_inservice_may",
+                    "name": "Teacher In-Service Day (No Students)",
+                    "startDate": "2026-05-05",
+                    "endDate": "2026-05-05"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-07-27"
+                }
+            ]
+        },
+        "KS": {
+            "name": "Kansas",
+            "notes": "Based on major districts including Kansas City and North Kansas City. Dates may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-03",
+                    "endDate": "2025-10-03"
+                },
+                {
+                    "key": "teacher_workday",
+                    "name": "Teacher Workday",
+                    "startDate": "2025-11-25",
+                    "endDate": "2025-11-25"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "teacher_workday_2",
+                    "name": "Teacher Workday",
+                    "startDate": "2026-01-05",
+                    "endDate": "2026-01-05"
+                },
+                {
+                    "key": "half_day",
+                    "name": "Half Day",
+                    "startDate": "2026-02-13",
+                    "endDate": "2026-02-13"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-23",
+                    "endDate": "2025-08-18"
+                }
+            ]
+        },
+        "DE": {
+            "name": "Delaware",
+            "notes": "Based on major districts including Red Clay and Appoquinimink. Delaware districts follow individual calendars but share common patterns.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-02",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "eid_al_fitr",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-13",
+                    "endDate": "2025-08-27"
+                }
+            ]
+        },
+        "HI": {
+            "name": "Hawaii",
+            "notes": "Based on Hawaii State Department of Education official calendar. Statewide unified system.",
+            "2025-2026": [
+                {
+                    "key": "us_statehood_day",
+                    "name": "Statehood Day",
+                    "startDate": "2025-08-15",
+                    "endDate": "2025-08-15"
+                },
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-06",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_day",
+                    "name": "Thanksgiving Day",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-27"
+                },
+                {
+                    "key": "school_holiday",
+                    "name": "School Holiday",
+                    "startDate": "2025-11-28",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "christmas_day",
+                    "name": "Christmas Day",
+                    "startDate": "2025-12-25",
+                    "endDate": "2025-12-25"
+                },
+                {
+                    "key": "new_years_day",
+                    "name": "New Year's Day",
+                    "startDate": "2026-01-01",
+                    "endDate": "2026-01-01"
+                },
+                {
+                    "key": "teacher_workday",
+                    "name": "Teacher Workday",
+                    "startDate": "2026-01-05",
+                    "endDate": "2026-01-05"
+                },
+                {
+                    "key": "institute_day",
+                    "name": "Institute Day",
+                    "startDate": "2026-02-09",
+                    "endDate": "2026-02-13"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "kuhio_day",
+                    "name": "Prince Kuhio Day",
+                    "startDate": "2026-03-26",
+                    "endDate": "2026-03-26"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-29",
+                    "endDate": "2025-08-03"
+                }
+            ]
+        },
+        "IN": {
+            "name": "Indiana",
+            "notes": "Based on Indianapolis Public Schools and major districts. Dates may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-11",
+                    "endDate": "2025-10-14"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "teacher_workday",
+                    "name": "Teacher Work Day",
+                    "startDate": "2026-01-17",
+                    "endDate": "2026-01-17"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-23",
+                    "endDate": "2026-03-27"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-06",
+                    "endDate": "2025-08-13"
+                }
+            ]
+        },
+        "IA": {
+            "name": "Iowa",
+            "notes": "Based on Des Moines Public Schools and Iowa City School District calendars.",
+            "2025-2026": [
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-02",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-23",
+                    "endDate": "2025-10-24"
+                },
+                {
+                    "key": "election_break",
+                    "name": "Election Break",
+                    "startDate": "2025-11-03",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "eid_al_fitr",
+                    "name": "Eid al-Fitr",
+                    "startDate": "2026-03-20",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-11",
+                    "endDate": "2025-08-17"
+                }
+            ]
+        },
+        "MD": {
+            "name": "Maryland",
+            "notes": "Based on Montgomery County Public Schools calendar. Features student transition day and extensive professional development.",
+            "2025-2026": [
+                {
+                    "key": "early_release",
+                    "name": "Early Release Day",
+                    "startDate": "2025-09-26",
+                    "endDate": "2025-09-26"
+                },
+                {
+                    "key": "grading_planning",
+                    "name": "Grading and Planning",
+                    "startDate": "2025-11-03",
+                    "endDate": "2025-11-03"
+                },
+                {
+                    "key": "early_release_days",
+                    "name": "Early Release Days",
+                    "startDate": "2025-11-24",
+                    "endDate": "2025-11-25"
+                },
+                {
+                    "key": "systemwide_closure",
+                    "name": "Systemwide Closure",
+                    "startDate": "2025-11-26",
+                    "endDate": "2025-11-26"
+                },
+                {
+                    "key": "thanksgiving_holidays",
+                    "name": "Thanksgiving Holidays",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_holidays",
+                    "name": "Winter Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2025-12-25"
+                },
+                {
+                    "key": "systemwide_closure_winter",
+                    "name": "Systemwide Closure",
+                    "startDate": "2025-12-30",
+                    "endDate": "2025-12-31"
+                },
+                {
+                    "key": "new_years_day",
+                    "name": "New Year's Day",
+                    "startDate": "2026-01-01",
+                    "endDate": "2026-01-01"
+                },
+                {
+                    "key": "grading_planning_2",
+                    "name": "Grading and Planning",
+                    "startDate": "2026-01-26",
+                    "endDate": "2026-01-26"
+                },
+                {
+                    "key": "early_release_2",
+                    "name": "Early Release Day",
+                    "startDate": "2026-02-27",
+                    "endDate": "2026-02-27"
+                },
+                {
+                    "key": "systemwide_closures_spring",
+                    "name": "Systemwide Closures",
+                    "startDate": "2026-04-01",
+                    "endDate": "2026-04-02"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "easter_monday",
+                    "name": "Easter Monday",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "grading_planning_3",
+                    "name": "Grading and Planning",
+                    "startDate": "2026-04-15",
+                    "endDate": "2026-04-15"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-20",
+                    "endDate": "2025-08-17"
+                }
+            ]
+        },
+        "MO": {
+            "name": "Missouri",
+            "notes": "Based on major districts including Kansas City and St. Louis area schools. Dates may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-23",
+                    "endDate": "2025-08-20"
+                }
+            ]
+        },
+        "NE": {
+            "name": "Nebraska",
+            "notes": "Based on Omaha Public Schools and Lincoln Public Schools. Dates may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-17",
+                    "endDate": "2025-10-18"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-29",
+                    "endDate": "2026-08-13"
+                }
+            ]
+        },
+        "NJ": {
+            "name": "New Jersey",
+            "notes": "Based on major districts. New Jersey districts have significant local variation in calendars.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-02",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "election_day",
+                    "name": "Election Day",
+                    "startDate": "2025-11-04",
+                    "endDate": "2025-11-04"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-23",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-02",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-20",
+                    "endDate": "2026-09-02"
+                }
+            ]
+        },
+        "ND": {
+            "name": "North Dakota",
+            "notes": "Based on Fargo and Bismarck Public Schools. Adapted for harsh winter conditions.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-09",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-23",
+                    "endDate": "2026-03-27"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-30",
+                    "endDate": "2026-08-25"
+                }
+            ]
+        },
+        "OK": {
+            "name": "Oklahoma",
+            "notes": "Based on Oklahoma City and Tulsa Public Schools. Dates may vary by district.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-14",
+                    "endDate": "2025-10-14"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-25",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-23",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-16",
+                    "endDate": "2026-03-20"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-22",
+                    "endDate": "2026-08-13"
+                }
+            ]
+        },
+        "RI": {
+            "name": "Rhode Island",
+            "notes": "Based on Providence and Warwick school districts. Small state with relatively uniform calendar patterns.",
+            "2025-2026": [
+                {
+                    "key": "rosh_hashanah",
+                    "name": "Rosh Hashanah",
+                    "startDate": "2025-09-23",
+                    "endDate": "2025-09-23"
+                },
+                {
+                    "key": "yom_kippur",
+                    "name": "Yom Kippur",
+                    "startDate": "2025-10-02",
+                    "endDate": "2025-10-02"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-23",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-02",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-06-19",
+                    "endDate": "2026-08-27"
+                }
+            ]
+        },
+        "SD": {
+            "name": "South Dakota",
+            "notes": "Based on Sioux Falls and Rapid City school districts. Adapted for agricultural calendar considerations.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-07",
+                    "endDate": "2025-10-07"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-27",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-22",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-03-30",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-22",
+                    "endDate": "2026-08-18"
+                }
+            ]
+        },
+        "WV": {
+            "name": "West Virginia",
+            "notes": "Based on Kanawha County and other major districts. State-guided calendar coordination.",
+            "2025-2026": [
+                {
+                    "key": "fall_break",
+                    "name": "Fall Break",
+                    "startDate": "2025-10-09",
+                    "endDate": "2025-10-10"
+                },
+                {
+                    "key": "thanksgiving_break",
+                    "name": "Thanksgiving Break",
+                    "startDate": "2025-11-25",
+                    "endDate": "2025-11-28"
+                },
+                {
+                    "key": "winter_break",
+                    "name": "Winter Break",
+                    "startDate": "2025-12-23",
+                    "endDate": "2026-01-02"
+                },
+                {
+                    "key": "spring_break",
+                    "name": "Spring Break",
+                    "startDate": "2026-04-06",
+                    "endDate": "2026-04-10"
+                },
+                {
+                    "key": "good_friday",
+                    "name": "Good Friday",
+                    "startDate": "2026-04-03",
+                    "endDate": "2026-04-03"
+                },
+                {
+                    "key": "summer_break",
+                    "name": "Summer Break",
+                    "startDate": "2026-05-30",
+                    "endDate": "2026-08-18"
+                }
+            ]
+        }
+    }
+}

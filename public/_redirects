@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Example: redirect /find-dates → /search
+/find-dates       /search       301
+/find-my-dates    /search       301
+
+# trailingSlash=true is set in next.config.ts so unslashed URLs redirect automatically.

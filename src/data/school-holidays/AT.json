@@ -1,0 +1,762 @@
+{
+    "metadata": {
+        "countryCode": "AT",
+        "countryName": "Austria",
+        "version": "1.0.0",
+        "lastUpdated": "2025-09-12",
+        "schoolHolidayType": "regions",
+        "schoolHolidayNotes": [
+            "no_school_public_holidays",
+            "at_semester_holidays_a_description",
+            "at_semester_holidays_b_description",
+            "at_semester_holidays_c_description",
+            "at_summer_holidays_group_1_description",
+            "at_summer_holidays_group_2_description"
+        ],
+        "sources": [
+            {
+                "name": "Federal Ministry of Education, Science and Research (BMBWF)",
+                "url": "https://www.bmbwf.gv.at/Themen/schule/schulpraxis/termine.html"
+            }
+        ]
+    },
+    "schoolHolidays": {},
+    "regionalSchoolHolidays": {
+        "BUR": {
+            "stateName": "Burgenland",
+            "semesterGroup": "B",
+            "summerGroup": "1",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2025-02-10",
+                    "endDate": "2025-02-15"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_1",
+                    "name": "Summer Holidays (Group 1)",
+                    "startDate": "2025-07-04",
+                    "endDate": "2025-09-06"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2026-02-09",
+                    "endDate": "2026-02-14"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_1",
+                    "name": "Summer Holidays (Group 1)",
+                    "startDate": "2026-07-04",
+                    "endDate": "2026-09-06"
+                }
+            ]
+        },
+        "KAE": {
+            "stateName": "Carinthia",
+            "semesterGroup": "B",
+            "summerGroup": "2",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2025-02-10",
+                    "endDate": "2025-02-15"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2025-07-11",
+                    "endDate": "2025-09-13"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2026-02-09",
+                    "endDate": "2026-02-14"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2026-07-11",
+                    "endDate": "2026-09-13"
+                }
+            ]
+        },
+        "NOE": {
+            "stateName": "Lower Austria",
+            "semesterGroup": "A",
+            "summerGroup": "1",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_a",
+                    "name": "Semester Holidays (Group A)",
+                    "startDate": "2025-02-03",
+                    "endDate": "2025-02-08"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_1",
+                    "name": "Summer Holidays (Group 1)",
+                    "startDate": "2025-07-04",
+                    "endDate": "2025-09-06"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_a",
+                    "name": "Semester Holidays (Group A)",
+                    "startDate": "2026-02-02",
+                    "endDate": "2026-02-07"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_1",
+                    "name": "Summer Holidays (Group 1)",
+                    "startDate": "2026-07-04",
+                    "endDate": "2026-09-06"
+                }
+            ]
+        },
+        "OOE": {
+            "stateName": "Upper Austria",
+            "semesterGroup": "C",
+            "summerGroup": "2",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_c",
+                    "name": "Semester Holidays (Group C)",
+                    "startDate": "2025-02-17",
+                    "endDate": "2025-02-22"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2025-07-11",
+                    "endDate": "2025-09-13"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_c",
+                    "name": "Semester Holidays (Group C)",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-21"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2026-07-11",
+                    "endDate": "2026-09-13"
+                }
+            ]
+        },
+        "SAL": {
+            "stateName": "Salzburg",
+            "semesterGroup": "B",
+            "summerGroup": "2",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2025-02-10",
+                    "endDate": "2025-02-15"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2025-07-11",
+                    "endDate": "2025-09-13"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2026-02-09",
+                    "endDate": "2026-02-14"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2026-07-11",
+                    "endDate": "2026-09-13"
+                }
+            ]
+        },
+        "STE": {
+            "stateName": "Styria",
+            "semesterGroup": "C",
+            "summerGroup": "2",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_c",
+                    "name": "Semester Holidays (Group C)",
+                    "startDate": "2025-02-17",
+                    "endDate": "2025-02-22"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2025-07-11",
+                    "endDate": "2025-09-13"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_c",
+                    "name": "Semester Holidays (Group C)",
+                    "startDate": "2026-02-16",
+                    "endDate": "2026-02-21"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2026-07-11",
+                    "endDate": "2026-09-13"
+                }
+            ]
+        },
+        "TIR": {
+            "stateName": "Tyrol",
+            "semesterGroup": "B",
+            "summerGroup": "2",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2025-02-10",
+                    "endDate": "2025-02-15"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2025-07-11",
+                    "endDate": "2025-09-13"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2026-02-09",
+                    "endDate": "2026-02-14"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2026-07-11",
+                    "endDate": "2026-09-13"
+                }
+            ]
+        },
+        "VOR": {
+            "stateName": "Vorarlberg",
+            "semesterGroup": "B",
+            "summerGroup": "2",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2025-02-10",
+                    "endDate": "2025-02-15"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2025-07-11",
+                    "endDate": "2025-09-13"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_b",
+                    "name": "Semester Holidays (Group B)",
+                    "startDate": "2026-02-09",
+                    "endDate": "2026-02-14"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_2",
+                    "name": "Summer Holidays (Group 2)",
+                    "startDate": "2026-07-11",
+                    "endDate": "2026-09-13"
+                }
+            ]
+        },
+        "WIE": {
+            "stateName": "Vienna",
+            "semesterGroup": "A",
+            "summerGroup": "1",
+            "2024-2025": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2024-10-27",
+                    "endDate": "2024-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2024-12-24",
+                    "endDate": "2025-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_a",
+                    "name": "Semester Holidays (Group A)",
+                    "startDate": "2025-02-03",
+                    "endDate": "2025-02-08"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2025-03-28",
+                    "endDate": "2025-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2025-05-23",
+                    "endDate": "2025-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_1",
+                    "name": "Summer Holidays (Group 1)",
+                    "startDate": "2025-07-04",
+                    "endDate": "2025-09-06"
+                }
+            ],
+            "2025-2026": [
+                {
+                    "key": "at_autumn_holidays",
+                    "name": "Autumn Holidays",
+                    "startDate": "2025-10-27",
+                    "endDate": "2025-10-31"
+                },
+                {
+                    "key": "at_christmas_holidays",
+                    "name": "Christmas Holidays",
+                    "startDate": "2025-12-24",
+                    "endDate": "2026-01-06"
+                },
+                {
+                    "key": "at_semester_holidays_a",
+                    "name": "Semester Holidays (Group A)",
+                    "startDate": "2026-02-02",
+                    "endDate": "2026-02-07"
+                },
+                {
+                    "key": "at_easter_holidays",
+                    "name": "Easter Holidays",
+                    "startDate": "2026-03-28",
+                    "endDate": "2026-04-06"
+                },
+                {
+                    "key": "pentecost_holidays",
+                    "name": "Pentecost Holidays",
+                    "startDate": "2026-05-23",
+                    "endDate": "2026-05-25"
+                },
+                {
+                    "key": "at_summer_holidays_group_1",
+                    "name": "Summer Holidays (Group 1)",
+                    "startDate": "2026-07-04",
+                    "endDate": "2026-09-06"
+                }
+            ]
+        }
+    },
+    "additionalInfo": {
+        "notes": [
+            "Semester holidays are staggered across three groups to distribute vacation travel",
+            "Summer holidays are staggered across two groups",
+            "Each state belongs to exactly one semester group and one summer group"
+        ]
+    }
+}

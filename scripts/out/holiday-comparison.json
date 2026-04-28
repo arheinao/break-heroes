@@ -1,0 +1,7587 @@
+{
+  "AE": {
+    "2026": {
+      "beevagoCount": 3,
+      "libCount": 8,
+      "overlap": 2,
+      "beevagoOnly": [
+        {
+          "date": "2026-12-03",
+          "name": "National Day (Day 2)"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-16",
+          "name": "Laylat al-Mi'raj",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "First day of Ramadan",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 3,
+      "libCount": 9,
+      "overlap": 2,
+      "beevagoOnly": [
+        {
+          "date": "2027-12-03",
+          "name": "National Day (Day 2)"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-05",
+          "name": "Laylat al-Mi'raj",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "First day of Ramadan",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Laylat al-Mi'raj",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "AM": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 12,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-02",
+          "name": "New Year Holiday"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-03",
+          "name": "Pre-Christmas holidays",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 12,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-02",
+          "name": "New Year Holiday"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Easter Monday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-03",
+          "name": "Pre-Christmas holidays",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "AO": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-16",
+          "name": "Carnival Monday"
+        },
+        {
+          "date": "2026-03-23",
+          "name": "Southern Africa Liberation Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 10,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-08",
+          "name": "Carnival Monday"
+        },
+        {
+          "date": "2027-03-23",
+          "name": "Southern Africa Liberation Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 10,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "AR": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 19,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-06-15",
+          "name": "Anniversary of the Passing to Immortality of General Martín Miguel de Güemes",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-17",
+          "name": "Anniversary of the Passing to Immortality of General José de San Martín",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Day of Respect for Cultural Diversity",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-23",
+          "name": "Day of National Sovereignty",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 19,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-25",
+          "name": "Maundy Thursday",
+          "type": "bank"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Anniversary of the Passing to Immortality of General Martín Miguel de Güemes",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-16",
+          "name": "Anniversary of the Passing to Immortality of General José de San Martín",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Day of Respect for Cultural Diversity",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-20",
+          "name": "Day of National Sovereignty",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "AT": {
+    "2026": {
+      "beevagoCount": 19,
+      "libCount": 17,
+      "overlap": 13,
+      "beevagoOnly": [
+        {
+          "date": "2026-03-19",
+          "name": "Saint Joseph's Day"
+        },
+        {
+          "date": "2026-05-04",
+          "name": "Saint Florian's Day"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "Saint Rupert's Day"
+        },
+        {
+          "date": "2026-10-10",
+          "name": "Plebiscite Day"
+        },
+        {
+          "date": "2026-11-11",
+          "name": "Saint Martin's Day"
+        },
+        {
+          "date": "2026-11-15",
+          "name": "Saint Leopold's Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 19,
+      "libCount": 17,
+      "overlap": 13,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-19",
+          "name": "Saint Joseph's Day"
+        },
+        {
+          "date": "2027-05-04",
+          "name": "Saint Florian's Day"
+        },
+        {
+          "date": "2027-09-24",
+          "name": "Saint Rupert's Day"
+        },
+        {
+          "date": "2027-10-10",
+          "name": "Plebiscite Day"
+        },
+        {
+          "date": "2027-11-11",
+          "name": "Saint Martin's Day"
+        },
+        {
+          "date": "2027-11-15",
+          "name": "Saint Leopold's Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "AU": {
+    "2026": {
+      "beevagoCount": 9,
+      "libCount": 10,
+      "overlap": 9,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-12-28",
+          "name": "Boxing Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 9,
+      "libCount": 11,
+      "overlap": 9,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-12-27",
+          "name": "Christmas Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-28",
+          "name": "Boxing Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "BA": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 21,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-09",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2026-03-01",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2026-03-08",
+          "name": "Brčko District Establishment Day"
+        },
+        {
+          "date": "2026-05-09",
+          "name": "Victory Day"
+        },
+        {
+          "date": "2026-06-28",
+          "name": "St. Vitus Day"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "Dayton Agreement Day"
+        },
+        {
+          "date": "2026-11-25",
+          "name": "Statehood Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-06",
+          "name": "Epiphany",
+          "type": "public"
+        },
+        {
+          "date": "2026-01-07",
+          "name": "Orthodox Christmas",
+          "type": "public"
+        },
+        {
+          "date": "2026-01-14",
+          "name": "Orthodox New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Orthodox Easter",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-04",
+          "name": "Corpus Christi",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Assumption",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-28",
+          "name": "Assumption",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-02",
+          "name": "All Souls' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Boxing Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 22,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-09",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "Brčko District Establishment Day"
+        },
+        {
+          "date": "2027-05-09",
+          "name": "Victory Day"
+        },
+        {
+          "date": "2027-06-28",
+          "name": "St. Vitus Day"
+        },
+        {
+          "date": "2027-11-21",
+          "name": "Dayton Agreement Day"
+        },
+        {
+          "date": "2027-11-25",
+          "name": "Statehood Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-06",
+          "name": "Epiphany",
+          "type": "public"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "Orthodox Christmas",
+          "type": "public"
+        },
+        {
+          "date": "2027-01-14",
+          "name": "Orthodox New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "2nd day of the Labour Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-27",
+          "name": "Corpus Christi",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Assumption",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-28",
+          "name": "Assumption",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-02",
+          "name": "All Souls' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-26",
+          "name": "Boxing Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "BE": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 10,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Whit Sunday"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 10,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Whit Sunday"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "BG": {
+    "2026": {
+      "beevagoCount": 15,
+      "libCount": 13,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-03",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2026-04-04",
+          "name": "Orthodox Holy Saturday"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Orthodox Easter Sunday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Second Day of Christmas"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-10",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Easter Monday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 15,
+      "libCount": 13,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-26",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "Orthodox Holy Saturday"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Orthodox Easter Sunday"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2027-12-26",
+          "name": "Second Day of Christmas"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-04-30",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Easter Monday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "BO": {
+    "2026": {
+      "beevagoCount": 19,
+      "libCount": 12,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-10",
+          "name": "Oruro Civic Day"
+        },
+        {
+          "date": "2026-04-15",
+          "name": "Tarija Civic Day"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Chuquisaca Civic Day"
+        },
+        {
+          "date": "2026-07-16",
+          "name": "La Paz Civic Day"
+        },
+        {
+          "date": "2026-08-02",
+          "name": "Agrarian Reform Day"
+        },
+        {
+          "date": "2026-09-14",
+          "name": "Cochabamba Civic Day"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "Santa Cruz Civic Day / Pando Civic Day"
+        },
+        {
+          "date": "2026-11-10",
+          "name": "Potosi Civic Day"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "Beni Civic Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-22",
+          "name": "Plurinational State Foundation Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-21",
+          "name": "Andean Amazonian Chaqueño New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-22",
+          "name": "Andean Amazonic Chacoan New Year (substitutes)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 19,
+      "libCount": 11,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-10",
+          "name": "Oruro Civic Day"
+        },
+        {
+          "date": "2027-04-15",
+          "name": "Tarija Civic Day"
+        },
+        {
+          "date": "2027-05-25",
+          "name": "Chuquisaca Civic Day"
+        },
+        {
+          "date": "2027-07-16",
+          "name": "La Paz Civic Day"
+        },
+        {
+          "date": "2027-08-02",
+          "name": "Agrarian Reform Day"
+        },
+        {
+          "date": "2027-09-14",
+          "name": "Cochabamba Civic Day"
+        },
+        {
+          "date": "2027-09-24",
+          "name": "Santa Cruz Civic Day / Pando Civic Day"
+        },
+        {
+          "date": "2027-11-10",
+          "name": "Potosi Civic Day"
+        },
+        {
+          "date": "2027-11-18",
+          "name": "Beni Civic Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-22",
+          "name": "Plurinational State Foundation Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Andean Amazonian Chaqueño New Year",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "BR": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 16,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-16",
+          "name": "Carnival Monday"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Carnival Tuesday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-14",
+          "name": "Carnival",
+          "type": "optional"
+        },
+        {
+          "date": "2026-10-04",
+          "name": "Election Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-25",
+          "name": "Election Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 14,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-08",
+          "name": "Carnival Monday"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "Carnival Tuesday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-02-06",
+          "name": "Carnival",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CA": {
+    "2026": {
+      "beevagoCount": 9,
+      "libCount": 12,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday"
+        },
+        {
+          "date": "2026-06-21",
+          "name": "National Indigenous Peoples Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-18",
+          "name": "Victoria Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-03",
+          "name": "Civic Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-07",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Thanksgiving",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 9,
+      "libCount": 12,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-29",
+          "name": "Easter Monday"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "National Indigenous Peoples Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-24",
+          "name": "Victoria Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-02",
+          "name": "Civic Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-06",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Thanksgiving",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CH": {
+    "2026": {
+      "beevagoCount": 25,
+      "libCount": 11,
+      "overlap": 8,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-02",
+          "name": "Berchtold's Day"
+        },
+        {
+          "date": "2026-01-06",
+          "name": "Epiphany"
+        },
+        {
+          "date": "2026-03-01",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2026-03-19",
+          "name": "St Joseph's Day"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day"
+        },
+        {
+          "date": "2026-06-04",
+          "name": "Corpus Christi"
+        },
+        {
+          "date": "2026-06-23",
+          "name": "Independence of Jura"
+        },
+        {
+          "date": "2026-06-29",
+          "name": "St Peter and St Paul"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Assumption Day"
+        },
+        {
+          "date": "2026-09-22",
+          "name": "Day after the Federal Fast"
+        },
+        {
+          "date": "2026-09-25",
+          "name": "Brother Klaus Festival"
+        },
+        {
+          "date": "2026-11-01",
+          "name": "All Saints' Day"
+        },
+        {
+          "date": "2026-12-08",
+          "name": "Immaculate Conception"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "Restoration Day / New Year's Eve"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-20",
+          "name": "Federal Day of Thanksgiving, Repentance and Prayer",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 25,
+      "libCount": 11,
+      "overlap": 8,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-02",
+          "name": "Berchtold's Day"
+        },
+        {
+          "date": "2027-01-06",
+          "name": "Epiphany"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2027-03-19",
+          "name": "St Joseph's Day"
+        },
+        {
+          "date": "2027-04-03",
+          "name": "Näfelser Fahrt"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day"
+        },
+        {
+          "date": "2027-05-27",
+          "name": "Corpus Christi"
+        },
+        {
+          "date": "2027-06-23",
+          "name": "Independence of Jura"
+        },
+        {
+          "date": "2027-06-29",
+          "name": "St Peter and St Paul"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Assumption Day"
+        },
+        {
+          "date": "2027-09-22",
+          "name": "Day after the Federal Fast"
+        },
+        {
+          "date": "2027-09-25",
+          "name": "Brother Klaus Festival"
+        },
+        {
+          "date": "2027-11-01",
+          "name": "All Saints' Day"
+        },
+        {
+          "date": "2027-12-08",
+          "name": "Immaculate Conception"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "Restoration Day / New Year's Eve"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-19",
+          "name": "Federal Day of Thanksgiving, Repentance and Prayer",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CL": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 17,
+      "overlap": 12,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-04",
+          "name": "Holy Saturday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-21",
+          "name": "Indigenous People's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-29",
+          "name": "Saints Peter and Paul",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Columbus Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 18,
+      "overlap": 12,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-27",
+          "name": "Holy Saturday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Indigenous People's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-28",
+          "name": "Saints Peter and Paul",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-17",
+          "name": "National holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Columbus Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CN": {
+    "2026": {
+      "beevagoCount": 0,
+      "libCount": 15,
+      "overlap": 0,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "Spring Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Spring Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "Spring Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-08",
+          "name": "International Women's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Qingming Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-04",
+          "name": "Youth Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "Dragon Boat Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-01",
+          "name": "Army Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-25",
+          "name": "Mid-Autumn Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-01",
+          "name": "National Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-02",
+          "name": "National Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-03",
+          "name": "National Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 0,
+      "libCount": 15,
+      "overlap": 0,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "Spring Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "Spring Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "Spring Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "International Women's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-05",
+          "name": "Qingming Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-04",
+          "name": "Youth Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-01",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-09",
+          "name": "Dragon Boat Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-01",
+          "name": "Army Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-15",
+          "name": "Mid-Autumn Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-01",
+          "name": "National Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-02",
+          "name": "National Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-03",
+          "name": "National Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CO": {
+    "2026": {
+      "beevagoCount": 11,
+      "libCount": 19,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-12",
+          "name": "Epiphany",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-23",
+          "name": "Saint Joseph",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-29",
+          "name": "Saints Peter and Paul",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-17",
+          "name": "Assumption",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Columbus Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-02",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-16",
+          "name": "Independence of Cartagena",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 7,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 11,
+      "libCount": 19,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-11",
+          "name": "Epiphany",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "Saint Joseph",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-07-05",
+          "name": "Saints Peter and Paul",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-16",
+          "name": "Assumption",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-18",
+          "name": "Columbus Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-01",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-15",
+          "name": "Independence of Cartagena",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 7,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CR": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 11,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2026-10-12",
+          "name": "Día de las Culturas"
+        },
+        {
+          "date": "2026-12-01",
+          "name": "Army Abolition Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-10-09",
+          "name": "Columbus Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-12-01",
+          "name": "Army Abolition Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CU": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 9,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 9,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CY": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 15,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-16",
+          "name": "Green Monday"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Kataklysmos"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-24",
+          "name": "Clean Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-10",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Pentecost",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 15,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-08",
+          "name": "Green Monday"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Kataklysmos"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-16",
+          "name": "Clean Monday",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-20",
+          "name": "Pentecost",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "CZ": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 13,
+      "overlap": 13,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 13,
+      "overlap": 13,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "DE": {
+    "2026": {
+      "beevagoCount": 18,
+      "libCount": 11,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-06",
+          "name": "Epiphany"
+        },
+        {
+          "date": "2026-03-08",
+          "name": "International Women's Day"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Whit Sunday"
+        },
+        {
+          "date": "2026-06-04",
+          "name": "Corpus Christi"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Assumption of Mary"
+        },
+        {
+          "date": "2026-09-20",
+          "name": "Children's Day"
+        },
+        {
+          "date": "2026-10-31",
+          "name": "Reformation Day"
+        },
+        {
+          "date": "2026-11-01",
+          "name": "All Saints' Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 18,
+      "libCount": 11,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-06",
+          "name": "Epiphany"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "International Women's Day"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Whit Sunday"
+        },
+        {
+          "date": "2027-05-27",
+          "name": "Corpus Christi"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Assumption of Mary"
+        },
+        {
+          "date": "2027-09-20",
+          "name": "Children's Day"
+        },
+        {
+          "date": "2027-10-31",
+          "name": "Reformation Day"
+        },
+        {
+          "date": "2027-11-01",
+          "name": "All Saints' Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "DK": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 10,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 10,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "DO": {
+    "2026": {
+      "beevagoCount": 8,
+      "libCount": 12,
+      "overlap": 8,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-05",
+          "name": "Epiphany",
+          "type": "public"
+        },
+        {
+          "date": "2026-01-26",
+          "name": "Duarte's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-04",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "Constitution Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 8,
+      "libCount": 12,
+      "overlap": 8,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-04",
+          "name": "Epiphany",
+          "type": "public"
+        },
+        {
+          "date": "2027-01-25",
+          "name": "Duarte's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-08",
+          "name": "Constitution Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "EC": {
+    "2026": {
+      "beevagoCount": 5,
+      "libCount": 12,
+      "overlap": 5,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-04-02",
+          "name": "Maundy Thursday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "The Battle of Pichincha",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-10",
+          "name": "Declaration of Independence of Quito",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-10",
+          "name": "Independence of Guayaquil",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-02",
+          "name": "All Souls' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-03",
+          "name": "Independence of Cuenca",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 6,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 5,
+      "libCount": 12,
+      "overlap": 5,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-25",
+          "name": "Maundy Thursday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-24",
+          "name": "The Battle of Pichincha",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-10",
+          "name": "Declaration of Independence of Quito",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-10",
+          "name": "Independence of Guayaquil",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-02",
+          "name": "All Souls' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-03",
+          "name": "Independence of Cuenca",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 6,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "EG": {
+    "2026": {
+      "beevagoCount": 8,
+      "libCount": 13,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-06",
+          "name": "Spring Festival"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Sham El Nessim",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 8,
+      "libCount": 13,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-29",
+          "name": "Spring Festival"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Sham El Nessim",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "ES": {
+    "2026": {
+      "beevagoCount": 36,
+      "libCount": 11,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-28",
+          "name": "Andalusia Day"
+        },
+        {
+          "date": "2026-03-01",
+          "name": "Balearic Islands Day"
+        },
+        {
+          "date": "2026-03-19",
+          "name": "St. Joseph's Day"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday"
+        },
+        {
+          "date": "2026-04-23",
+          "name": "St. George's Day / Aragon Day / Day of Castile and León"
+        },
+        {
+          "date": "2026-05-02",
+          "name": "Community of Madrid Day"
+        },
+        {
+          "date": "2026-05-17",
+          "name": "Galician Literature Day"
+        },
+        {
+          "date": "2026-05-30",
+          "name": "Canary Islands Day"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Castile-La Mancha Day"
+        },
+        {
+          "date": "2026-06-04",
+          "name": "Corpus Christi"
+        },
+        {
+          "date": "2026-06-09",
+          "name": "La Rioja Day / Murcia Region Day"
+        },
+        {
+          "date": "2026-06-24",
+          "name": "St. John's Day"
+        },
+        {
+          "date": "2026-07-25",
+          "name": "St. James the Apostle / St. James the Apostle Day / St. James Day (Galicia)"
+        },
+        {
+          "date": "2026-07-28",
+          "name": "Day of Cantabrian Institutions"
+        },
+        {
+          "date": "2026-08-05",
+          "name": "Our Lady of Africa"
+        },
+        {
+          "date": "2026-09-08",
+          "name": "Day of Asturias / Extremadura Day"
+        },
+        {
+          "date": "2026-09-11",
+          "name": "Catalonia Day"
+        },
+        {
+          "date": "2026-09-15",
+          "name": "La Bien Aparecida"
+        },
+        {
+          "date": "2026-10-09",
+          "name": "Valencian Community Day"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "St. Francis Xavier Day"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "St. Stephen's Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-10-12",
+          "name": "Fiesta Nacional de España",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 36,
+      "libCount": 11,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-28",
+          "name": "Andalusia Day"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "Balearic Islands Day"
+        },
+        {
+          "date": "2027-03-19",
+          "name": "St. Joseph's Day"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Easter Monday"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "St. George's Day / Aragon Day / Day of Castile and León"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Community of Madrid Day"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Galician Literature Day"
+        },
+        {
+          "date": "2027-05-27",
+          "name": "Corpus Christi"
+        },
+        {
+          "date": "2027-05-30",
+          "name": "Canary Islands Day"
+        },
+        {
+          "date": "2027-05-31",
+          "name": "Castile-La Mancha Day"
+        },
+        {
+          "date": "2027-06-09",
+          "name": "La Rioja Day / Murcia Region Day"
+        },
+        {
+          "date": "2027-06-24",
+          "name": "St. John's Day"
+        },
+        {
+          "date": "2027-07-25",
+          "name": "St. James the Apostle / St. James the Apostle Day / St. James Day (Galicia)"
+        },
+        {
+          "date": "2027-07-28",
+          "name": "Day of Cantabrian Institutions"
+        },
+        {
+          "date": "2027-08-05",
+          "name": "Our Lady of Africa"
+        },
+        {
+          "date": "2027-09-08",
+          "name": "Day of Asturias / Extremadura Day"
+        },
+        {
+          "date": "2027-09-11",
+          "name": "Catalonia Day"
+        },
+        {
+          "date": "2027-09-15",
+          "name": "La Bien Aparecida"
+        },
+        {
+          "date": "2027-10-09",
+          "name": "Valencian Community Day"
+        },
+        {
+          "date": "2027-12-03",
+          "name": "St. Francis Xavier Day"
+        },
+        {
+          "date": "2027-12-26",
+          "name": "St. Stephen's Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-10-12",
+          "name": "Fiesta Nacional de España",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "FI": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 16,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-06-19",
+          "name": "Midsummer Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2026-06-20",
+          "name": "Midsummer Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-31",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 3,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 16,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-06-25",
+          "name": "Midsummer Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2027-06-26",
+          "name": "Midsummer Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-06",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 3,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "FR": {
+    "2026": {
+      "beevagoCount": 16,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter"
+        },
+        {
+          "date": "2026-05-22",
+          "name": "Abolition of Slavery"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Whit Sunday"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Abolition of Slavery"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "Abolition of Slavery"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 16,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Whit Sunday"
+        },
+        {
+          "date": "2027-05-22",
+          "name": "Abolition of Slavery"
+        },
+        {
+          "date": "2027-05-27",
+          "name": "Abolition of Slavery"
+        },
+        {
+          "date": "2027-12-20",
+          "name": "Abolition of Slavery"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "GB": {
+    "2026": {
+      "beevagoCount": 8,
+      "libCount": 8,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-02",
+          "name": "New Year Holiday"
+        },
+        {
+          "date": "2026-03-17",
+          "name": "Saint Patrick's Day"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-05-04",
+          "name": "Early May bank holiday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Spring bank holiday",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-28",
+          "name": "Boxing Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 8,
+      "libCount": 9,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-02",
+          "name": "New Year Holiday"
+        },
+        {
+          "date": "2027-03-17",
+          "name": "Saint Patrick's Day"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-05-03",
+          "name": "Early May bank holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-31",
+          "name": "Spring bank holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "Christmas Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-28",
+          "name": "Boxing Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "GR": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 14,
+      "overlap": 8,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-16",
+          "name": "Orthodox Ash Monday"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Orthodox Easter Sunday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Orthodox Whit Sunday"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Orthodox Whit Monday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-23",
+          "name": "Ash Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-10",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "Whit Monday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 14,
+      "overlap": 8,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-08",
+          "name": "Orthodox Ash Monday"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Orthodox Easter Sunday"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Orthodox Whit Sunday"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Orthodox Whit Monday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-15",
+          "name": "Ash Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-20",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Whit Monday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "GT": {
+    "2026": {
+      "beevagoCount": 11,
+      "libCount": 16,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-05-10",
+          "name": "Mother's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-06-17",
+          "name": "Father's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-06-29",
+          "name": "Army Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-01",
+          "name": "Bank Employee Day",
+          "type": "bank"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Day of Race",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 11,
+      "libCount": 16,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-05-10",
+          "name": "Mother's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-06-17",
+          "name": "Father's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-07-01",
+          "name": "Bank Employee Day",
+          "type": "bank"
+        },
+        {
+          "date": "2027-07-02",
+          "name": "Army Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-12",
+          "name": "Day of Race",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "GY": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 13,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-05-27",
+          "name": "Eid Ul Adha",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-06",
+          "name": "CARICOM Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Youman Nabi",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 8,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 13,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-05-16",
+          "name": "Eid Ul Adha",
+          "type": "public"
+        },
+        {
+          "date": "2027-07-05",
+          "name": "CARICOM Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Youman Nabi",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 8,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "HK": {
+    "2026": {
+      "beevagoCount": 8,
+      "libCount": 17,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-17",
+          "name": "Lunar New Year’s Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "The second day of Lunar New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-19",
+          "name": "The third day of Lunar New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-07",
+          "name": "The day following Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "The day following Birthday of the Buddha",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "Tuen Ng Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-26",
+          "name": "The day following the Chinese Mid-Autumn Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-19",
+          "name": "The day following Chung Yeung Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "The first weekday after Christmas Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 9,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 8,
+      "libCount": 17,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-02-06",
+          "name": "Lunar New Year’s Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "The third day of Lunar New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "The fourth day of Lunar New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-05",
+          "name": "Ching Ming Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-13",
+          "name": "Birthday of the Buddha",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-09",
+          "name": "Tuen Ng Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-16",
+          "name": "The day following the Chinese Mid-Autumn Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-08",
+          "name": "Chung Yeung Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "The first weekday after Christmas Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 9,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "HR": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 21,
+      "overlap": 13,
+      "beevagoOnly": [
+        {
+          "date": "2026-10-08",
+          "name": "Independence Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-07",
+          "name": "Orthodox Christmas",
+          "type": "optional"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Orthodox Easter",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Orthodox Easter Monday",
+          "type": "optional"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "optional"
+        },
+        {
+          "date": "2026-09-12",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2026-09-21",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2026-11-18",
+          "name": "Remembrance Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 21,
+      "overlap": 13,
+      "beevagoOnly": [
+        {
+          "date": "2027-10-08",
+          "name": "Independence Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-07",
+          "name": "Orthodox Christmas",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "optional"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Orthodox Easter",
+          "type": "optional"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Orthodox Easter Monday",
+          "type": "optional"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "optional"
+        },
+        {
+          "date": "2027-10-02",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2027-11-18",
+          "name": "Remembrance Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "HU": {
+    "2026": {
+      "beevagoCount": 11,
+      "libCount": 14,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 11,
+      "libCount": 14,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "ID": {
+    "2026": {
+      "beevagoCount": 7,
+      "libCount": 16,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Good Friday / Ascension Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-16",
+          "name": "Laylat al-Mi'raj",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-19",
+          "name": "Nyepi",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-14",
+          "name": "Ascension Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Vesak Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 7,
+      "libCount": 17,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Good Friday / Ascension Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-05",
+          "name": "Laylat al-Mi'raj",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "Nyepi",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-06",
+          "name": "Ascension Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "Vesak Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "IE": {
+    "2026": {
+      "beevagoCount": 5,
+      "libCount": 13,
+      "overlap": 5,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-02-02",
+          "name": "St. Brigid’s Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "type": "bank"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-04",
+          "name": "May Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "First Monday in June",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-03",
+          "name": "First Monday in August",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-26",
+          "name": "October Bank Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-28",
+          "name": "St. Stephen's Day (substitute day)",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 5,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 5,
+      "libCount": 13,
+      "overlap": 5,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-02-01",
+          "name": "St. Brigid’s Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "type": "bank"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "May Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-07",
+          "name": "First Monday in June",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-02",
+          "name": "First Monday in August",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-25",
+          "name": "October Bank Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "St. Stephen's Day (substitute day)",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 5,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "IL": {
+    "2026": {
+      "beevagoCount": 0,
+      "libCount": 15,
+      "overlap": 0,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-03-02",
+          "name": "Fast of Esther",
+          "type": "school"
+        },
+        {
+          "date": "2026-03-03",
+          "name": "Purim",
+          "type": "school"
+        },
+        {
+          "date": "2026-04-02",
+          "name": "Passover (Pesach)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Passover (intermediate days)",
+          "type": "school"
+        },
+        {
+          "date": "2026-04-08",
+          "name": "Mimouna, Seventh day of Passover",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-22",
+          "name": "Independence Day (Yom HaAtzmaut)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-05",
+          "name": "Lag BaOmer",
+          "type": "school"
+        },
+        {
+          "date": "2026-05-22",
+          "name": "Shavuot (Feast of Weeks)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-12",
+          "name": "Rosh Hashanah (Yom Teruah)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-13",
+          "name": "Rosh Hashanah (Day 2)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-21",
+          "name": "Day of Atonement (Yom Kippur)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-26",
+          "name": "Feast of Tabernacles (Sukkot)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-27",
+          "name": "The week of Sukkot",
+          "type": "school"
+        },
+        {
+          "date": "2026-10-03",
+          "name": "Simchat Torah/ Shmini Atzeret",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-05",
+          "name": "Hanukkah",
+          "type": "school"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 0,
+      "libCount": 15,
+      "overlap": 0,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-22",
+          "name": "Fast of Esther",
+          "type": "school"
+        },
+        {
+          "date": "2027-03-23",
+          "name": "Purim",
+          "type": "school"
+        },
+        {
+          "date": "2027-04-22",
+          "name": "Passover (Pesach)",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "Passover (intermediate days)",
+          "type": "school"
+        },
+        {
+          "date": "2027-04-28",
+          "name": "Mimouna, Seventh day of Passover",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-12",
+          "name": "Independence Day (Yom HaAtzmaut)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-25",
+          "name": "Lag BaOmer",
+          "type": "school"
+        },
+        {
+          "date": "2027-06-11",
+          "name": "Shavuot (Feast of Weeks)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-02",
+          "name": "Rosh Hashanah (Yom Teruah)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-03",
+          "name": "Rosh Hashanah (Day 2)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Day of Atonement (Yom Kippur)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-16",
+          "name": "Feast of Tabernacles (Sukkot)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-17",
+          "name": "The week of Sukkot",
+          "type": "school"
+        },
+        {
+          "date": "2027-10-23",
+          "name": "Simchat Torah/ Shmini Atzeret",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Hanukkah",
+          "type": "school"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "IN": {
+    "2026": {
+      "beevagoCount": 4,
+      "libCount": 6,
+      "overlap": 4,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-14",
+          "name": "Ambedkar Jayanti",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 4,
+      "libCount": 6,
+      "overlap": 4,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-14",
+          "name": "Ambedkar Jayanti",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "IT": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 13,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-10-04",
+          "name": "Francis of Assisi",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 13,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-10-04",
+          "name": "Francis of Assisi",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "JP": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 21,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-02",
+          "name": "January 2nd",
+          "type": "bank"
+        },
+        {
+          "date": "2026-01-03",
+          "name": "January 3rd",
+          "type": "bank"
+        },
+        {
+          "date": "2026-01-12",
+          "name": "Coming of Age Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "Spring Equinox Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-06",
+          "name": "Constitution Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-20",
+          "name": "Marine Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-21",
+          "name": "Respect-for-the-Aged Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-22",
+          "name": "Citizens' Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-23",
+          "name": "Autumnal Equinox Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Sports Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 20,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-02",
+          "name": "January 2nd",
+          "type": "bank"
+        },
+        {
+          "date": "2027-01-03",
+          "name": "January 3rd",
+          "type": "bank"
+        },
+        {
+          "date": "2027-01-11",
+          "name": "Coming of Age Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-21",
+          "name": "Spring Equinox Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "Spring Equinox Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-07-19",
+          "name": "Marine Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-20",
+          "name": "Respect-for-the-Aged Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-23",
+          "name": "Autumnal Equinox Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Sports Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "KH": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 0,
+      "overlap": 0,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day"
+        },
+        {
+          "date": "2026-01-07",
+          "name": "Victory Over Genocide Day"
+        },
+        {
+          "date": "2026-03-08",
+          "name": "International Women's Day"
+        },
+        {
+          "date": "2026-04-14",
+          "name": "Khmer New Year (Day 1)"
+        },
+        {
+          "date": "2026-04-15",
+          "name": "Khmer New Year (Day 2)"
+        },
+        {
+          "date": "2026-04-16",
+          "name": "Khmer New Year (Day 3)"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "International Labour Day"
+        },
+        {
+          "date": "2026-05-14",
+          "name": "King's Birthday"
+        },
+        {
+          "date": "2026-06-18",
+          "name": "Queen Mother's Birthday"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "Constitution Day"
+        },
+        {
+          "date": "2026-10-15",
+          "name": "King Father Commemoration Day"
+        },
+        {
+          "date": "2026-10-29",
+          "name": "Coronation Day"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2026-12-29",
+          "name": "Peace Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 0,
+      "overlap": 0,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day"
+        },
+        {
+          "date": "2027-01-07",
+          "name": "Victory Over Genocide Day"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "International Women's Day"
+        },
+        {
+          "date": "2027-04-14",
+          "name": "Khmer New Year (Day 1)"
+        },
+        {
+          "date": "2027-04-15",
+          "name": "Khmer New Year (Day 2)"
+        },
+        {
+          "date": "2027-04-16",
+          "name": "Khmer New Year (Day 3)"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "International Labour Day"
+        },
+        {
+          "date": "2027-05-14",
+          "name": "King's Birthday"
+        },
+        {
+          "date": "2027-06-18",
+          "name": "Queen Mother's Birthday"
+        },
+        {
+          "date": "2027-09-24",
+          "name": "Constitution Day"
+        },
+        {
+          "date": "2027-10-15",
+          "name": "King Father Commemoration Day"
+        },
+        {
+          "date": "2027-10-29",
+          "name": "Coronation Day"
+        },
+        {
+          "date": "2027-11-09",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2027-12-29",
+          "name": "Peace Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "KR": {
+    "2026": {
+      "beevagoCount": 3,
+      "libCount": 12,
+      "overlap": 3,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-02-17",
+          "name": "Korean New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-01",
+          "name": "Independence Movement Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-05",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Buddha's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-17",
+          "name": "Constitution Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Liberation Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "Korean Thanksgiving",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-03",
+          "name": "National Foundation Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-09",
+          "name": "Hangul Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 14,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 3,
+      "libCount": 12,
+      "overlap": 3,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-02-07",
+          "name": "Korean New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "Independence Movement Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-05",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-13",
+          "name": "Buddha's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2027-07-17",
+          "name": "Constitution Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Liberation Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-14",
+          "name": "Korean Thanksgiving",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-03",
+          "name": "National Foundation Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-09",
+          "name": "Hangul Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 14,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "LT": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 14,
+      "overlap": 14,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 14,
+      "overlap": 14,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "LU": {
+    "2026": {
+      "beevagoCount": 11,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 11,
+      "libCount": 11,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "MA": {
+    "2026": {
+      "beevagoCount": 11,
+      "libCount": 13,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-14",
+          "name": "Amazigh New Year"
+        },
+        {
+          "date": "2026-10-31",
+          "name": "Unity Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 11,
+      "libCount": 13,
+      "overlap": 9,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-14",
+          "name": "Amazigh New Year"
+        },
+        {
+          "date": "2027-10-31",
+          "name": "Unity Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "ME": {
+    "2026": {
+      "beevagoCount": 15,
+      "libCount": 24,
+      "overlap": 13,
+      "beevagoOnly": [
+        {
+          "date": "2026-11-13",
+          "name": "Njegos Day"
+        },
+        {
+          "date": "2026-11-14",
+          "name": "Njegos Day Holiday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-02",
+          "name": "Pesach",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-10",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-21",
+          "name": "Yom Kippur",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-01",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Christmas Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 15,
+      "libCount": 25,
+      "overlap": 13,
+      "beevagoOnly": [
+        {
+          "date": "2027-11-13",
+          "name": "Njegos Day"
+        },
+        {
+          "date": "2027-11-14",
+          "name": "Njegos Day Holiday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-22",
+          "name": "Pesach",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Labour Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Yom Kippur",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-01",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-26",
+          "name": "Christmas Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "MK": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 32,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-06",
+          "name": "Orthodox Christmas Eve",
+          "type": "optional"
+        },
+        {
+          "date": "2026-01-19",
+          "name": "Epiphany",
+          "type": "optional"
+        },
+        {
+          "date": "2026-01-27",
+          "name": "St. Sava",
+          "type": "optional"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-08",
+          "name": "International Roma Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-10",
+          "name": "Orthodox Good Friday",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Orthodox Easter",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Orthodox Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-23",
+          "name": "National Day of Authorities",
+          "type": "optional"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Saints Cyril and Methodius Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "optional"
+        },
+        {
+          "date": "2026-05-29",
+          "name": "Friday before Pentecost",
+          "type": "optional"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Pentecost",
+          "type": "optional"
+        },
+        {
+          "date": "2026-08-03",
+          "name": "Day of the Republic (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-28",
+          "name": "Assumption",
+          "type": "optional"
+        },
+        {
+          "date": "2026-09-21",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2026-09-28",
+          "name": "International Day of Bosniaks",
+          "type": "optional"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Revolution Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-01",
+          "name": "All Saints' Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-11-22",
+          "name": "Day of the Albanian Alphabet",
+          "type": "optional"
+        },
+        {
+          "date": "2026-12-21",
+          "name": "Turkish Language Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 9,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 29,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-06",
+          "name": "Orthodox Christmas Eve",
+          "type": "optional"
+        },
+        {
+          "date": "2027-01-19",
+          "name": "Epiphany",
+          "type": "optional"
+        },
+        {
+          "date": "2027-01-27",
+          "name": "St. Sava",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-08",
+          "name": "International Roma Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Orthodox Good Friday",
+          "type": "optional"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Orthodox Easter",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Orthodox Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "optional"
+        },
+        {
+          "date": "2027-05-23",
+          "name": "National Day of Authorities",
+          "type": "optional"
+        },
+        {
+          "date": "2027-06-18",
+          "name": "Friday before Pentecost",
+          "type": "optional"
+        },
+        {
+          "date": "2027-06-20",
+          "name": "Pentecost",
+          "type": "optional"
+        },
+        {
+          "date": "2027-08-28",
+          "name": "Assumption",
+          "type": "optional"
+        },
+        {
+          "date": "2027-09-28",
+          "name": "International Day of Bosniaks",
+          "type": "optional"
+        },
+        {
+          "date": "2027-11-01",
+          "name": "All Saints' Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-11-22",
+          "name": "Day of the Albanian Alphabet",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-21",
+          "name": "Turkish Language Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 9,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "MT": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 14,
+      "overlap": 14,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 14,
+      "overlap": 14,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "MX": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 11,
+      "overlap": 8,
+      "beevagoOnly": [
+        {
+          "date": "2026-05-05",
+          "name": "Anniversary of the Battle of Puebla"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Day of the Race"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-02",
+          "name": "Constitution Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-16",
+          "name": "Benito Juárez's birthday",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-16",
+          "name": "Revolution Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 3,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 11,
+      "overlap": 8,
+      "beevagoOnly": [
+        {
+          "date": "2027-05-05",
+          "name": "Anniversary of the Battle of Puebla"
+        },
+        {
+          "date": "2027-10-12",
+          "name": "Day of the Race"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-02-01",
+          "name": "Constitution Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-15",
+          "name": "Benito Juárez's birthday",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-15",
+          "name": "Revolution Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 3,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "MY": {
+    "2026": {
+      "beevagoCount": 31,
+      "libCount": 17,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-14",
+          "name": "Birthday of Yang di-Pertuan Besar"
+        },
+        {
+          "date": "2026-02-01",
+          "name": "Federal Territory Day"
+        },
+        {
+          "date": "2026-02-20",
+          "name": "Independence Day Declaration Day"
+        },
+        {
+          "date": "2026-03-04",
+          "name": "Anniversary of Installation of Sultan of Terengganu"
+        },
+        {
+          "date": "2026-03-23",
+          "name": "Birthday of the Sultan of Johor"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2026-04-26",
+          "name": "Birthday of the Sultan of Terengganu"
+        },
+        {
+          "date": "2026-05-17",
+          "name": "Birthday of the Raja of Perlis"
+        },
+        {
+          "date": "2026-05-22",
+          "name": "Hari Hol Pahang"
+        },
+        {
+          "date": "2026-05-30",
+          "name": "Harvest Festival"
+        },
+        {
+          "date": "2026-06-02",
+          "name": "Hari Gawai Dayak Day 2"
+        },
+        {
+          "date": "2026-06-21",
+          "name": "Birthday of the Sultan of Kedah"
+        },
+        {
+          "date": "2026-07-07",
+          "name": "Georgetown World Heritage City Day"
+        },
+        {
+          "date": "2026-07-11",
+          "name": "Birthday of Penang Governor"
+        },
+        {
+          "date": "2026-07-21",
+          "name": "Almarhum Sultan Iskandar Hol Day"
+        },
+        {
+          "date": "2026-07-22",
+          "name": "Sarawak Day"
+        },
+        {
+          "date": "2026-07-31",
+          "name": "Birthday of the Sultan of Pahang"
+        },
+        {
+          "date": "2026-08-24",
+          "name": "Birthday of the Governor of Melaka"
+        },
+        {
+          "date": "2026-09-29",
+          "name": "Birthday of the Sultan of Kelantan"
+        },
+        {
+          "date": "2026-09-30",
+          "name": "Birthday of the Sultan of Kelantan Holiday"
+        },
+        {
+          "date": "2026-10-10",
+          "name": "Birthday of the Governor of Sarawak"
+        },
+        {
+          "date": "2026-11-06",
+          "name": "Birthday of the Sultan of Perak"
+        },
+        {
+          "date": "2026-12-11",
+          "name": "Birthday of the Sultan of Selangor"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-07",
+          "name": "Day of Nuzul Al-Quran",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-22",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-17",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "Deepavali",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "Deepavali",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 31,
+      "libCount": 16,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-14",
+          "name": "Birthday of Yang di-Pertuan Besar"
+        },
+        {
+          "date": "2027-02-01",
+          "name": "Federal Territory Day"
+        },
+        {
+          "date": "2027-02-20",
+          "name": "Independence Day Declaration Day"
+        },
+        {
+          "date": "2027-03-04",
+          "name": "Anniversary of Installation of Sultan of Terengganu"
+        },
+        {
+          "date": "2027-03-23",
+          "name": "Birthday of the Sultan of Johor"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2027-04-26",
+          "name": "Birthday of the Sultan of Terengganu"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Birthday of the Raja of Perlis"
+        },
+        {
+          "date": "2027-05-22",
+          "name": "Hari Hol Pahang"
+        },
+        {
+          "date": "2027-05-30",
+          "name": "Harvest Festival"
+        },
+        {
+          "date": "2027-05-31",
+          "name": "Harvest Festival Day 2"
+        },
+        {
+          "date": "2027-06-01",
+          "name": "Hari Gawai Dayak"
+        },
+        {
+          "date": "2027-06-02",
+          "name": "Hari Gawai Dayak Day 2"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Birthday of the Sultan of Kedah"
+        },
+        {
+          "date": "2027-07-07",
+          "name": "Georgetown World Heritage City Day"
+        },
+        {
+          "date": "2027-07-11",
+          "name": "Birthday of Penang Governor"
+        },
+        {
+          "date": "2027-07-21",
+          "name": "Almarhum Sultan Iskandar Hol Day"
+        },
+        {
+          "date": "2027-07-22",
+          "name": "Sarawak Day"
+        },
+        {
+          "date": "2027-07-31",
+          "name": "Birthday of the Sultan of Pahang"
+        },
+        {
+          "date": "2027-08-24",
+          "name": "Birthday of the Governor of Melaka"
+        },
+        {
+          "date": "2027-09-29",
+          "name": "Birthday of the Sultan of Kelantan"
+        },
+        {
+          "date": "2027-09-30",
+          "name": "Birthday of the Sultan of Kelantan Holiday"
+        },
+        {
+          "date": "2027-10-10",
+          "name": "Birthday of the Governor of Sarawak"
+        },
+        {
+          "date": "2027-11-06",
+          "name": "Birthday of the Sultan of Perak"
+        },
+        {
+          "date": "2027-12-11",
+          "name": "Birthday of the Sultan of Selangor"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "Chinese New Year (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-24",
+          "name": "Day of Nuzul Al-Quran",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-07",
+          "name": "Yang di-Pertuan Agong's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "Deepavali",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "NG": {
+    "2026": {
+      "beevagoCount": 8,
+      "libCount": 14,
+      "overlap": 8,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-03-20",
+          "name": "Id el Fitr",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Id el Kabir / Children's Day",
+          "type": "public / public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-01",
+          "name": "National Youth Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 8,
+      "libCount": 16,
+      "overlap": 8,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-09",
+          "name": "Id el Fitr",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Worker's Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Id el Kabir",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-27",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-14",
+          "name": "Democracy Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-01",
+          "name": "National Youth Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "NL": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 12,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-05-05",
+          "name": "Liberation Day",
+          "type": "school"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 12,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-05-05",
+          "name": "Liberation Day",
+          "type": "school"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 1,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "NO": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 15,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-07-29",
+          "name": "Olsok",
+          "type": "optional"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 15,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-07-29",
+          "name": "Olsok",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "NZ": {
+    "2026": {
+      "beevagoCount": 6,
+      "libCount": 13,
+      "overlap": 6,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-02-06",
+          "name": "Waitangi Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-25",
+          "name": "ANZAC Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-27",
+          "name": "ANZAC Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "King's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-10",
+          "name": "Matariki",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-26",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-28",
+          "name": "Boxing Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 5,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 6,
+      "libCount": 16,
+      "overlap": 6,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-04",
+          "name": "Day after New Year's Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "Waitangi Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "Waitangi Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "ANZAC Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-26",
+          "name": "ANZAC Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-07",
+          "name": "King's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-25",
+          "name": "Matariki",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-25",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "Christmas Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-28",
+          "name": "Boxing Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 5,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "OM": {
+    "2026": {
+      "beevagoCount": 2,
+      "libCount": 0,
+      "overlap": 0,
+      "beevagoOnly": [
+        {
+          "date": "2026-11-20",
+          "name": "National Day"
+        },
+        {
+          "date": "2026-11-21",
+          "name": "National Day (Day 2)"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 2,
+      "libCount": 0,
+      "overlap": 0,
+      "beevagoOnly": [
+        {
+          "date": "2027-11-20",
+          "name": "National Day"
+        },
+        {
+          "date": "2027-11-21",
+          "name": "National Day (Day 2)"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "PA": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 10,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2026-11-04",
+          "name": "Flag Day"
+        },
+        {
+          "date": "2026-11-05",
+          "name": "Colon Day"
+        },
+        {
+          "date": "2026-12-20",
+          "name": "National Mourning Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 11,
+      "overlap": 10,
+      "beevagoOnly": [
+        {
+          "date": "2027-11-04",
+          "name": "Flag Day"
+        },
+        {
+          "date": "2027-11-05",
+          "name": "Colon Day"
+        },
+        {
+          "date": "2027-12-20",
+          "name": "National Mourning Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-11-29",
+          "name": "Independence Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "PE": {
+    "2026": {
+      "beevagoCount": 16,
+      "libCount": 13,
+      "overlap": 12,
+      "beevagoOnly": [
+        {
+          "date": "2026-06-07",
+          "name": "Battle of Arica"
+        },
+        {
+          "date": "2026-07-23",
+          "name": "Peruvian Air Force Day"
+        },
+        {
+          "date": "2026-08-06",
+          "name": "Battle of Junin"
+        },
+        {
+          "date": "2026-12-09",
+          "name": "Battle of Ayacucho"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 16,
+      "libCount": 13,
+      "overlap": 12,
+      "beevagoOnly": [
+        {
+          "date": "2027-06-07",
+          "name": "Battle of Arica"
+        },
+        {
+          "date": "2027-07-23",
+          "name": "Peruvian Air Force Day"
+        },
+        {
+          "date": "2027-08-06",
+          "name": "Battle of Junin"
+        },
+        {
+          "date": "2027-12-09",
+          "name": "Battle of Ayacucho"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "PH": {
+    "2026": {
+      "beevagoCount": 17,
+      "libCount": 21,
+      "overlap": 16,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-25",
+          "name": "EDSA People Power Revolution Anniversary"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "type": "optional"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-31",
+          "name": "National Heroes' Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 17,
+      "libCount": 21,
+      "overlap": 16,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-25",
+          "name": "EDSA People Power Revolution Anniversary"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-30",
+          "name": "National Heroes' Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "PL": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 17,
+      "overlap": 13,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-04-02",
+          "name": "Maundy Thursday",
+          "type": "school"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "type": "school"
+        },
+        {
+          "date": "2026-05-02",
+          "name": "Flag Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 17,
+      "overlap": 13,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-25",
+          "name": "Maundy Thursday",
+          "type": "school"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "type": "school"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Flag Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "PT": {
+    "2026": {
+      "beevagoCount": 13,
+      "libCount": 13,
+      "overlap": 13,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 13,
+      "libCount": 13,
+      "overlap": 13,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "PY": {
+    "2026": {
+      "beevagoCount": 9,
+      "libCount": 14,
+      "overlap": 9,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-03-01",
+          "name": "Heroes' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-30",
+          "name": "Teacher's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-06-12",
+          "name": "Chaco Armistice",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-29",
+          "name": "Boqueron Battle Victory Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 9,
+      "libCount": 14,
+      "overlap": 9,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-01",
+          "name": "Heroes' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Teacher's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-06-12",
+          "name": "Chaco Armistice",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-29",
+          "name": "Boqueron Battle Victory Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 4,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "RO": {
+    "2026": {
+      "beevagoCount": 17,
+      "libCount": 16,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-02",
+          "name": "New Year Holiday"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Orthodox Easter Sunday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "Orthodox Whit Sunday"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Orthodox Whit Monday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-10",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Pentecost",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 17,
+      "libCount": 16,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-02",
+          "name": "New Year Holiday"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Orthodox Good Friday"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Orthodox Easter Sunday"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Orthodox Easter Monday"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Orthodox Whit Sunday"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Orthodox Whit Monday"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-04-30",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Easter Sunday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-20",
+          "name": "Pentecost",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Whit Monday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "RS": {
+    "2026": {
+      "beevagoCount": 1,
+      "libCount": 18,
+      "overlap": 1,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-01-02",
+          "name": "New Year's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "Statehood Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Statehood Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-10",
+          "name": "Orthodox Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-12",
+          "name": "Orthodox Easter",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Orthodox Easter Monday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-02",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "optional"
+        },
+        {
+          "date": "2026-09-21",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2026-11-11",
+          "name": "Armistice Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 12,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 1,
+      "libCount": 18,
+      "overlap": 1,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-01-02",
+          "name": "New Year's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-15",
+          "name": "Statehood Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-16",
+          "name": "Statehood Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Easter Monday",
+          "type": "optional"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Orthodox Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-02",
+          "name": "Orthodox Easter",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Orthodox Easter Monday / Labour Day",
+          "type": "public / public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "optional"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Yom Kippur",
+          "type": "optional"
+        },
+        {
+          "date": "2027-11-11",
+          "name": "Armistice Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 12,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "SA": {
+    "2026": {
+      "beevagoCount": 2,
+      "libCount": 4,
+      "overlap": 2,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-03-19",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-26",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 2,
+      "libCount": 4,
+      "overlap": 2,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-15",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "SE": {
+    "2026": {
+      "beevagoCount": 11,
+      "libCount": 19,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-01-05",
+          "name": "Twelfth Night",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-30",
+          "name": "Walpurgis Night",
+          "type": "optional"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "Midsummer Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2026-06-20",
+          "name": "Midsummer Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-30",
+          "name": "Halloween",
+          "type": "optional"
+        },
+        {
+          "date": "2026-10-31",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 11,
+      "libCount": 19,
+      "overlap": 11,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-01-05",
+          "name": "Twelfth Night",
+          "type": "optional"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Walpurgis Night",
+          "type": "optional"
+        },
+        {
+          "date": "2027-06-25",
+          "name": "Midsummer Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2027-06-26",
+          "name": "Midsummer Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-05",
+          "name": "Halloween",
+          "type": "optional"
+        },
+        {
+          "date": "2027-11-06",
+          "name": "All Saints' Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Eve",
+          "type": "bank"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Eve",
+          "type": "bank"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 2,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "SG": {
+    "2026": {
+      "beevagoCount": 4,
+      "libCount": 14,
+      "overlap": 4,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "Hari Raya Puasa",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Hari Raya Haji",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Vesak Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "Vesak Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-10",
+          "name": "National Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "Deepavali",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "Deepavali",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 4,
+      "libCount": 11,
+      "overlap": 4,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "Chinese New Year (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "Hari Raya Puasa",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Hari Raya Haji",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "Deepavali",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "SI": {
+    "2026": {
+      "beevagoCount": 15,
+      "libCount": 15,
+      "overlap": 15,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 15,
+      "libCount": 15,
+      "overlap": 15,
+      "beevagoOnly": [],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "SK": {
+    "2026": {
+      "beevagoCount": 14,
+      "libCount": 12,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2026-05-08",
+          "name": "Victory over Fascism Day"
+        },
+        {
+          "date": "2026-09-15",
+          "name": "Our Lady of Sorrows"
+        },
+        {
+          "date": "2026-11-17",
+          "name": "Struggle for Freedom and Democracy Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 14,
+      "libCount": 12,
+      "overlap": 11,
+      "beevagoOnly": [
+        {
+          "date": "2027-05-08",
+          "name": "Victory over Fascism Day"
+        },
+        {
+          "date": "2027-09-15",
+          "name": "Our Lady of Sorrows"
+        },
+        {
+          "date": "2027-11-17",
+          "name": "Struggle for Freedom and Democracy Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "SR": {
+    "2026": {
+      "beevagoCount": 10,
+      "libCount": 16,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-25",
+          "name": "Day of Liberation and Innovation",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-03",
+          "name": "Holi Phagwa",
+          "type": "public"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "Deepavali",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 10,
+      "libCount": 16,
+      "overlap": 10,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-25",
+          "name": "Day of Liberation and Innovation",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "Holi Phagwa",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "Deepavali",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "TH": {
+    "2026": {
+      "beevagoCount": 15,
+      "libCount": 18,
+      "overlap": 14,
+      "beevagoOnly": [
+        {
+          "date": "2026-05-01",
+          "name": "National Labour Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-03-03",
+          "name": "Makha Bucha",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Vesak Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-29",
+          "name": "Asalha Puja",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-30",
+          "name": "Buddhist Lent",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 15,
+      "libCount": 14,
+      "overlap": 14,
+      "beevagoOnly": [
+        {
+          "date": "2027-05-01",
+          "name": "National Labour Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "TN": {
+    "2026": {
+      "beevagoCount": 8,
+      "libCount": 12,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2026-12-17",
+          "name": "Revolution and Youth Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-14",
+          "name": "عيد الثورة و الشباب",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 8,
+      "libCount": 12,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2027-12-17",
+          "name": "Revolution and Youth Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-14",
+          "name": "عيد الثورة و الشباب",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "Islamic New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-08-14",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "TR": {
+    "2026": {
+      "beevagoCount": 7,
+      "libCount": 9,
+      "overlap": 7,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-03-20",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 7,
+      "libCount": 9,
+      "overlap": 7,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-09",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "TW": {
+    "2026": {
+      "beevagoCount": 1,
+      "libCount": 14,
+      "overlap": 1,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-02-16",
+          "name": "Chinese New Year's Eve",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "The second day of the Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-19",
+          "name": "The third day of the Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-20",
+          "name": "The forth day of the Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-21",
+          "name": "Chinese New Year Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-28",
+          "name": "Peace Memorial Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-04",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Tomb Sweeping Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Tomb Sweeping Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "Dragon Boat Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-25",
+          "name": "Mid-Autumn Festival",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-10",
+          "name": "National Day / Double Tenth Day",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 15,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 1,
+      "libCount": 17,
+      "overlap": 1,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-02-05",
+          "name": "Chinese New Year's Eve",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "The second day of the Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "The third day of the Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "The forth day of the Chinese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-10",
+          "name": "Chinese New Year Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-28",
+          "name": "Peace Memorial Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "Peace Memorial Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-04",
+          "name": "Children's Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-05",
+          "name": "Children's Day (substitute day) / Tomb Sweeping Day",
+          "type": "public / public"
+        },
+        {
+          "date": "2027-06-09",
+          "name": "Dragon Boat Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-15",
+          "name": "Mid-Autumn Festival",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-10",
+          "name": "National Day / Double Tenth Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "National Day / Double Tenth Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "Founding of the Republic of China (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 15,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "US": {
+    "2026": {
+      "beevagoCount": 18,
+      "libCount": 13,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2026-02-12",
+          "name": "Lincoln's Birthday"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Mardi Gras"
+        },
+        {
+          "date": "2026-03-31",
+          "name": "Cesar Chavez Day"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2026-04-16",
+          "name": "Emancipation Day"
+        },
+        {
+          "date": "2026-04-30",
+          "name": "Arbor Day"
+        },
+        {
+          "date": "2026-05-08",
+          "name": "Truman Day"
+        },
+        {
+          "date": "2026-06-11",
+          "name": "King Kamehameha Day"
+        },
+        {
+          "date": "2026-06-20",
+          "name": "West Virginia Day"
+        },
+        {
+          "date": "2026-07-24",
+          "name": "Pioneer Day"
+        },
+        {
+          "date": "2026-08-16",
+          "name": "Bennington Battle Day"
+        },
+        {
+          "date": "2026-10-18",
+          "name": "Alaska Day"
+        },
+        {
+          "date": "2026-10-31",
+          "name": "Nevada Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-19",
+          "name": "Martin Luther King Jr. Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "Washington's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Memorial Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-07-03",
+          "name": "Independence Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2026-09-07",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-10-12",
+          "name": "Columbus Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-11-26",
+          "name": "Thanksgiving Day",
+          "type": "public"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "Christmas Eve",
+          "type": "optional"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 6,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 18,
+      "libCount": 16,
+      "overlap": 5,
+      "beevagoOnly": [
+        {
+          "date": "2027-02-09",
+          "name": "Mardi Gras"
+        },
+        {
+          "date": "2027-02-12",
+          "name": "Lincoln's Birthday"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2027-03-31",
+          "name": "Cesar Chavez Day"
+        },
+        {
+          "date": "2027-04-16",
+          "name": "Emancipation Day"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Arbor Day"
+        },
+        {
+          "date": "2027-05-08",
+          "name": "Truman Day"
+        },
+        {
+          "date": "2027-06-11",
+          "name": "King Kamehameha Day"
+        },
+        {
+          "date": "2027-06-20",
+          "name": "West Virginia Day"
+        },
+        {
+          "date": "2027-07-24",
+          "name": "Pioneer Day"
+        },
+        {
+          "date": "2027-08-16",
+          "name": "Bennington Battle Day"
+        },
+        {
+          "date": "2027-10-18",
+          "name": "Alaska Day"
+        },
+        {
+          "date": "2027-10-31",
+          "name": "Nevada Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-18",
+          "name": "Martin Luther King Jr. Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-15",
+          "name": "Washington's Birthday",
+          "type": "public"
+        },
+        {
+          "date": "2027-05-31",
+          "name": "Memorial Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-06-18",
+          "name": "Juneteenth (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-07-05",
+          "name": "Independence Day (substitute day)",
+          "type": "public"
+        },
+        {
+          "date": "2027-09-06",
+          "name": "Labour Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "Columbus Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-11-25",
+          "name": "Thanksgiving Day",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "Christmas Day (substitute day) / Christmas Eve",
+          "type": "public / optional"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "New Year's Day (substitute day)",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 6,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "UY": {
+    "2026": {
+      "beevagoCount": 15,
+      "libCount": 7,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2026-01-06",
+          "name": "Epiphany"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "Carnival Monday"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Carnival Tuesday"
+        },
+        {
+          "date": "2026-03-30",
+          "name": "Tourism Monday"
+        },
+        {
+          "date": "2026-03-31",
+          "name": "Tourism Tuesday"
+        },
+        {
+          "date": "2026-04-01",
+          "name": "Tourism Wednesday"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "Artigas Birthday"
+        },
+        {
+          "date": "2026-11-02",
+          "name": "All Souls Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 3,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 15,
+      "libCount": 7,
+      "overlap": 7,
+      "beevagoOnly": [
+        {
+          "date": "2027-01-06",
+          "name": "Epiphany"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "Carnival Monday"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "Carnival Tuesday"
+        },
+        {
+          "date": "2027-03-22",
+          "name": "Tourism Monday"
+        },
+        {
+          "date": "2027-03-23",
+          "name": "Tourism Tuesday"
+        },
+        {
+          "date": "2027-03-24",
+          "name": "Tourism Wednesday"
+        },
+        {
+          "date": "2027-06-19",
+          "name": "Artigas Birthday"
+        },
+        {
+          "date": "2027-11-02",
+          "name": "All Souls Day"
+        }
+      ],
+      "libOnly": [],
+      "unresolvedBeevagoRules": {
+        "custom": 3,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "VE": {
+    "2026": {
+      "beevagoCount": 15,
+      "libCount": 16,
+      "overlap": 14,
+      "beevagoOnly": [
+        {
+          "date": "2026-05-15",
+          "name": "Venezuelan Family Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-01-15",
+          "name": "Teacher's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Easter Sunday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 15,
+      "libCount": 16,
+      "overlap": 14,
+      "beevagoOnly": [
+        {
+          "date": "2027-05-15",
+          "name": "Venezuelan Family Day"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-01-15",
+          "name": "Teacher's Day",
+          "type": "optional"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "Easter Sunday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "VN": {
+    "2026": {
+      "beevagoCount": 5,
+      "libCount": 7,
+      "overlap": 4,
+      "beevagoOnly": [
+        {
+          "date": "2026-09-03",
+          "name": "National Day (Day 2)"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2026-02-16",
+          "name": "Vietnamese New Year Holidays",
+          "type": "public"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Vietnamese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2026-04-26",
+          "name": "Hung Kings Commemorations",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 5,
+      "libCount": 7,
+      "overlap": 4,
+      "beevagoOnly": [
+        {
+          "date": "2027-09-03",
+          "name": "National Day (Day 2)"
+        }
+      ],
+      "libOnly": [
+        {
+          "date": "2027-02-05",
+          "name": "Vietnamese New Year Holidays",
+          "type": "public"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "Vietnamese New Year",
+          "type": "public"
+        },
+        {
+          "date": "2027-04-16",
+          "name": "Hung Kings Commemorations",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 0,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  },
+  "ZA": {
+    "2026": {
+      "beevagoCount": 12,
+      "libCount": 13,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2026-08-10",
+          "name": "Public Holiday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 10,
+        "lunar": 0,
+        "religious": 0
+      }
+    },
+    "2027": {
+      "beevagoCount": 12,
+      "libCount": 14,
+      "overlap": 12,
+      "beevagoOnly": [],
+      "libOnly": [
+        {
+          "date": "2027-03-22",
+          "name": "Public Holiday",
+          "type": "public"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "Public Holiday",
+          "type": "public"
+        }
+      ],
+      "unresolvedBeevagoRules": {
+        "custom": 10,
+        "lunar": 0,
+        "religious": 0
+      }
+    }
+  }
+}

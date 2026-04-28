@@ -1,0 +1,1964 @@
+[
+  {
+    "slug": "argentina",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "countryCode": "AR",
+    "tagline": "4 destinations across Argentina, with month-by-month timing.",
+    "gradient": [
+      "#e0e7ff",
+      "#c7d2fe"
+    ],
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "May"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "australia",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "countryCode": "AU",
+    "tagline": "9 destinations across Australia, with month-by-month timing.",
+    "gradient": [
+      "#fecaca",
+      "#fca5a5"
+    ],
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "May",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "austria",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "countryCode": "AT",
+    "tagline": "12 destinations across Austria, with month-by-month timing.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "bosnia-herzegovina",
+    "name": "Bosnia & Herzegovina",
+    "flag": "🇧🇦",
+    "countryCode": "BA",
+    "tagline": "6 destinations across Bosnia & Herzegovina, with month-by-month timing.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "brazil",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "countryCode": "BR",
+    "tagline": "5 destinations across Brazil, with month-by-month timing.",
+    "gradient": [
+      "#ede9fe",
+      "#ddd6fe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "cambodia",
+    "name": "Cambodia",
+    "flag": "🇰🇭",
+    "countryCode": "KH",
+    "tagline": "Siem Reap timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#e0e7ff",
+      "#c7d2fe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "canada",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "countryCode": "CA",
+    "tagline": "7 destinations across Canada, with month-by-month timing.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "flag": "🇨🇱",
+    "countryCode": "CL",
+    "tagline": "4 destinations across Chile, with month-by-month timing.",
+    "gradient": [
+      "#fce7f3",
+      "#fbcfe8"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "flag": "🇨🇳",
+    "countryCode": "CN",
+    "tagline": "Shanghai timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fef9c3",
+      "#fde68a"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "colombia",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "countryCode": "CO",
+    "tagline": "4 destinations across Colombia, with month-by-month timing.",
+    "gradient": [
+      "#fee2e2",
+      "#fecaca"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Apr",
+      "May"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "flag": "🇨🇷",
+    "countryCode": "CR",
+    "tagline": "3 destinations across Costa Rica, with month-by-month timing.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "cuba",
+    "name": "Cuba",
+    "flag": "🇨🇺",
+    "countryCode": "CU",
+    "tagline": "Havana timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#dcfce7",
+      "#bbf7d0"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "czechia",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "countryCode": "CZ",
+    "tagline": "Prague timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fef9c3",
+      "#fde68a"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "denmark",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "countryCode": "DK",
+    "tagline": "10 destinations across Denmark, with month-by-month timing.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "countryCode": "EC",
+    "tagline": "2 destinations across Ecuador, with month-by-month timing.",
+    "gradient": [
+      "#f0fdf4",
+      "#bbf7d0"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "egypt",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "countryCode": "EG",
+    "tagline": "2 destinations across Egypt, with month-by-month timing.",
+    "gradient": [
+      "#dcfce7",
+      "#bbf7d0"
+    ],
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "ethiopia",
+    "name": "Ethiopia",
+    "flag": "🇪🇹",
+    "countryCode": "ET",
+    "tagline": "Addis Ababa timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#dbeafe",
+      "#bfdbfe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "fiji",
+    "name": "Fiji",
+    "flag": "🇫🇯",
+    "countryCode": "FJ",
+    "tagline": "Fiji timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fecaca",
+      "#fca5a5"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "poorMonths": [
+      "Nov",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "france",
+    "name": "France",
+    "flag": "🇫🇷",
+    "countryCode": "FR",
+    "tagline": "14 destinations across France, with month-by-month timing.",
+    "gradient": [
+      "#fee2e2",
+      "#fecaca"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun"
+    ],
+    "okMonths": [
+      "Apr",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Nov",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "germany",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "countryCode": "DE",
+    "tagline": "12 destinations across Germany, with month-by-month timing.",
+    "gradient": [
+      "#fce7f3",
+      "#fbcfe8"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "hong-kong-sar-china",
+    "name": "Hong Kong SAR China",
+    "flag": "🇭🇰",
+    "countryCode": "HK",
+    "tagline": "Hong Kong timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#dbeafe",
+      "#bfdbfe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "hungary",
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "countryCode": "HU",
+    "tagline": "Budapest timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fef3c7",
+      "#fde68a"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "india",
+    "name": "India",
+    "flag": "🇮🇳",
+    "countryCode": "IN",
+    "tagline": "2 destinations across India, with month-by-month timing.",
+    "gradient": [
+      "#fef3c7",
+      "#fde68a"
+    ],
+    "bestMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "okMonths": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "indonesia",
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "countryCode": "ID",
+    "tagline": "3 destinations across Indonesia, with month-by-month timing.",
+    "gradient": [
+      "#dbeafe",
+      "#bfdbfe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "kenya",
+    "name": "Kenya",
+    "flag": "🇰🇪",
+    "countryCode": "KE",
+    "tagline": "Nairobi timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "flag": "🇱🇦",
+    "countryCode": "LA",
+    "tagline": "Luang Prabang timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#e0e7ff",
+      "#c7d2fe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Apr",
+      "May"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "macao-sar-china",
+    "name": "Macao SAR China",
+    "flag": "🇲🇴",
+    "countryCode": "MO",
+    "tagline": "Macau timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "flag": "🇲🇾",
+    "countryCode": "MY",
+    "tagline": "3 destinations across Malaysia, with month-by-month timing.",
+    "gradient": [
+      "#ede9fe",
+      "#ddd6fe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Apr",
+      "Oct",
+      "Nov"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "mexico",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "countryCode": "MX",
+    "tagline": "7 destinations across Mexico, with month-by-month timing.",
+    "gradient": [
+      "#dbeafe",
+      "#bfdbfe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "montenegro",
+    "name": "Montenegro",
+    "flag": "🇲🇪",
+    "countryCode": "ME",
+    "tagline": "6 destinations across Montenegro, with month-by-month timing.",
+    "gradient": [
+      "#fee2e2",
+      "#fecaca"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "myanmar-burma",
+    "name": "Myanmar (Burma)",
+    "flag": "🇲🇲",
+    "countryCode": "MM",
+    "tagline": "Bagan timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#ede9fe",
+      "#ddd6fe"
+    ],
+    "bestMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "okMonths": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "flag": "🇳🇵",
+    "countryCode": "NP",
+    "tagline": "Kathmandu timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#dcfce7",
+      "#bbf7d0"
+    ],
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "May"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "netherlands",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "countryCode": "NL",
+    "tagline": "Amsterdam timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#f0fdf4",
+      "#bbf7d0"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "new-zealand",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "countryCode": "NZ",
+    "tagline": "7 destinations across New Zealand, with month-by-month timing.",
+    "gradient": [
+      "#fecaca",
+      "#fca5a5"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "nigeria",
+    "name": "Nigeria",
+    "flag": "🇳🇬",
+    "countryCode": "NG",
+    "tagline": "Lagos timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fce7f3",
+      "#fbcfe8"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "norway",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "countryCode": "NO",
+    "tagline": "12 destinations across Norway, with month-by-month timing.",
+    "gradient": [
+      "#fef3c7",
+      "#fde68a"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "flag": "🇵🇪",
+    "countryCode": "PE",
+    "tagline": "5 destinations across Peru, with month-by-month timing.",
+    "gradient": [
+      "#fce7f3",
+      "#fbcfe8"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "philippines",
+    "name": "Philippines",
+    "flag": "🇵🇭",
+    "countryCode": "PH",
+    "tagline": "2 destinations across Philippines, with month-by-month timing.",
+    "gradient": [
+      "#fee2e2",
+      "#fecaca"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "poland",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "countryCode": "PL",
+    "tagline": "11 destinations across Poland, with month-by-month timing.",
+    "gradient": [
+      "#fecaca",
+      "#fca5a5"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "rwanda",
+    "name": "Rwanda",
+    "flag": "🇷🇼",
+    "countryCode": "RW",
+    "tagline": "Kigali timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fef3c7",
+      "#fde68a"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "countryCode": "SA",
+    "tagline": "Riyadh timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#f0fdf4",
+      "#bbf7d0"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Apr",
+      "May"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "serbia",
+    "name": "Serbia",
+    "flag": "🇷🇸",
+    "countryCode": "RS",
+    "tagline": "6 destinations across Serbia, with month-by-month timing.",
+    "gradient": [
+      "#e0e7ff",
+      "#c7d2fe"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "countryCode": "SG",
+    "tagline": "Singapore timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#ede9fe",
+      "#ddd6fe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "May",
+      "Jun",
+      "Jul"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "slovakia",
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "countryCode": "SK",
+    "tagline": "Bratislava timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fee2e2",
+      "#fecaca"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "slovenia",
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "countryCode": "SI",
+    "tagline": "10 destinations across Slovenia, with month-by-month timing.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "south-africa",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "countryCode": "ZA",
+    "tagline": "2 destinations across South Africa, with month-by-month timing.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "May",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "south-korea",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "countryCode": "KR",
+    "tagline": "2 destinations across South Korea, with month-by-month timing.",
+    "gradient": [
+      "#fef9c3",
+      "#fde68a"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May",
+      "Jun"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jul",
+      "Aug"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "flag": "🇱🇰",
+    "countryCode": "LK",
+    "tagline": "Sri Lanka timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fef9c3",
+      "#fde68a"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "sweden",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "countryCode": "SE",
+    "tagline": "12 destinations across Sweden, with month-by-month timing.",
+    "gradient": [
+      "#dcfce7",
+      "#bbf7d0"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "switzerland",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "countryCode": "CH",
+    "tagline": "12 destinations across Switzerland, with month-by-month timing.",
+    "gradient": [
+      "#fef3c7",
+      "#fde68a"
+    ],
+    "bestMonths": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "flag": "🇹🇼",
+    "countryCode": "TW",
+    "tagline": "Taipei timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#dbeafe",
+      "#bfdbfe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "tanzania",
+    "name": "Tanzania",
+    "flag": "🇹🇿",
+    "countryCode": "TZ",
+    "tagline": "2 destinations across Tanzania, with month-by-month timing.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "tunisia",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "countryCode": "TN",
+    "tagline": "Tunis timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [
+      "Mar",
+      "Apr",
+      "May",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "okMonths": [
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "uae",
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "countryCode": "AE",
+    "tagline": "2 destinations across United Arab Emirates, with month-by-month timing.",
+    "gradient": [
+      "#fee2e2",
+      "#fecaca"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "poorMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Nov",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "countryCode": "GB",
+    "tagline": "14 destinations across United Kingdom, with month-by-month timing.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "united-states",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "countryCode": "US",
+    "tagline": "37 destinations across United States, with month-by-month timing.",
+    "gradient": [
+      "#cffafe",
+      "#a5f3fc"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "vanuatu",
+    "name": "Vanuatu",
+    "flag": "🇻🇺",
+    "countryCode": "VU",
+    "tagline": "Vanuatu timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#dbeafe",
+      "#bfdbfe"
+    ],
+    "bestMonths": [],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "poorMonths": [
+      "Nov",
+      "Dec"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  },
+  {
+    "slug": "zambia",
+    "name": "Zambia",
+    "flag": "🇿🇲",
+    "countryCode": "ZM",
+    "tagline": "Victoria Falls timing intelligence — month-by-month breakdown.",
+    "gradient": [
+      "#fff7ed",
+      "#fed7aa"
+    ],
+    "bestMonths": [
+      "Apr",
+      "May"
+    ],
+    "okMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "poorMonths": [
+      "Jun",
+      "Jul",
+      "Aug"
+    ],
+    "majorDisruptions": [],
+    "weather": {
+      "summary": ""
+    },
+    "highlights": [],
+    "auto": true
+  }
+]

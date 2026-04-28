@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "weights": {
+    "balanced": {
+      "originPressure": 0.3,
+      "destinationDisruption": 0.3,
+      "seasonality": 0.4
+    },
+    "cheapest": {
+      "originPressure": 0.5,
+      "destinationDisruption": 0.3,
+      "seasonality": 0.2
+    },
+    "least-crowded": {
+      "originPressure": 0.35,
+      "destinationDisruption": 0.45,
+      "seasonality": 0.2
+    },
+    "best-weather": {
+      "originPressure": 0.15,
+      "destinationDisruption": 0.2,
+      "seasonality": 0.65
+    }
+  },
+  "severityScores": {
+    "severe": 95,
+    "high": 75,
+    "medium": 50,
+    "low": 25,
+    "local": 15,
+    "none": 0
+  },
+  "demandImpactScores": {
+    "severe": 90,
+    "high": 70,
+    "medium": 45,
+    "low": 20,
+    "none": 0
+  },
+  "thresholds": {
+    "recommend": 70,
+    "acceptable": 50,
+    "avoid": 35
+  }
+}

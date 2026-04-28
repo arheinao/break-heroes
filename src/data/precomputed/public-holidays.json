@@ -1,0 +1,4063 @@
+{
+  "generatedAt": "2026-04-28T10:59:00.598Z",
+  "years": [
+    2026,
+    2027,
+    2028
+  ],
+  "countries": {
+    "JP": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "january_2nd",
+          "name": "January 2nd",
+          "date": "2026-01-02",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "january_3rd",
+          "name": "January 3rd",
+          "date": "2026-01-03",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "coming_of_age_day",
+          "name": "Coming of Age Day",
+          "date": "2026-01-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "foundation_day",
+          "name": "Foundation Day",
+          "date": "2026-02-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "emperors_birthday",
+          "name": "Emperor's Birthday",
+          "date": "2026-02-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_equinox_day",
+          "name": "Spring Equinox Day",
+          "date": "2026-03-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "showa_day",
+          "name": "Showa Day",
+          "date": "2026-04-29",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day",
+          "name": "Constitution Day",
+          "date": "2026-05-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "greenery_day",
+          "name": "Greenery Day",
+          "date": "2026-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "childrens_day",
+          "name": "Children's Day",
+          "date": "2026-05-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day_substitute_day",
+          "name": "Constitution Day (substitute day)",
+          "date": "2026-05-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "marine_day",
+          "name": "Marine Day",
+          "date": "2026-07-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "mountain_day",
+          "name": "Mountain Day",
+          "date": "2026-08-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "respect-for-the-aged_day",
+          "name": "Respect-for-the-Aged Day",
+          "date": "2026-09-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "citizens_holiday",
+          "name": "Citizens' Holiday",
+          "date": "2026-09-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "autumnal_equinox_day",
+          "name": "Autumnal Equinox Day",
+          "date": "2026-09-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "sports_day",
+          "name": "Sports Day",
+          "date": "2026-10-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "culture_day",
+          "name": "Culture Day",
+          "date": "2026-11-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labor_thanksgiving_day",
+          "name": "Labor Thanksgiving Day",
+          "date": "2026-11-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2026-12-31",
+          "type": "bank",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "january_2nd",
+          "name": "January 2nd",
+          "date": "2027-01-02",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "january_3rd",
+          "name": "January 3rd",
+          "date": "2027-01-03",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "coming_of_age_day",
+          "name": "Coming of Age Day",
+          "date": "2027-01-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "foundation_day",
+          "name": "Foundation Day",
+          "date": "2027-02-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "emperors_birthday",
+          "name": "Emperor's Birthday",
+          "date": "2027-02-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_equinox_day",
+          "name": "Spring Equinox Day",
+          "date": "2027-03-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_equinox_day_substitute_day",
+          "name": "Spring Equinox Day (substitute day)",
+          "date": "2027-03-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "showa_day",
+          "name": "Showa Day",
+          "date": "2027-04-29",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day",
+          "name": "Constitution Day",
+          "date": "2027-05-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "greenery_day",
+          "name": "Greenery Day",
+          "date": "2027-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "childrens_day",
+          "name": "Children's Day",
+          "date": "2027-05-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "marine_day",
+          "name": "Marine Day",
+          "date": "2027-07-19",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "mountain_day",
+          "name": "Mountain Day",
+          "date": "2027-08-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "respect-for-the-aged_day",
+          "name": "Respect-for-the-Aged Day",
+          "date": "2027-09-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "autumnal_equinox_day",
+          "name": "Autumnal Equinox Day",
+          "date": "2027-09-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "sports_day",
+          "name": "Sports Day",
+          "date": "2027-10-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "culture_day",
+          "name": "Culture Day",
+          "date": "2027-11-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labor_thanksgiving_day",
+          "name": "Labor Thanksgiving Day",
+          "date": "2027-11-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2027-12-31",
+          "type": "bank",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "january_2nd",
+          "name": "January 2nd",
+          "date": "2028-01-02",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "january_3rd",
+          "name": "January 3rd",
+          "date": "2028-01-03",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "coming_of_age_day",
+          "name": "Coming of Age Day",
+          "date": "2028-01-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "foundation_day",
+          "name": "Foundation Day",
+          "date": "2028-02-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "emperors_birthday",
+          "name": "Emperor's Birthday",
+          "date": "2028-02-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_equinox_day",
+          "name": "Spring Equinox Day",
+          "date": "2028-03-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "showa_day",
+          "name": "Showa Day",
+          "date": "2028-04-29",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day",
+          "name": "Constitution Day",
+          "date": "2028-05-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "greenery_day",
+          "name": "Greenery Day",
+          "date": "2028-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "childrens_day",
+          "name": "Children's Day",
+          "date": "2028-05-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "marine_day",
+          "name": "Marine Day",
+          "date": "2028-07-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "mountain_day",
+          "name": "Mountain Day",
+          "date": "2028-08-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "respect-for-the-aged_day",
+          "name": "Respect-for-the-Aged Day",
+          "date": "2028-09-18",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "autumnal_equinox_day",
+          "name": "Autumnal Equinox Day",
+          "date": "2028-09-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "sports_day",
+          "name": "Sports Day",
+          "date": "2028-10-09",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "culture_day",
+          "name": "Culture Day",
+          "date": "2028-11-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labor_thanksgiving_day",
+          "name": "Labor Thanksgiving Day",
+          "date": "2028-11-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2028-12-31",
+          "type": "bank",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "PT": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2026-04-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2026-04-05",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "liberty_day",
+          "name": "Liberty Day",
+          "date": "2026-04-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "corpus_christi",
+          "name": "Corpus Christi",
+          "date": "2026-06-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "portugal_day",
+          "name": "Portugal Day",
+          "date": "2026-06-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2026-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "implantao_da_repblica",
+          "name": "Implantação da República",
+          "date": "2026-10-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2026-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "restaurao_da_independncia",
+          "name": "Restauração da Independência",
+          "date": "2026-12-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2026-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2027-03-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2027-03-28",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "liberty_day",
+          "name": "Liberty Day",
+          "date": "2027-04-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "corpus_christi",
+          "name": "Corpus Christi",
+          "date": "2027-05-27",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "portugal_day",
+          "name": "Portugal Day",
+          "date": "2027-06-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2027-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "implantao_da_repblica",
+          "name": "Implantação da República",
+          "date": "2027-10-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2027-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "restaurao_da_independncia",
+          "name": "Restauração da Independência",
+          "date": "2027-12-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2027-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2028-04-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "liberty_day",
+          "name": "Liberty Day",
+          "date": "2028-04-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "portugal_day",
+          "name": "Portugal Day",
+          "date": "2028-06-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "corpus_christi",
+          "name": "Corpus Christi",
+          "date": "2028-06-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2028-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "implantao_da_repblica",
+          "name": "Implantação da República",
+          "date": "2028-10-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2028-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "restaurao_da_independncia",
+          "name": "Restauração da Independência",
+          "date": "2028-12-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2028-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "IT": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2026-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2026-04-05",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "liberation_day",
+          "name": "Liberation Day",
+          "date": "2026-04-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "republic_day",
+          "name": "Republic Day",
+          "date": "2026-06-02",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2026-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "francis_of_assisi",
+          "name": "Francis of Assisi",
+          "date": "2026-10-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2026-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2026-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2026-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2027-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2027-03-28",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-03-29",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "liberation_day",
+          "name": "Liberation Day",
+          "date": "2027-04-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "republic_day",
+          "name": "Republic Day",
+          "date": "2027-06-02",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2027-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "francis_of_assisi",
+          "name": "Francis of Assisi",
+          "date": "2027-10-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2027-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2027-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2027-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2028-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2028-04-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "liberation_day",
+          "name": "Liberation Day",
+          "date": "2028-04-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "republic_day",
+          "name": "Republic Day",
+          "date": "2028-06-02",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2028-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "francis_of_assisi",
+          "name": "Francis of Assisi",
+          "date": "2028-10-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2028-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2028-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2028-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ]
+    },
+    "TH": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "makha_bucha",
+          "name": "Makha Bucha",
+          "date": "2026-03-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "chakri_memorial_day",
+          "name": "Chakri Memorial Day",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2026-04-13",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2026-04-14",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2026-04-15",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "coronation_day",
+          "name": "Coronation Day",
+          "date": "2026-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "vesak_day",
+          "name": "Vesak Day",
+          "date": "2026-05-31",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "queen_suthidas_birthday",
+          "name": "Queen Suthida's Birthday",
+          "date": "2026-06-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "kings_birthday",
+          "name": "King's Birthday",
+          "date": "2026-07-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "asalha_puja",
+          "name": "Asalha Puja",
+          "date": "2026-07-29",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "buddhist_lent",
+          "name": "Buddhist Lent",
+          "date": "2026-07-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "the_queen_mothers_birthday",
+          "name": "The Queen Mother's Birthday",
+          "date": "2026-08-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_bhumibol_adulyadej_memorial_day",
+          "name": "King Bhumibol Adulyadej Memorial Day",
+          "date": "2026-10-13",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_chulalongkorn_day",
+          "name": "King Chulalongkorn Day",
+          "date": "2026-10-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_bhumibol_adulyadejs_birthday",
+          "name": "King Bhumibol Adulyadej's Birthday",
+          "date": "2026-12-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day",
+          "name": "Constitution Day",
+          "date": "2026-12-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2026-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "chakri_memorial_day",
+          "name": "Chakri Memorial Day",
+          "date": "2027-04-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2027-04-13",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2027-04-14",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2027-04-15",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "coronation_day",
+          "name": "Coronation Day",
+          "date": "2027-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "queen_suthidas_birthday",
+          "name": "Queen Suthida's Birthday",
+          "date": "2027-06-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "kings_birthday",
+          "name": "King's Birthday",
+          "date": "2027-07-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "the_queen_mothers_birthday",
+          "name": "The Queen Mother's Birthday",
+          "date": "2027-08-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_bhumibol_adulyadej_memorial_day",
+          "name": "King Bhumibol Adulyadej Memorial Day",
+          "date": "2027-10-13",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_chulalongkorn_day",
+          "name": "King Chulalongkorn Day",
+          "date": "2027-10-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_bhumibol_adulyadejs_birthday",
+          "name": "King Bhumibol Adulyadej's Birthday",
+          "date": "2027-12-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day",
+          "name": "Constitution Day",
+          "date": "2027-12-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2027-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "chakri_memorial_day",
+          "name": "Chakri Memorial Day",
+          "date": "2028-04-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2028-04-13",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "songkran_festival",
+          "name": "Songkran Festival",
+          "date": "2028-04-15",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "coronation_day",
+          "name": "Coronation Day",
+          "date": "2028-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "queen_suthidas_birthday",
+          "name": "Queen Suthida's Birthday",
+          "date": "2028-06-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "kings_birthday",
+          "name": "King's Birthday",
+          "date": "2028-07-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "the_queen_mothers_birthday",
+          "name": "The Queen Mother's Birthday",
+          "date": "2028-08-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_bhumibol_adulyadej_memorial_day",
+          "name": "King Bhumibol Adulyadej Memorial Day",
+          "date": "2028-10-13",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_chulalongkorn_day",
+          "name": "King Chulalongkorn Day",
+          "date": "2028-10-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "king_bhumibol_adulyadejs_birthday",
+          "name": "King Bhumibol Adulyadej's Birthday",
+          "date": "2028-12-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "constitution_day",
+          "name": "Constitution Day",
+          "date": "2028-12-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2028-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "GR": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2026-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ash_sunday",
+          "name": "Ash Sunday",
+          "date": "2026-02-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "annunciation_anniversary_of_1821_revolution",
+          "name": "Annunciation, Anniversary of 1821 Revolution",
+          "date": "2026-03-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2026-04-10",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2026-04-12",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-13",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "date": "2026-05-31",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2026-06-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2026-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_holiday",
+          "name": "National Holiday",
+          "date": "2026-10-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2026-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2027-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ash_sunday",
+          "name": "Ash Sunday",
+          "date": "2027-03-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "annunciation_anniversary_of_1821_revolution",
+          "name": "Annunciation, Anniversary of 1821 Revolution",
+          "date": "2027-03-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2027-04-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2027-05-02",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-05-03",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "date": "2027-06-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2027-06-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2027-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_holiday",
+          "name": "National Holiday",
+          "date": "2027-10-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2027-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2028-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ash_sunday",
+          "name": "Ash Sunday",
+          "date": "2028-02-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "annunciation_anniversary_of_1821_revolution",
+          "name": "Annunciation, Anniversary of 1821 Revolution",
+          "date": "2028-03-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2028-04-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "date": "2028-06-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2028-06-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2028-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_holiday",
+          "name": "National Holiday",
+          "date": "2028-10-28",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2028-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ]
+    },
+    "ES": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2026-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "maundy_thursday",
+          "name": "Maundy Thursday",
+          "date": "2026-04-02",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2026-04-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2026-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "fiesta_nacional_de_espaa",
+          "name": "Fiesta Nacional de España",
+          "date": "2026-10-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2026-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "da_de_la_constitucin_espaola",
+          "name": "Día de la Constitución Española",
+          "date": "2026-12-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2026-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2027-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "maundy_thursday",
+          "name": "Maundy Thursday",
+          "date": "2027-03-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2027-03-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2027-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "fiesta_nacional_de_espaa",
+          "name": "Fiesta Nacional de España",
+          "date": "2027-10-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2027-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "da_de_la_constitucin_espaola",
+          "name": "Día de la Constitución Española",
+          "date": "2027-12-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2027-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2028-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "maundy_thursday",
+          "name": "Maundy Thursday",
+          "date": "2028-04-13",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2028-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "fiesta_nacional_de_espaa",
+          "name": "Fiesta Nacional de España",
+          "date": "2028-10-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2028-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "da_de_la_constitucin_espaola",
+          "name": "Día de la Constitución Española",
+          "date": "2028-12-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "immaculate_conception",
+          "name": "Immaculate Conception",
+          "date": "2028-12-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "HR": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2026-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "orthodox_christmas",
+          "name": "Orthodox Christmas",
+          "date": "2026-01-07",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "end_of_ramadan_eid_al-fitr",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "date": "2026-03-20",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2026-04-05",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "orthodox_easter",
+          "name": "Orthodox Easter",
+          "date": "2026-04-12",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "orthodox_easter_monday",
+          "name": "Orthodox Easter Monday",
+          "date": "2026-04-13",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "feast_of_the_sacrifice_eid_al-adha",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "date": "2026-05-27",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "national_day",
+          "name": "National Day",
+          "date": "2026-05-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "corpus_christi",
+          "name": "Corpus Christi",
+          "date": "2026-06-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anti-fascist_struggle_day",
+          "name": "Anti-Fascist Struggle Day",
+          "date": "2026-06-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "victory_and_homeland_thanksgiving_day_and_the_day_of_croatia",
+          "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+          "date": "2026-08-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2026-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "yom_kippur",
+          "name": "Yom Kippur",
+          "date": "2026-09-12",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "yom_kippur",
+          "name": "Yom Kippur",
+          "date": "2026-09-21",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2026-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "remembrance_day",
+          "name": "Remembrance Day",
+          "date": "2026-11-18",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2026-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2027-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "orthodox_christmas",
+          "name": "Orthodox Christmas",
+          "date": "2027-01-07",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "end_of_ramadan_eid_al-fitr",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "date": "2027-03-09",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2027-03-28",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-03-29",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "orthodox_easter",
+          "name": "Orthodox Easter",
+          "date": "2027-05-02",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "orthodox_easter_monday",
+          "name": "Orthodox Easter Monday",
+          "date": "2027-05-03",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "feast_of_the_sacrifice_eid_al-adha",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "date": "2027-05-16",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "corpus_christi",
+          "name": "Corpus Christi",
+          "date": "2027-05-27",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_day",
+          "name": "National Day",
+          "date": "2027-05-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anti-fascist_struggle_day",
+          "name": "Anti-Fascist Struggle Day",
+          "date": "2027-06-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "victory_and_homeland_thanksgiving_day_and_the_day_of_croatia",
+          "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+          "date": "2027-08-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2027-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "yom_kippur",
+          "name": "Yom Kippur",
+          "date": "2027-10-02",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "yom_kippur",
+          "name": "Yom Kippur",
+          "date": "2027-10-11",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2027-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "remembrance_day",
+          "name": "Remembrance Day",
+          "date": "2027-11-18",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2027-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "epiphany",
+          "name": "Epiphany",
+          "date": "2028-01-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "orthodox_christmas",
+          "name": "Orthodox Christmas",
+          "date": "2028-01-07",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "end_of_ramadan_eid_al-fitr",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "date": "2028-02-26",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2028-04-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "orthodox_easter",
+          "name": "Orthodox Easter",
+          "date": "2028-04-16",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "orthodox_easter_monday",
+          "name": "Orthodox Easter Monday",
+          "date": "2028-04-17",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "feast_of_the_sacrifice_eid_al-adha",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "date": "2028-05-05",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "national_day",
+          "name": "National Day",
+          "date": "2028-05-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "corpus_christi",
+          "name": "Corpus Christi",
+          "date": "2028-06-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anti-fascist_struggle_day",
+          "name": "Anti-Fascist Struggle Day",
+          "date": "2028-06-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "victory_and_homeland_thanksgiving_day_and_the_day_of_croatia",
+          "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+          "date": "2028-08-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2028-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "yom_kippur",
+          "name": "Yom Kippur",
+          "date": "2028-09-21",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "yom_kippur",
+          "name": "Yom Kippur",
+          "date": "2028-09-30",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2028-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "remembrance_day",
+          "name": "Remembrance Day",
+          "date": "2028-11-18",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2028-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ]
+    },
+    "MA": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "anniversary_of_the_independence_manifesto",
+          "name": "Anniversary of the Independence Manifesto",
+          "date": "2026-01-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "end_of_ramadan_eid_al-fitr",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "date": "2026-03-20",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "feast_of_the_sacrifice_eid_al-adha",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "date": "2026-05-27",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "islamic_new_year",
+          "name": "Islamic New Year",
+          "date": "2026-06-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "feast_of_the_throne",
+          "name": "Feast of the Throne",
+          "date": "2026-07-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_recovery_oued_ed-dahab",
+          "name": "Anniversary of the Recovery Oued Ed-Dahab",
+          "date": "2026-08-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_revolution_of_the_king_and_the_people",
+          "name": "Anniversary of the Revolution of the King and the People",
+          "date": "2026-08-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "youth_day",
+          "name": "Youth Day",
+          "date": "2026-08-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "birthday_of_muhammad_mawlid",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "date": "2026-08-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_green_march",
+          "name": "Anniversary of the Green March",
+          "date": "2026-11-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day",
+          "name": "Independence Day",
+          "date": "2026-11-18",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "anniversary_of_the_independence_manifesto",
+          "name": "Anniversary of the Independence Manifesto",
+          "date": "2027-01-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "end_of_ramadan_eid_al-fitr",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "date": "2027-03-09",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "feast_of_the_sacrifice_eid_al-adha",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "date": "2027-05-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "islamic_new_year",
+          "name": "Islamic New Year",
+          "date": "2027-06-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "feast_of_the_throne",
+          "name": "Feast of the Throne",
+          "date": "2027-07-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "birthday_of_muhammad_mawlid",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "date": "2027-08-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_recovery_oued_ed-dahab",
+          "name": "Anniversary of the Recovery Oued Ed-Dahab",
+          "date": "2027-08-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_revolution_of_the_king_and_the_people",
+          "name": "Anniversary of the Revolution of the King and the People",
+          "date": "2027-08-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "youth_day",
+          "name": "Youth Day",
+          "date": "2027-08-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_green_march",
+          "name": "Anniversary of the Green March",
+          "date": "2027-11-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day",
+          "name": "Independence Day",
+          "date": "2027-11-18",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "anniversary_of_the_independence_manifesto",
+          "name": "Anniversary of the Independence Manifesto",
+          "date": "2028-01-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "end_of_ramadan_eid_al-fitr",
+          "name": "End of Ramadan (Eid al-Fitr)",
+          "date": "2028-02-26",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "feast_of_the_sacrifice_eid_al-adha",
+          "name": "Feast of the Sacrifice (Eid al-Adha)",
+          "date": "2028-05-05",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "islamic_new_year",
+          "name": "Islamic New Year",
+          "date": "2028-05-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "feast_of_the_throne",
+          "name": "Feast of the Throne",
+          "date": "2028-07-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "birthday_of_muhammad_mawlid",
+          "name": "Birthday of Muhammad (Mawlid)",
+          "date": "2028-08-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_recovery_oued_ed-dahab",
+          "name": "Anniversary of the Recovery Oued Ed-Dahab",
+          "date": "2028-08-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_revolution_of_the_king_and_the_people",
+          "name": "Anniversary of the Revolution of the King and the People",
+          "date": "2028-08-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "youth_day",
+          "name": "Youth Day",
+          "date": "2028-08-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "anniversary_of_the_green_march",
+          "name": "Anniversary of the Green March",
+          "date": "2028-11-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day",
+          "name": "Independence Day",
+          "date": "2028-11-18",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ]
+    },
+    "VN": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "vietnamese_new_year_holidays",
+          "name": "Vietnamese New Year Holidays",
+          "date": "2026-02-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "vietnamese_new_year",
+          "name": "Vietnamese New Year",
+          "date": "2026-02-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "hung_kings_commemorations",
+          "name": "Hung Kings Commemorations",
+          "date": "2026-04-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "day_of_liberating_the_south_for_national_reunification",
+          "name": "Day of liberating the South for national reunification",
+          "date": "2026-04-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_day",
+          "name": "National Day",
+          "date": "2026-09-02",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "vietnamese_new_year_holidays",
+          "name": "Vietnamese New Year Holidays",
+          "date": "2027-02-05",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "vietnamese_new_year",
+          "name": "Vietnamese New Year",
+          "date": "2027-02-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "hung_kings_commemorations",
+          "name": "Hung Kings Commemorations",
+          "date": "2027-04-16",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "day_of_liberating_the_south_for_national_reunification",
+          "name": "Day of liberating the South for national reunification",
+          "date": "2027-04-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_day",
+          "name": "National Day",
+          "date": "2027-09-02",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "vietnamese_new_year_holidays",
+          "name": "Vietnamese New Year Holidays",
+          "date": "2028-01-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "vietnamese_new_year",
+          "name": "Vietnamese New Year",
+          "date": "2028-01-26",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "hung_kings_commemorations",
+          "name": "Hung Kings Commemorations",
+          "date": "2028-04-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "day_of_liberating_the_south_for_national_reunification",
+          "name": "Day of liberating the South for national reunification",
+          "date": "2028-04-30",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_day",
+          "name": "National Day",
+          "date": "2028-09-02",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ]
+    },
+    "IS": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "maundy_thursday",
+          "name": "Maundy Thursday",
+          "date": "2026-04-02",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2026-04-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2026-04-05",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "first_day_of_summer",
+          "name": "First Day of Summer",
+          "date": "2026-04-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2026-05-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "date": "2026-05-24",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2026-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "icelandic_national_day",
+          "name": "Icelandic National Day",
+          "date": "2026-06-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "commerce_day",
+          "name": "Commerce Day",
+          "date": "2026-08-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2026-12-24",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2026-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2026-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "maundy_thursday",
+          "name": "Maundy Thursday",
+          "date": "2027-03-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2027-03-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2027-03-28",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-03-29",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "first_day_of_summer",
+          "name": "First Day of Summer",
+          "date": "2027-04-22",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2027-05-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "date": "2027-05-16",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2027-05-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "icelandic_national_day",
+          "name": "Icelandic National Day",
+          "date": "2027-06-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "commerce_day",
+          "name": "Commerce Day",
+          "date": "2027-08-02",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2027-12-24",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2027-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2027-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "maundy_thursday",
+          "name": "Maundy Thursday",
+          "date": "2028-04-13",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_sunday",
+          "name": "Easter Sunday",
+          "date": "2028-04-16",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "first_day_of_summer",
+          "name": "First Day of Summer",
+          "date": "2028-04-20",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2028-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "pentecost",
+          "name": "Pentecost",
+          "date": "2028-06-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2028-06-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "icelandic_national_day",
+          "name": "Icelandic National Day",
+          "date": "2028-06-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "commerce_day",
+          "name": "Commerce Day",
+          "date": "2028-08-07",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2028-12-24",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2028-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2028-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "GB": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2026-04-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "early_may_bank_holiday",
+          "name": "Early May bank holiday",
+          "date": "2026-05-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_bank_holiday",
+          "name": "Spring bank holiday",
+          "date": "2026-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2026-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "boxing_day_substitute_day",
+          "name": "Boxing Day (substitute day)",
+          "date": "2026-12-28",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2027-03-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-03-29",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "early_may_bank_holiday",
+          "name": "Early May bank holiday",
+          "date": "2027-05-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_bank_holiday",
+          "name": "Spring bank holiday",
+          "date": "2027-05-31",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2027-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day_substitute_day",
+          "name": "Christmas Day (substitute day)",
+          "date": "2027-12-27",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day_substitute_day",
+          "name": "Boxing Day (substitute day)",
+          "date": "2027-12-28",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "new_years_day_substitute_day",
+          "name": "New Year's Day (substitute day)",
+          "date": "2028-01-03",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "early_may_bank_holiday",
+          "name": "Early May bank holiday",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "spring_bank_holiday",
+          "name": "Spring bank holiday",
+          "date": "2028-05-29",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2028-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        }
+      ]
+    },
+    "US": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "martin_luther_king_jr_day",
+          "name": "Martin Luther King Jr. Day",
+          "date": "2026-01-19",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "washingtons_birthday",
+          "name": "Washington's Birthday",
+          "date": "2026-02-16",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "memorial_day",
+          "name": "Memorial Day",
+          "date": "2026-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "juneteenth",
+          "name": "Juneteenth",
+          "date": "2026-06-19",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day_substitute_day",
+          "name": "Independence Day (substitute day)",
+          "date": "2026-07-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day",
+          "name": "Independence Day",
+          "date": "2026-07-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-09-07",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "columbus_day",
+          "name": "Columbus Day",
+          "date": "2026-10-12",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "veterans_day",
+          "name": "Veterans Day",
+          "date": "2026-11-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "thanksgiving_day",
+          "name": "Thanksgiving Day",
+          "date": "2026-11-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2026-12-24",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "martin_luther_king_jr_day",
+          "name": "Martin Luther King Jr. Day",
+          "date": "2027-01-18",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "washingtons_birthday",
+          "name": "Washington's Birthday",
+          "date": "2027-02-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "memorial_day",
+          "name": "Memorial Day",
+          "date": "2027-05-31",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "juneteenth_substitute_day",
+          "name": "Juneteenth (substitute day)",
+          "date": "2027-06-18",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "juneteenth",
+          "name": "Juneteenth",
+          "date": "2027-06-19",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day",
+          "name": "Independence Day",
+          "date": "2027-07-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day_substitute_day",
+          "name": "Independence Day (substitute day)",
+          "date": "2027-07-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-09-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "columbus_day",
+          "name": "Columbus Day",
+          "date": "2027-10-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "veterans_day",
+          "name": "Veterans Day",
+          "date": "2027-11-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "thanksgiving_day",
+          "name": "Thanksgiving Day",
+          "date": "2027-11-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day_substitute_day",
+          "name": "Christmas Day (substitute day)",
+          "date": "2027-12-24",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2027-12-24",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "new_years_day_substitute_day",
+          "name": "New Year's Day (substitute day)",
+          "date": "2027-12-31",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "martin_luther_king_jr_day",
+          "name": "Martin Luther King Jr. Day",
+          "date": "2028-01-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "washingtons_birthday",
+          "name": "Washington's Birthday",
+          "date": "2028-02-21",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "memorial_day",
+          "name": "Memorial Day",
+          "date": "2028-05-29",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "juneteenth",
+          "name": "Juneteenth",
+          "date": "2028-06-19",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "independence_day",
+          "name": "Independence Day",
+          "date": "2028-07-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-09-04",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "columbus_day",
+          "name": "Columbus Day",
+          "date": "2028-10-09",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "veterans_day_substitute_day",
+          "name": "Veterans Day (substitute day)",
+          "date": "2028-11-10",
+          "type": "bank",
+          "impactHint": "medium"
+        },
+        {
+          "key": "veterans_day",
+          "name": "Veterans Day",
+          "date": "2028-11-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "thanksgiving_day",
+          "name": "Thanksgiving Day",
+          "date": "2028-11-23",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2028-12-24",
+          "type": "optional",
+          "impactHint": "low"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "DE": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2026-04-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2026-05-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2026-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_holiday",
+          "name": "National Holiday",
+          "date": "2026-10-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2026-12-24",
+          "type": "bank",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2026-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2026-12-31",
+          "type": "bank",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2027-03-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-03-29",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2027-05-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2027-05-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_holiday",
+          "name": "National Holiday",
+          "date": "2027-10-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2027-12-24",
+          "type": "bank",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2027-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2027-12-31",
+          "type": "bank",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "good_friday",
+          "name": "Good Friday",
+          "date": "2028-04-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2028-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2028-06-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "national_holiday",
+          "name": "National Holiday",
+          "date": "2028-10-03",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_eve",
+          "name": "Christmas Eve",
+          "date": "2028-12-24",
+          "type": "bank",
+          "impactHint": "high"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "boxing_day",
+          "name": "Boxing Day",
+          "date": "2028-12-26",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "new_years_eve",
+          "name": "New Year's Eve",
+          "date": "2028-12-31",
+          "type": "bank",
+          "impactHint": "high"
+        }
+      ]
+    },
+    "FR": {
+      "2026": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2026-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2026-04-06",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2026-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "victory_day",
+          "name": "Victory Day",
+          "date": "2026-05-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2026-05-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2026-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "bastille_day",
+          "name": "Bastille Day",
+          "date": "2026-07-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2026-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2026-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "armistice_day",
+          "name": "Armistice Day",
+          "date": "2026-11-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2026-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2027": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2027-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2027-03-29",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2027-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2027-05-06",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "victory_day",
+          "name": "Victory Day",
+          "date": "2027-05-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2027-05-17",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "bastille_day",
+          "name": "Bastille Day",
+          "date": "2027-07-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2027-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2027-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "armistice_day",
+          "name": "Armistice Day",
+          "date": "2027-11-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2027-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ],
+      "2028": [
+        {
+          "key": "new_years_day",
+          "name": "New Year's Day",
+          "date": "2028-01-01",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "easter_monday",
+          "name": "Easter Monday",
+          "date": "2028-04-17",
+          "type": "public",
+          "impactHint": "high"
+        },
+        {
+          "key": "labour_day",
+          "name": "Labour Day",
+          "date": "2028-05-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "victory_day",
+          "name": "Victory Day",
+          "date": "2028-05-08",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "ascension_day",
+          "name": "Ascension Day",
+          "date": "2028-05-25",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "whit_monday",
+          "name": "Whit Monday",
+          "date": "2028-06-05",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "bastille_day",
+          "name": "Bastille Day",
+          "date": "2028-07-14",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "assumption",
+          "name": "Assumption",
+          "date": "2028-08-15",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "all_saints_day",
+          "name": "All Saints' Day",
+          "date": "2028-11-01",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "armistice_day",
+          "name": "Armistice Day",
+          "date": "2028-11-11",
+          "type": "public",
+          "impactHint": "medium"
+        },
+        {
+          "key": "christmas_day",
+          "name": "Christmas Day",
+          "date": "2028-12-25",
+          "type": "public",
+          "impactHint": "high"
+        }
+      ]
+    }
+  }
+}

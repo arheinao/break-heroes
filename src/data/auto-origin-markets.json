@@ -1,0 +1,450 @@
+[
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia & Herzegovina",
+    "flag": "🇧🇦",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "flag": "🇰🇭",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "flag": "🇨🇱",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "flag": "🇨🇳",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "flag": "🇨🇷",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "flag": "🇨🇺",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "flag": "🇪🇹",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "flag": "🇫🇯",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong SAR China",
+    "flag": "🇭🇰",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "flag": "🇮🇳",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "flag": "🇰🇪",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "flag": "🇱🇦",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "MO",
+    "name": "Macao SAR China",
+    "flag": "🇲🇴",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "flag": "🇲🇾",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "flag": "🇲🇪",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar (Burma)",
+    "flag": "🇲🇲",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "flag": "🇳🇵",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "flag": "🇳🇬",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "flag": "🇵🇪",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "flag": "🇵🇭",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "flag": "🇷🇼",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "flag": "🇷🇸",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "flag": "🇱🇰",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "flag": "🇹🇼",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "flag": "🇹🇿",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "flag": "🇹🇭",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "flag": "🇻🇺",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "flag": "🇻🇳",
+    "schoolBreaks": [],
+    "auto": true
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "flag": "🇿🇲",
+    "schoolBreaks": [],
+    "auto": true
+  }
+]

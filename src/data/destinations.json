@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "countryCode": "JP",
+    "tagline": "Cherry blossoms, temples, and timing that matters more than you think.",
+    "gradient": ["#fecaca", "#fca5a5"],
+    "bestMonths": ["Apr", "May", "Oct", "Nov"],
+    "okMonths": ["Mar", "Jun", "Sep", "Dec"],
+    "poorMonths": ["Jan", "Feb", "Jul", "Aug"],
+    "majorDisruptions": [
+      {
+        "key": "golden_week",
+        "name": "Golden Week",
+        "approxDates": "Apr 29 – May 5",
+        "severity": "severe",
+        "note": "Peak domestic travel. Most museums and smaller shops close. Flights 40%+ above seasonal average."
+      },
+      {
+        "key": "obon",
+        "name": "Obon",
+        "approxDates": "Aug 13 – Aug 16",
+        "severity": "high",
+        "note": "Major ancestral observance. Shinkansen and domestic flights heavily booked."
+      },
+      {
+        "key": "new_year",
+        "name": "Shōgatsu (New Year)",
+        "approxDates": "Dec 29 – Jan 3",
+        "severity": "high",
+        "note": "Many businesses close for several days. Quiet but limited."
+      }
+    ],
+    "weather": {
+      "summary": "Four distinct seasons. Spring and autumn offer the most reliable weather.",
+      "rainy": ["Jun", "Jul"],
+      "typhoon": ["Aug", "Sep"]
+    },
+    "highlights": [
+      "Cherry blossom peak shifts by latitude — Tokyo late March, Hokkaido early May.",
+      "Autumn foliage runs early November (north) to early December (Kyoto).",
+      "Post-Golden Week (mid-May) is the best-value shoulder window."
+    ]
+  },
+  {
+    "slug": "portugal",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "countryCode": "PT",
+    "tagline": "Sun, surf, and shoulder seasons that shame the rest of Europe.",
+    "gradient": ["#fef3c7", "#fde68a"],
+    "bestMonths": ["Apr", "May", "Sep", "Oct"],
+    "okMonths": ["Mar", "Jun", "Nov"],
+    "poorMonths": ["Jul", "Aug", "Dec", "Jan", "Feb"],
+    "majorDisruptions": [
+      {
+        "key": "august_closures",
+        "name": "August holiday closures",
+        "approxDates": "Aug 1 – Aug 31",
+        "severity": "medium",
+        "note": "Many family restaurants and small businesses close for the month."
+      },
+      {
+        "key": "semana_santa",
+        "name": "Semana Santa (Holy Week)",
+        "approxDates": "Easter week",
+        "severity": "medium",
+        "note": "Processions across the country. Lodging spikes in major cities."
+      }
+    ],
+    "weather": {
+      "summary": "Mild Mediterranean climate. Atlantic coast stays cooler than Spain.",
+      "rainy": ["Nov", "Dec", "Jan", "Feb"]
+    },
+    "highlights": [
+      "Shoulder months (Apr–May, Sep–Oct) offer warm weather without peak crowds.",
+      "Algarve coast peaks in July–August with 2–3× accommodation prices.",
+      "Lisbon and Porto are pleasant year-round outside winter rain."
+    ]
+  },
+  {
+    "slug": "italy",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "countryCode": "IT",
+    "tagline": "Europe's most-loved country. Timing is everything.",
+    "gradient": ["#dcfce7", "#bbf7d0"],
+    "bestMonths": ["Apr", "May", "Sep", "Oct"],
+    "okMonths": ["Mar", "Jun", "Nov"],
+    "poorMonths": ["Jul", "Aug", "Dec", "Jan", "Feb"],
+    "majorDisruptions": [
+      {
+        "key": "ferragosto",
+        "name": "Ferragosto",
+        "approxDates": "Aug 15",
+        "severity": "high",
+        "note": "National holiday. Cities empty out but coastal resorts are maxed."
+      },
+      {
+        "key": "august_closures",
+        "name": "August closures",
+        "approxDates": "Aug 1 – Aug 31",
+        "severity": "medium",
+        "note": "Many family-run restaurants and shops close for the month."
+      },
+      {
+        "key": "christmas",
+        "name": "Christmas & Epiphany",
+        "approxDates": "Dec 23 – Jan 6",
+        "severity": "medium",
+        "note": "Rome and Vatican crowded; many businesses on reduced hours."
+      }
+    ],
+    "weather": {
+      "summary": "Mediterranean. Hot dry summers, mild wet winters. Alpine regions differ.",
+      "rainy": ["Nov", "Dec", "Jan"]
+    },
+    "highlights": [
+      "September is arguably the best all-round month — warm, low crowds, harvest season.",
+      "Venice acqua alta peaks in Nov–Dec; avoid if bringing older travelers.",
+      "Cinque Terre and Amalfi are overwhelming in July–August."
+    ]
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "flag": "🇹🇭",
+    "countryCode": "TH",
+    "tagline": "Tropical rhythms, massive seasonal swings, cheap when nobody else goes.",
+    "gradient": ["#fef3c7", "#fed7aa"],
+    "bestMonths": ["Nov", "Dec", "Jan", "Feb"],
+    "okMonths": ["Mar", "Oct"],
+    "poorMonths": ["Apr", "May", "Jun", "Jul", "Aug", "Sep"],
+    "majorDisruptions": [
+      {
+        "key": "songkran",
+        "name": "Songkran (Thai New Year)",
+        "approxDates": "Apr 13 – Apr 15",
+        "severity": "high",
+        "note": "Nationwide water festival. Bangkok partially shuts down. Flights expensive."
+      },
+      {
+        "key": "chinese_new_year",
+        "name": "Chinese New Year surge",
+        "approxDates": "Late Jan – Mid Feb",
+        "severity": "high",
+        "note": "Enormous inbound tourism from China. Phuket and Bangkok packed."
+      }
+    ],
+    "weather": {
+      "summary": "Tropical monsoon. Dry season Nov–Mar is the natural peak.",
+      "rainy": ["May", "Jun", "Jul", "Aug", "Sep", "Oct"]
+    },
+    "highlights": [
+      "Nov–Feb is perfect weather but also peak western tourism.",
+      "Late Apr – early Jun is hot and dry-ish with cheap prices and thin crowds.",
+      "Southern islands split: Gulf side vs Andaman side have opposite wet seasons."
+    ]
+  },
+  {
+    "slug": "greece",
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "countryCode": "GR",
+    "tagline": "Islands, ruins, and shoulder-season magic.",
+    "gradient": ["#dbeafe", "#bfdbfe"],
+    "bestMonths": ["May", "Jun", "Sep", "Oct"],
+    "okMonths": ["Apr", "Jul", "Nov"],
+    "poorMonths": ["Aug", "Dec", "Jan", "Feb", "Mar"],
+    "majorDisruptions": [
+      {
+        "key": "orthodox_easter",
+        "name": "Orthodox Easter",
+        "approxDates": "Varies (often later than Western Easter)",
+        "severity": "medium",
+        "note": "Major domestic travel. Ferries fill up, islands festive."
+      },
+      {
+        "key": "august_peak",
+        "name": "August peak",
+        "approxDates": "Aug 1 – Aug 31",
+        "severity": "high",
+        "note": "Domestic and international peak overlap. Prices 2×, ferries packed."
+      }
+    ],
+    "weather": {
+      "summary": "Mediterranean. Hot dry summers, mild winters on islands.",
+      "rainy": ["Nov", "Dec", "Jan", "Feb"]
+    },
+    "highlights": [
+      "Late May and September are ideal — warm sea, bearable crowds.",
+      "Santorini is overwhelming in July–August; visit Paros or Naxos instead.",
+      "Athens is pleasant Apr–May and Oct–Nov, brutal in July–August."
+    ]
+  },
+  {
+    "slug": "spain",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "countryCode": "ES",
+    "tagline": "Regional calendars create hidden windows — if you know them.",
+    "gradient": ["#fef3c7", "#fde68a"],
+    "bestMonths": ["Apr", "May", "Sep", "Oct"],
+    "okMonths": ["Mar", "Jun", "Nov"],
+    "poorMonths": ["Jul", "Aug", "Dec", "Jan", "Feb"],
+    "majorDisruptions": [
+      {
+        "key": "semana_santa",
+        "name": "Semana Santa (Holy Week)",
+        "approxDates": "Easter week",
+        "severity": "high",
+        "note": "Seville, Malaga and Andalusia packed with processions and tourists."
+      },
+      {
+        "key": "la_tomatina",
+        "name": "La Tomatina",
+        "approxDates": "Last Wed of Aug",
+        "severity": "local",
+        "note": "Tiny Buñol, but spikes Valencia-region lodging."
+      }
+    ],
+    "weather": {
+      "summary": "Mediterranean on the coast, continental inland. Scorching in July–August.",
+      "rainy": ["Nov", "Dec", "Feb"]
+    },
+    "highlights": [
+      "Andalusia is brutal in August — 40°C+ common.",
+      "September is the best all-round month nationwide.",
+      "Regional holidays vary by autonomous community — check Catalonia vs Madrid."
+    ]
+  },
+  {
+    "slug": "croatia",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "countryCode": "HR",
+    "tagline": "Adriatic coast, underrated shoulder seasons.",
+    "gradient": ["#dbeafe", "#bae6fd"],
+    "bestMonths": ["May", "Jun", "Sep"],
+    "okMonths": ["Apr", "Jul", "Oct"],
+    "poorMonths": ["Aug", "Nov", "Dec", "Jan", "Feb", "Mar"],
+    "majorDisruptions": [
+      {
+        "key": "august_peak",
+        "name": "August peak",
+        "approxDates": "Aug 1 – Aug 31",
+        "severity": "high",
+        "note": "Peak for Central European travelers. Dubrovnik and Split saturated."
+      }
+    ],
+    "weather": {
+      "summary": "Mediterranean on the coast, continental inland.",
+      "rainy": ["Nov", "Dec", "Mar"]
+    },
+    "highlights": [
+      "Late May has warm sea, open restaurants, and few cruise ships.",
+      "Plitvice is ideal in May and October — pleasant weather, vibrant colors.",
+      "Hvar peaks hard in July–August; Korčula and Vis stay calmer."
+    ]
+  },
+  {
+    "slug": "morocco",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "countryCode": "MA",
+    "tagline": "Markets, deserts, mountains — wildly different by season.",
+    "gradient": ["#fed7aa", "#fdba74"],
+    "bestMonths": ["Mar", "Apr", "Oct", "Nov"],
+    "okMonths": ["Feb", "May", "Sep", "Dec"],
+    "poorMonths": ["Jun", "Jul", "Aug", "Jan"],
+    "majorDisruptions": [
+      {
+        "key": "ramadan",
+        "name": "Ramadan",
+        "approxDates": "Varies (lunar)",
+        "severity": "medium",
+        "note": "Many restaurants closed during daylight. Evening souks more lively."
+      },
+      {
+        "key": "eid_al_fitr",
+        "name": "Eid al-Fitr",
+        "approxDates": "Day after Ramadan ends",
+        "severity": "medium",
+        "note": "National holiday. Some businesses closed, transport busy."
+      }
+    ],
+    "weather": {
+      "summary": "Vast range. Sahara brutal in summer; Atlas mountains snowy in winter.",
+      "rainy": ["Nov", "Dec", "Jan", "Feb"]
+    },
+    "highlights": [
+      "March–April is peak for desert trekking and Marrakech medina weather.",
+      "July–August is oppressive in Marrakech — avoid unless heading to Atlas.",
+      "Check Ramadan dates: impacts restaurant hours significantly."
+    ]
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "flag": "🇻🇳",
+    "countryCode": "VN",
+    "tagline": "North, center, south — three different climates, one country.",
+    "gradient": ["#dcfce7", "#bbf7d0"],
+    "bestMonths": ["Feb", "Mar", "Apr", "Nov"],
+    "okMonths": ["Jan", "May", "Oct", "Dec"],
+    "poorMonths": ["Jun", "Jul", "Aug", "Sep"],
+    "majorDisruptions": [
+      {
+        "key": "tet",
+        "name": "Tết (Lunar New Year)",
+        "approxDates": "Late Jan – Mid Feb",
+        "severity": "severe",
+        "note": "Biggest national holiday. Many businesses closed for a week. Transport fully booked."
+      }
+    ],
+    "weather": {
+      "summary": "Tropical. North has distinct seasons; south is wet/dry only.",
+      "rainy": ["May", "Jun", "Jul", "Aug", "Sep"]
+    },
+    "highlights": [
+      "Avoid Tết if you want open restaurants and cheap flights.",
+      "November is ideal for most of the country.",
+      "Halong Bay best in Oct–Dec; Mekong delta best in Dec–Apr."
+    ]
+  },
+  {
+    "slug": "iceland",
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "countryCode": "IS",
+    "tagline": "Volcanoes, aurora, and wildly different seasons.",
+    "gradient": ["#e0e7ff", "#c7d2fe"],
+    "bestMonths": ["Jun", "Jul", "Aug", "Sep"],
+    "okMonths": ["May", "Oct", "Feb", "Mar"],
+    "poorMonths": ["Nov", "Dec", "Jan", "Apr"],
+    "majorDisruptions": [
+      {
+        "key": "christmas_new_year",
+        "name": "Christmas / New Year",
+        "approxDates": "Dec 20 – Jan 3",
+        "severity": "medium",
+        "note": "Reykjavik packed. Prices spike. Aurora season is peak."
+      }
+    ],
+    "weather": {
+      "summary": "Subpolar oceanic. Summer daylight 20+ hours; winter 4 hours.",
+      "rainy": ["All year, mostly Oct–Jan"]
+    },
+    "highlights": [
+      "Aurora season is Sep–Apr; peak probability in Oct–Feb.",
+      "Midnight sun in June – stunning but crowded.",
+      "Interior highland F-roads open only Jun–Sep."
+    ]
+  }
+]

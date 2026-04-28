@@ -1,0 +1,248 @@
+{
+    "metadata": {
+        "countryCode": "SG",
+        "countryName": "Singapore",
+        "version": "1.0.0",
+        "lastUpdated": "2025-01-15",
+        "schoolHolidayType": "education_levels",
+        "hasMultipleSchoolTypes": false,
+        "hasEducationLevels": true,
+        "hasSchoolTypeAndEducationLevels": false,
+        "defaultEducationLevel": "primary_secondary",
+        "availableEducationLevels": [
+            {
+                "code": "primary_secondary",
+                "name": "Primary & Secondary Schools",
+                "description": "Government primary and secondary schools"
+            },
+            {
+                "code": "junior_college",
+                "name": "Junior Colleges",
+                "description": "Pre-university education (JC1 & JC2)"
+            },
+            {
+                "code": "polytechnic_ite",
+                "name": "Polytechnic & ITE",
+                "description": "Technical and vocational institutions"
+            }
+        ],
+        "schoolHolidayNotes": [
+            "sg_unified_school_calendar",
+            "sg_education_level_variations",
+            "sg_government_synchronized"
+        ],
+        "sources": [
+            {
+                "name": "Ministry of Education",
+                "url": "https://www.moe.gov.sg/calendar"
+            }
+        ]
+    },
+    "schoolHolidays": {
+        "primary_secondary": {
+            "2025": [
+                {
+                    "key": "sg_march_holidays",
+                    "name": "March School Holidays",
+                    "startDate": "2025-03-15",
+                    "endDate": "2025-03-23",
+                    "notes": "Between Terms 1 and 2"
+                },
+                {
+                    "key": "sg_between_semesters_1_2",
+                    "name": "Between Semesters 1 and 2",
+                    "startDate": "2025-05-31",
+                    "endDate": "2025-06-29",
+                    "notes": "Mid-year semester break"
+                },
+                {
+                    "key": "sg_between_terms_3_4",
+                    "name": "Between Terms 3 and 4",
+                    "startDate": "2025-09-06",
+                    "endDate": "2025-09-14",
+                    "notes": "September break"
+                },
+                {
+                    "key": "sg_end_school_year",
+                    "name": "End of School Year Holidays",
+                    "startDate": "2025-11-22",
+                    "endDate": "2025-12-31",
+                    "notes": "Year-end holidays"
+                }
+            ],
+            "2026": [
+                {
+                    "key": "sg_march_holidays",
+                    "name": "March School Holidays",
+                    "startDate": "2026-03-14",
+                    "endDate": "2026-03-22",
+                    "notes": "Between Terms 1 and 2"
+                },
+                {
+                    "key": "sg_between_semesters_1_2",
+                    "name": "Between Semesters 1 and 2",
+                    "startDate": "2026-05-30",
+                    "endDate": "2026-06-28",
+                    "notes": "Mid-year semester break"
+                },
+                {
+                    "key": "sg_between_terms_3_4",
+                    "name": "Between Terms 3 and 4",
+                    "startDate": "2026-09-05",
+                    "endDate": "2026-09-13",
+                    "notes": "September break"
+                },
+                {
+                    "key": "sg_end_school_year",
+                    "name": "End of School Year Holidays",
+                    "startDate": "2026-11-21",
+                    "endDate": "2026-12-31",
+                    "notes": "Year-end holidays"
+                }
+            ]
+        },
+        "junior_college": {
+            "2025": [
+                {
+                    "key": "sg_between_terms_1_2",
+                    "name": "Between Terms 1 and 2",
+                    "startDate": "2025-03-15",
+                    "endDate": "2025-03-23",
+                    "notes": "March break for JCs"
+                },
+                {
+                    "key": "sg_between_semesters",
+                    "name": "Between Semesters 1 and 2",
+                    "startDate": "2025-05-31",
+                    "endDate": "2025-06-29",
+                    "notes": "JC semester break"
+                },
+                {
+                    "key": "sg_between_terms_3_4",
+                    "name": "Between Terms 3 and 4",
+                    "startDate": "2025-09-06",
+                    "endDate": "2025-09-14",
+                    "notes": "September break for JCs"
+                },
+                {
+                    "key": "sg_end_year",
+                    "name": "End of School Year Holidays",
+                    "startDate": "2025-11-29",
+                    "endDate": "2025-12-31",
+                    "notes": "JC year-end break"
+                }
+            ],
+            "2026": [
+                {
+                    "key": "sg_between_terms_1_2",
+                    "name": "Between Terms 1 and 2",
+                    "startDate": "2026-03-15",
+                    "endDate": "2026-03-23",
+                    "notes": "March break for JCs"
+                },
+                {
+                    "key": "sg_between_semesters",
+                    "name": "Between Semesters 1 and 2",
+                    "startDate": "2026-05-31",
+                    "endDate": "2026-06-29",
+                    "notes": "JC semester break"
+                },
+                {
+                    "key": "sg_between_terms_3_4",
+                    "name": "Between Terms 3 and 4",
+                    "startDate": "2026-09-06",
+                    "endDate": "2026-09-14",
+                    "notes": "September break for JCs"
+                },
+                {
+                    "key": "sg_end_year",
+                    "name": "End of School Year Holidays",
+                    "startDate": "2026-11-29",
+                    "endDate": "2026-12-31",
+                    "notes": "JC year-end break"
+                }
+            ]
+        },
+        "polytechnic_ite": {
+            "2025": [],
+            "2026": [
+                {
+                    "key": "sg_semester_break",
+                    "name": "Semester Break",
+                    "startDate": "2026-01-13",
+                    "endDate": "2026-02-05",
+                    "notes": "Between polytechnic semesters"
+                }
+            ]
+        }
+    },
+    "termStructure": {
+        "primary_secondary": {
+            "system": "Four terms per year",
+            "description": "Primary and secondary schools follow 4-term system",
+            "terms": {
+                "2025": {
+                    "term1": {
+                        "start": "2025-01-02",
+                        "end": "2025-03-14",
+                        "description": "Term 1"
+                    },
+                    "term2": {
+                        "start": "2025-03-24",
+                        "end": "2025-05-30",
+                        "description": "Term 2"
+                    },
+                    "term3": {
+                        "start": "2025-06-30",
+                        "end": "2025-09-05",
+                        "description": "Term 3"
+                    },
+                    "term4": {
+                        "start": "2025-09-15",
+                        "end": "2025-11-21",
+                        "description": "Term 4"
+                    }
+                }
+            }
+        },
+        "junior_college": {
+            "system": "Four terms per year (similar to primary/secondary)",
+            "description": "Junior colleges follow similar term structure with some variations",
+            "terms": {
+                "2025": {
+                    "term1": {
+                        "start": "2025-02-05",
+                        "end": "2025-03-14",
+                        "description": "JC Term 1"
+                    },
+                    "term2": {
+                        "start": "2025-03-24",
+                        "end": "2025-05-30",
+                        "description": "JC Term 2"
+                    },
+                    "term3": {
+                        "start": "2025-06-30",
+                        "end": "2025-09-05",
+                        "description": "JC Term 3"
+                    },
+                    "term4": {
+                        "start": "2025-09-15",
+                        "end": "2025-11-28",
+                        "description": "JC Term 4"
+                    }
+                }
+            }
+        },
+        "polytechnic_ite": {
+            "system": "Semester-based",
+            "description": "Polytechnics and ITE use semester system with different start dates"
+        }
+    },
+    "specialNotes": [
+        "Singapore follows a unified national calendar for government schools",
+        "School holidays are synchronized across all government institutions",
+        "Different education levels may have slightly different schedules",
+        "Term dates may vary slightly between institutions but follow the general framework",
+        "Private and international schools may follow different calendars"
+    ]
+}
