@@ -11,6 +11,7 @@ import {
   MONTHS,
 } from "@/lib/beevago";
 import { findDestination, localizedDestination } from "@/lib/data";
+import { buildAlternates, JsonLd, SITE_BASE } from "@/lib/seo";
 import UpcomingHolidays from "@/components/UpcomingHolidays";
 import DestinationRecommender from "../DestinationRecommender";
 import BeevagoPosts from "@/components/BeevagoPosts";
@@ -38,6 +39,7 @@ export async function generateMetadata({
       country: destination.countryName,
     }),
     description: destination.description,
+    alternates: buildAlternates(locale, `/destinations/${country}/${city}/`),
   };
 }
 
@@ -70,8 +72,53 @@ export default async function CityDestinationPage({
     8,
   ).filter((p) => !cityPostIds.has(p.id));
 
+  const pageUrl = `${SITE_BASE}/${locale}/destinations/${country}/${city}/`;
+  const cityImageUrl = destination.image
+    ? `${SITE_BASE}${destination.image}`
+    : undefined;
+
+  const placeSchema = {
+    "@context": "https://schema.org",
+    "@type": "City",
+    name: destination.name,
+    description: destination.description,
+    url: pageUrl,
+    ...(cityImageUrl && { image: cityImageUrl }),
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: destination.countryCode,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Destinations",
+        item: `${SITE_BASE}/${locale}/destinations/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: destination.countryName,
+        item: `${SITE_BASE}/${locale}/destinations/${country}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: destination.name,
+        item: pageUrl,
+      },
+    ],
+  };
+
   return (
     <div>
+      <JsonLd schema={placeSchema} />
+      <JsonLd schema={breadcrumbSchema} />
       <section className="relative overflow-hidden bg-muted">
         {destination.image && (
           <Image

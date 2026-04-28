@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { destinations, localizedDestination } from "@/lib/data";
+import { buildAlternates, JsonLd, SITE_BASE } from "@/lib/seo";
 import DestinationRecommender from "./DestinationRecommender";
 import UpcomingHolidays from "@/components/UpcomingHolidays";
 import BeevagoPosts from "@/components/BeevagoPosts";
@@ -27,6 +28,7 @@ export async function generateMetadata({
   return {
     title: t("metaTitle", { name: destination.name }),
     description: destination.tagline,
+    alternates: buildAlternates(locale, `/destinations/${country}/`),
   };
 }
 
@@ -56,8 +58,47 @@ export default async function DestinationPage({
   const posts = postsForCountryCode(destination.countryCode, locale, 6);
   const cities = citiesForCountry(country);
 
+  const pageUrl = `${SITE_BASE}/${locale}/destinations/${country}/`;
+  const heroImage = cities[0]?.image
+    ? `${SITE_BASE}${cities[0].image}`
+    : undefined;
+
+  const destinationSchema = {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    name: destination.name,
+    description: destination.tagline,
+    url: pageUrl,
+    ...(heroImage && { image: heroImage }),
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: destination.countryCode,
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Destinations",
+        item: `${SITE_BASE}/${locale}/destinations/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: destination.name,
+        item: pageUrl,
+      },
+    ],
+  };
+
   return (
     <div>
+      <JsonLd schema={destinationSchema} />
+      <JsonLd schema={breadcrumbSchema} />
       <section
         className="relative overflow-hidden"
         style={{
