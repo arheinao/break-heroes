@@ -380,6 +380,22 @@
       "button": "Empezar a buscar →"
     }
   },
+  "privacy": {
+    "metaTitle": "Política de privacidad",
+    "metaDescription": "Cómo BreakHeroes trata tus datos — Política de Privacidad conforme al RGPD.",
+    "translationDisclaimer": {
+      "title": "Aviso sobre la traducción",
+      "text": "Este documento se ha traducido para tu comodidad. En caso de discrepancia entre traducciones, prevalece la versión en inglés."
+    }
+  },
+  "terms": {
+    "metaTitle": "Términos de uso",
+    "metaDescription": "Términos que regulan tu uso de BreakHeroes — uso aceptable, propiedad intelectual, responsabilidad y ley aplicable.",
+    "translationDisclaimer": {
+      "title": "Aviso sobre la traducción",
+      "text": "Este documento se ha traducido para tu comodidad. En caso de discrepancia entre traducciones, prevalece la versión en inglés."
+    }
+  },
   "languageSwitcher": {
     "label": "Idioma",
     "en": "English",

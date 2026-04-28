@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { url: `${prefix}/destinations/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
       { url: `${prefix}/search/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
       { url: `${prefix}/about/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+      { url: `${prefix}/privacy/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+      { url: `${prefix}/terms/`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     );
 
     for (const d of destinations) {

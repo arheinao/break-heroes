@@ -380,6 +380,22 @@
       "button": "Suche starten →"
     }
   },
+  "privacy": {
+    "metaTitle": "Datenschutzerklärung",
+    "metaDescription": "Wie BreakHeroes mit deinen Daten umgeht — Datenschutzerklärung gemäß DSGVO.",
+    "translationDisclaimer": {
+      "title": "Hinweis zur Übersetzung",
+      "text": "Dieses Dokument wurde zu deiner Bequemlichkeit übersetzt. Bei Abweichungen zwischen den Übersetzungen ist die englische Fassung maßgeblich."
+    }
+  },
+  "terms": {
+    "metaTitle": "Nutzungsbedingungen",
+    "metaDescription": "Bedingungen für die Nutzung von BreakHeroes — zulässige Nutzung, geistiges Eigentum, Haftung, anwendbares Recht.",
+    "translationDisclaimer": {
+      "title": "Hinweis zur Übersetzung",
+      "text": "Dieses Dokument wurde zu deiner Bequemlichkeit übersetzt. Bei Abweichungen zwischen den Übersetzungen ist die englische Fassung maßgeblich."
+    }
+  },
   "languageSwitcher": {
     "label": "Sprache",
     "en": "English",

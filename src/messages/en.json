@@ -380,6 +380,22 @@
       "button": "Start searching →"
     }
   },
+  "privacy": {
+    "metaTitle": "Privacy Policy",
+    "metaDescription": "How BreakHeroes handles your data — Privacy Policy under GDPR.",
+    "translationDisclaimer": {
+      "title": "Translation notice",
+      "text": "This document has been translated for your convenience. In the event of any inconsistency between translations, the English version prevails."
+    }
+  },
+  "terms": {
+    "metaTitle": "Terms of Use",
+    "metaDescription": "Terms governing your use of BreakHeroes — acceptable use, IP, liability, governing law.",
+    "translationDisclaimer": {
+      "title": "Translation notice",
+      "text": "This document has been translated for your convenience. In the event of any inconsistency between translations, the English version prevails."
+    }
+  },
   "languageSwitcher": {
     "label": "Language",
     "en": "English",
