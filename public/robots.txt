@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /logos/
+Disallow: /*/logos/
+Disallow: /_next/
 
 Sitemap: https://breakheroes.com/sitemap.xml

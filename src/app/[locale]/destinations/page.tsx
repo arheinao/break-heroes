@@ -76,9 +76,9 @@ export default async function DestinationsIndex({
                 </span>
               </div>
               <div className="p-5">
-                <h3 className="font-display text-lg font-semibold tracking-tight">
+                <h2 className="font-display text-lg font-semibold tracking-tight">
                   {d.name}
-                </h3>
+                </h2>
                 <p className="mt-1.5 text-sm text-muted-foreground leading-relaxed line-clamp-2">
                   {d.tagline}
                 </p>
