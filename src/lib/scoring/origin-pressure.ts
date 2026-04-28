@@ -1,5 +1,11 @@
 import rules from "@/data/timing-rules.json";
-import type { LayerResult, OriginMarket, TravelWindow } from "./types";
+import type {
+  LayerResult,
+  OriginMarket,
+  Reason,
+  Translator,
+  TravelWindow,
+} from "./types";
 import { getHolidaysInRange } from "@/lib/holidays";
 import {
   getSchoolHolidaysInRange,
@@ -35,15 +41,16 @@ const MONTH_RANGE: Record<string, number[]> = {
 export function scoreOriginPressure(
   window: TravelWindow,
   origin: OriginMarket | null,
+  t: Translator,
 ): LayerResult {
   if (!origin) {
     return {
       score: 65,
-      reasons: ["No origin market selected — assuming average demand."],
+      reasons: [{ tone: "neutral", text: t("noOrigin") }],
     };
   }
 
-  const reasons: string[] = [];
+  const reasons: Reason[] = [];
   let maxImpact = 0;
 
   if (hasMarket(origin.code)) {
@@ -54,24 +61,27 @@ export function scoreOriginPressure(
     );
 
     if (schoolBreaks.length > 0) {
-      const summary = summarizeSchoolBreaks(schoolBreaks);
+      const summary = summarizeSchoolBreaks(schoolBreaks, t);
       maxImpact = Math.max(maxImpact, summary.impactScore);
       if (summary.reason) reasons.push(summary.reason);
     }
   } else {
-    // Fallback to the coarse approxMonth signal if we lack precomputed data
     const windowMonths = monthsInWindow(window);
     for (const br of origin.schoolBreaks) {
       const breakMonths = MONTH_RANGE[br.approxMonth] ?? [];
       const overlaps = breakMonths.some((m) => windowMonths.includes(m));
       if (overlaps) {
-        const impact =
-          rules.demandImpactScores[br.demandImpact] ?? 0;
+        const impact = rules.demandImpactScores[br.demandImpact] ?? 0;
         if (impact > maxImpact) maxImpact = impact;
         if (impact >= 45) {
-          reasons.push(
-            `${origin.name} ${br.name.toLowerCase()} drives outbound demand (${br.demandImpact}).`,
-          );
+          reasons.push({
+            tone: "negative",
+            text: t("schoolBreakDrives", {
+              origin: origin.name,
+              breakName: br.name.toLowerCase(),
+              impact: t(`demand.${br.demandImpact}`),
+            }),
+          });
         }
       }
     }
@@ -88,9 +98,10 @@ export function scoreOriginPressure(
 
   if (highImpactHolidays.length > 0) {
     const names = highImpactHolidays.slice(0, 2).map((h) => h.name).join(", ");
-    reasons.push(
-      `${origin.name} public holidays during window: ${names} — long weekends pull prices up.`,
-    );
+    reasons.push({
+      tone: "negative",
+      text: t("originPublicHolidays", { origin: origin.name, names }),
+    });
     const extra = rules.demandImpactScores.medium;
     if (extra > maxImpact) maxImpact = extra;
   }
@@ -98,9 +109,10 @@ export function scoreOriginPressure(
   const score = Math.max(100 - maxImpact, 5);
 
   if (!reasons.length) {
-    reasons.push(
-      `Outside major ${origin.name} school breaks — demand pressure is low.`,
-    );
+    reasons.push({
+      tone: "positive",
+      text: t("outsideSchoolBreaks", { origin: origin.name }),
+    });
   }
 
   return { score, reasons };
@@ -108,35 +120,26 @@ export function scoreOriginPressure(
 
 interface BreakSummary {
   impactScore: number;
-  reason: string | null;
+  reason: Reason | null;
 }
 
-/**
- * For a market with regional or calendar-group variations, count:
- *   - unique break names (e.g., "Summer Holiday") that appear
- *   - the fraction of regions/groups affected (breadth)
- *   - the longest overlap (depth)
- *
- * Then map to a single demand impact.
- * The logic stays in one place so we can tune weights without touching the
- * scoring engine orchestrator.
- */
-function summarizeSchoolBreaks(breaks: {
-  name: string;
-  start: string;
-  end: string;
-  region: string | null;
-  calendarGroup: string | null;
-}[]): BreakSummary {
+function summarizeSchoolBreaks(
+  breaks: {
+    name: string;
+    start: string;
+    end: string;
+    region: string | null;
+    calendarGroup: string | null;
+  }[],
+  t: Translator,
+): BreakSummary {
   if (breaks.length === 0) return { impactScore: 0, reason: null };
 
-  // Distinct scopes — regions OR calendar groups
   const scopes = new Set(
     breaks.map((b) => b.region ?? b.calendarGroup ?? "national"),
   );
   const scopeCount = scopes.size;
 
-  // Identify the longest-running break name
   const byName = new Map<string, number>();
   for (const b of breaks) {
     byName.set(b.name, (byName.get(b.name) ?? 0) + 1);
@@ -149,24 +152,22 @@ function summarizeSchoolBreaks(breaks: {
   const isEaster = /easter|spring/i.test(dominantName);
 
   let impactScore: number;
-  let demandLabel: string;
+  let demandKey: "severe" | "high" | "medium";
 
   if (isSummer) {
     impactScore = rules.demandImpactScores.severe;
-    demandLabel = "severe";
+    demandKey = "severe";
   } else if (isChristmas) {
     impactScore = rules.demandImpactScores.high;
-    demandLabel = "high";
+    demandKey = "high";
   } else if (isEaster) {
     impactScore = rules.demandImpactScores.high;
-    demandLabel = "high";
+    demandKey = "high";
   } else {
     impactScore = rules.demandImpactScores.medium;
-    demandLabel = "medium";
+    demandKey = "medium";
   }
 
-  // Breadth modifier: national or near-national coverage amplifies
-  // If only a handful of regions overlap, reduce impact modestly
   if (scopeCount === 1) {
     impactScore = Math.round(impactScore * 0.85);
   } else if (scopeCount >= 4) {
@@ -175,12 +176,19 @@ function summarizeSchoolBreaks(breaks: {
 
   const scopeNote =
     scopeCount === 1
-      ? "single region on break"
-      : `${scopeCount} regions/groups on break`;
+      ? t("scopeNote.single")
+      : t("scopeNote.multiple", { count: scopeCount });
 
   return {
     impactScore,
-    reason: `${dominantName} overlap — ${scopeNote}, outbound demand ${demandLabel}.`,
+    reason: {
+      tone: "negative",
+      text: t("schoolBreakSummary", {
+        breakName: dominantName,
+        scopeNote,
+        demandLabel: t(`demand.${demandKey}`),
+      }),
+    },
   };
 }
 

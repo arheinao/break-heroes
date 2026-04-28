@@ -3,6 +3,8 @@ import type {
   Destination,
   OriginMarket,
   Priority,
+  Reason,
+  Translator,
   TravelWindow,
   WindowScore,
 } from "./types";
@@ -33,10 +35,11 @@ export function scoreWindow(
   destination: Destination,
   origin: OriginMarket | null,
   priority: Priority,
+  t: Translator,
 ): WindowScore {
-  const origin_ = scoreOriginPressure(window, origin);
-  const destination_ = scoreDestinationDisruption(window, destination);
-  const seasonality_ = scoreSeasonality(window, destination);
+  const origin_ = scoreOriginPressure(window, origin, t);
+  const destination_ = scoreDestinationDisruption(window, destination, t);
+  const seasonality_ = scoreSeasonality(window, destination, t);
 
   const weights = rules.weights[priority];
 
@@ -54,9 +57,9 @@ export function scoreWindow(
         : "avoid";
 
   const explanation = buildExplanation(
-    origin_,
-    destination_,
-    seasonality_,
+    origin_.reasons,
+    destination_.reasons,
+    seasonality_.reasons,
     recommendation,
   );
 
@@ -72,29 +75,22 @@ export function scoreWindow(
 }
 
 function buildExplanation(
-  origin: { score: number; reasons: string[] },
-  destination: { score: number; reasons: string[] },
-  seasonality: { score: number; reasons: string[] },
+  origin: Reason[],
+  destination: Reason[],
+  seasonality: Reason[],
   recommendation: WindowScore["recommendation"],
-): string[] {
-  const reasons: string[] = [];
-  const all = [...origin.reasons, ...destination.reasons, ...seasonality.reasons];
+): Reason[] {
+  const all = [...origin, ...destination, ...seasonality];
 
   if (recommendation === "recommend") {
-    const positives = all.filter(
-      (r) => !/avoid|peak|crowd|clos/i.test(r),
-    );
-    if (positives.length) reasons.push(...positives.slice(0, 3));
+    const positives = all.filter((r) => r.tone !== "negative");
+    if (positives.length) return positives.slice(0, 3);
   } else if (recommendation === "avoid") {
-    const negatives = all.filter((r) =>
-      /peak|avoid|crowd|clos|spike|expensive|severe/i.test(r),
-    );
-    reasons.push(...negatives.slice(0, 3));
-  } else {
-    reasons.push(...all.slice(0, 3));
+    const negatives = all.filter((r) => r.tone === "negative");
+    if (negatives.length) return negatives.slice(0, 3);
   }
 
-  return reasons.length ? reasons : all.slice(0, 3);
+  return all.slice(0, 3);
 }
 
 export function scoreWindows(
@@ -102,8 +98,9 @@ export function scoreWindows(
   destination: Destination,
   origin: OriginMarket | null,
   priority: Priority,
+  t: Translator,
 ): WindowScore[] {
   return windows
-    .map((w) => scoreWindow(w, destination, origin, priority))
+    .map((w) => scoreWindow(w, destination, origin, priority, t))
     .sort((a, b) => b.overall - a.overall);
 }

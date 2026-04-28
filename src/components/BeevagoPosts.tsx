@@ -1,14 +1,16 @@
+import { useTranslations } from "next-intl";
 import type { BeevagoPost } from "@/lib/beevago-posts";
 
 export default function BeevagoPosts({
   posts,
-  title = "Read more on Beevago",
+  title,
   subtitle,
 }: {
   posts: BeevagoPost[];
   title?: string;
   subtitle?: string;
 }) {
+  const t = useTranslations("posts");
   if (!posts.length) return null;
 
   return (
@@ -49,7 +51,7 @@ export default function BeevagoPosts({
                   </p>
                 )}
                 <span className="mt-3 inline-flex text-[11px] font-medium uppercase tracking-wider text-primary">
-                  Read on Beevago →
+                  {t("readOn")}
                 </span>
               </div>
             </a>

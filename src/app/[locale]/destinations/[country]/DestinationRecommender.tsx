@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Scale, Wallet, Trees, Sun } from "lucide-react";
 import { originMarkets } from "@/lib/data";
 import type { Destination, Priority } from "@/lib/scoring/types";
@@ -12,11 +13,21 @@ import {
 const CURRENT_YEAR = new Date().getFullYear();
 const YEARS = [CURRENT_YEAR, CURRENT_YEAR + 1];
 
+const PRIORITIES = [
+  { value: "balanced", icon: Scale, key: "balanced" as const },
+  { value: "cheapest", icon: Wallet, key: "cheapest" as const },
+  { value: "least-crowded", icon: Trees, key: "lessCrowded" as const },
+  { value: "best-weather", icon: Sun, key: "bestWeather" as const },
+];
+
 export default function DestinationRecommender({
   destination,
 }: {
   destination: Destination;
 }) {
+  const t = useTranslations("recommender");
+  const tp = useTranslations("priority");
+  const tScoring = useTranslations("scoring");
   const [priority, setPriority] = useState<Priority>("balanced");
   const [year, setYear] = useState<number>(CURRENT_YEAR);
   const [originCode, setOriginCode] = useState<string>("GB");
@@ -28,13 +39,8 @@ export default function DestinationRecommender({
 
   const results = useMemo(() => {
     const windows = generateMonthlyWindows(year);
-    return scoreWindows(
-      windows,
-      destination,
-      origin,
-      priority,
-    );
-  }, [destination, origin, priority, year]);
+    return scoreWindows(windows, destination, origin, priority, tScoring);
+  }, [destination, origin, priority, year, tScoring]);
 
   const top = results.slice(0, 3);
   const bottom = results.slice(-2).reverse();
@@ -42,16 +48,16 @@ export default function DestinationRecommender({
   return (
     <div className="rounded-2xl border border-border bg-card shadow-soft p-5">
       <div className="flex items-center justify-between">
-        <h3 className="font-semibold">Find my dates</h3>
+        <h3 className="font-semibold">{t("title")}</h3>
         <span className="text-xs font-mono text-muted-foreground">
-          Live ranking
+          {t("liveRanking")}
         </span>
       </div>
 
       <div className="mt-4 space-y-3">
         <label className="block">
           <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
-            Traveling from
+            {t("travelingFrom")}
           </span>
           <select
             value={originCode}
@@ -68,7 +74,7 @@ export default function DestinationRecommender({
 
         <label className="block">
           <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
-            Year
+            {t("year")}
           </span>
           <select
             value={year}
@@ -85,7 +91,7 @@ export default function DestinationRecommender({
 
         <div>
           <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
-            Priority
+            {t("priority")}
           </span>
           <div className="mt-1 grid grid-cols-2 gap-1.5">
             {PRIORITIES.map((p) => {
@@ -101,7 +107,7 @@ export default function DestinationRecommender({
                   }`}
                 >
                   <Icon className="h-3.5 w-3.5" strokeWidth={2.25} />
-                  {p.label}
+                  {tp(p.key)}
                 </button>
               );
             })}
@@ -111,7 +117,7 @@ export default function DestinationRecommender({
 
       <div className="mt-6 border-t border-border pt-5">
         <h4 className="text-xs font-semibold uppercase tracking-wider text-success mb-3">
-          Best windows
+          {t("bestWindows")}
         </h4>
         <div className="space-y-2">
           {top.map((r) => (
@@ -122,7 +128,7 @@ export default function DestinationRecommender({
 
       <div className="mt-5">
         <h4 className="text-xs font-semibold uppercase tracking-wider text-danger mb-3">
-          Avoid
+          {t("avoid")}
         </h4>
         <div className="space-y-2">
           {bottom.map((r) => (
@@ -158,16 +164,9 @@ function ResultMini({
       </div>
       {result.explanation[0] && (
         <p className="mt-1.5 text-xs text-muted-foreground leading-snug line-clamp-2">
-          {result.explanation[0]}
+          {result.explanation[0].text}
         </p>
       )}
     </div>
   );
 }
-
-const PRIORITIES = [
-  { value: "balanced", label: "Balanced", icon: Scale },
-  { value: "cheapest", label: "Cheapest", icon: Wallet },
-  { value: "least-crowded", label: "Less crowded", icon: Trees },
-  { value: "best-weather", label: "Best weather", icon: Sun },
-];

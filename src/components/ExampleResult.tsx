@@ -1,34 +1,34 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function ExampleResult() {
+  const t = useTranslations("exampleResult");
   return (
     <section className="bg-muted/40 py-24 border-y border-border">
       <div className="mx-auto max-w-6xl px-5">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div>
             <span className="text-xs font-semibold uppercase tracking-wider text-primary">
-              See it in action
+              {t("eyebrow")}
             </span>
             <h2 className="mt-3 font-display text-balance text-3xl sm:text-4xl font-semibold tracking-tight">
-              Example: Japan in spring
+              {t("title")}
             </h2>
             <p className="mt-4 text-pretty text-lg text-muted-foreground leading-relaxed">
-              The same trip can cost 2× or feel like a different country
-              depending on the week. Here&rsquo;s what timing intelligence looks
-              like for a family traveling from the UK.
+              {t("subtitle")}
             </p>
 
             <ul className="mt-8 space-y-3">
-              <Bullet>Prices drop sharply after Golden Week ends</Bullet>
-              <Bullet>Cherry blossoms shift 7–10 days per region</Bullet>
-              <Bullet>UK Easter holiday adds outbound demand pressure</Bullet>
+              <Bullet>{t("bullets.goldenWeekDrop")}</Bullet>
+              <Bullet>{t("bullets.blossomShift")}</Bullet>
+              <Bullet>{t("bullets.ukEaster")}</Bullet>
             </ul>
 
             <Link
               href="/destinations/japan"
               className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
             >
-              See full Japan breakdown
+              {t("cta")}
               <ArrowIcon />
             </Link>
           </div>
@@ -40,46 +40,49 @@ export default function ExampleResult() {
                 <div className="flex items-center gap-2">
                   <span className="text-lg">🇯🇵</span>
                   <div>
-                    <p className="font-semibold text-sm">Japan</p>
+                    <p className="font-semibold text-sm">{t("card.title")}</p>
                     <p className="text-xs text-muted-foreground">
-                      From United Kingdom · Apr–May 2026
+                      {t("card.subtitle")}
                     </p>
                   </div>
                 </div>
                 <span className="text-xs font-medium text-muted-foreground">
-                  3 windows
+                  {t("card.windows", { count: 3 })}
                 </span>
               </div>
 
               <div className="divide-y divide-border">
                 <ResultRow
                   kind="recommend"
-                  dates="May 12 – May 20"
+                  label={t("card.best")}
+                  dates={t("card.rows.may.dates")}
                   score={87}
                   reasons={[
-                    "Post-Golden Week: ~25% cheaper flights",
-                    "Crowds drop sharply in Kyoto & Tokyo",
-                    "Mild weather, low rainfall",
+                    t("card.rows.may.reasons.cheaperFlights"),
+                    t("card.rows.may.reasons.crowdsDrop"),
+                    t("card.rows.may.reasons.weather"),
                   ]}
                 />
                 <ResultRow
                   kind="acceptable"
-                  dates="Apr 15 – Apr 23"
+                  label={t("card.ok")}
+                  dates={t("card.rows.apr15.dates")}
                   score={62}
                   reasons={[
-                    "Late cherry blossom in northern regions",
-                    "UK Easter adds outbound pressure",
-                    "Weather mostly pleasant",
+                    t("card.rows.apr15.reasons.lateBlossom"),
+                    t("card.rows.apr15.reasons.ukEaster"),
+                    t("card.rows.apr15.reasons.weather"),
                   ]}
                 />
                 <ResultRow
                   kind="avoid"
-                  dates="Apr 29 – May 5"
+                  label={t("card.avoid")}
+                  dates={t("card.rows.apr29.dates")}
                   score={21}
                   reasons={[
-                    "Golden Week: peak domestic travel",
-                    "Most museums & shops closed",
-                    "Flights 40%+ above seasonal average",
+                    t("card.rows.apr29.reasons.peak"),
+                    t("card.rows.apr29.reasons.closures"),
+                    t("card.rows.apr29.reasons.flightsUp"),
                   ]}
                 />
               </div>
@@ -102,30 +105,29 @@ function Bullet({ children }: { children: React.ReactNode }) {
 
 function ResultRow({
   kind,
+  label,
   dates,
   score,
   reasons,
 }: {
   kind: "recommend" | "acceptable" | "avoid";
+  label: string;
   dates: string;
   score: number;
   reasons: string[];
 }) {
   const styles = {
     recommend: {
-      label: "Best",
       bg: "bg-[rgb(220_252_231)]",
       dot: "bg-success",
       text: "text-[rgb(22_101_52)]",
     },
     acceptable: {
-      label: "OK",
       bg: "bg-[rgb(254_249_195)]",
       dot: "bg-warning",
       text: "text-[rgb(113_63_18)]",
     },
     avoid: {
-      label: "Avoid",
       bg: "bg-[rgb(254_226_226)]",
       dot: "bg-danger",
       text: "text-[rgb(127_29_29)]",
@@ -140,7 +142,7 @@ function ResultRow({
             className={`inline-flex items-center gap-1.5 rounded-full ${styles.bg} ${styles.text} px-2.5 py-1 text-xs font-semibold`}
           >
             <span className={`h-1.5 w-1.5 rounded-full ${styles.dot}`} />
-            {styles.label}
+            {label}
           </span>
           <span className="font-semibold text-sm">{dates}</span>
         </div>

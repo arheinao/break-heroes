@@ -1,9 +1,10 @@
 "use client";
 
 import { Suspense, useMemo, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { ArrowRight, Scale, Wallet, Trees, Sun } from "lucide-react";
 import Combobox from "@/components/Combobox";
 import { destinations, originMarkets } from "@/lib/data";
@@ -16,11 +17,23 @@ import {
 
 const CURRENT_YEAR = new Date().getFullYear();
 
+const PRIORITIES = [
+  { value: "balanced", icon: Scale, key: "balanced" as const },
+  { value: "cheapest", icon: Wallet, key: "cheapest" as const },
+  { value: "least-crowded", icon: Trees, key: "lessCrowded" as const },
+  { value: "best-weather", icon: Sun, key: "bestWeather" as const },
+];
+
 function Inner() {
   const searchParams = useSearchParams();
   const initialSlug = searchParams.get("destination") ?? destinations[0].slug;
   const initialPriority =
     (searchParams.get("priority") as Priority) ?? "balanced";
+
+  const t = useTranslations("search");
+  const tp = useTranslations("priority");
+  const tCommon = useTranslations("common");
+  const tScoring = useTranslations("scoring");
 
   const [slug, setSlug] = useState<string>(initialSlug);
   const [priority, setPriority] = useState<Priority>(initialPriority);
@@ -29,8 +42,7 @@ function Inner() {
 
   const destination = useMemo(
     () =>
-      (destinations.find((d) => d.slug === slug) ?? destinations[0]) as
-        | Destination,
+      (destinations.find((d) => d.slug === slug) ?? destinations[0]) as Destination,
     [slug],
   );
 
@@ -41,22 +53,29 @@ function Inner() {
 
   const results = useMemo(() => {
     const windows = generateMonthlyWindows(year);
-    return scoreWindows(windows, destination, origin, priority);
-  }, [destination, origin, priority, year]);
+    return scoreWindows(windows, destination, origin, priority, tScoring);
+  }, [destination, origin, priority, year, tScoring]);
 
   const recommend = results.filter((r) => r.recommendation === "recommend");
   const acceptable = results.filter((r) => r.recommendation === "acceptable");
   const avoid = results.filter((r) => r.recommendation === "avoid");
+
+  const priorityKeyFor: Record<string, "balanced" | "cheapest" | "lessCrowded" | "bestWeather"> = {
+    balanced: "balanced",
+    cheapest: "cheapest",
+    "least-crowded": "lessCrowded",
+    "best-weather": "bestWeather",
+  };
 
   return (
     <div className="bg-muted/20 min-h-screen">
       <section className="border-b border-border bg-background">
         <div className="mx-auto max-w-6xl px-5 py-10">
           <div className="grid gap-4 sm:grid-cols-[1.5fr_1fr_1fr_auto]">
-            <Field label="Destination">
+            <Field label={t("labels.destination")}>
               <Combobox
-                ariaLabel="Destination"
-                placeholder="Search countries…"
+                ariaLabel={t("labels.destination")}
+                placeholder={t("placeholders.destination")}
                 value={slug}
                 onChange={setSlug}
                 options={destinations.map((d) => ({
@@ -66,10 +85,10 @@ function Inner() {
                 }))}
               />
             </Field>
-            <Field label="From">
+            <Field label={t("labels.from")}>
               <Combobox
-                ariaLabel="From"
-                placeholder="Where are you flying from?"
+                ariaLabel={t("labels.from")}
+                placeholder={t("placeholders.from")}
                 value={originCode}
                 onChange={setOriginCode}
                 options={originMarkets.map((o) => ({
@@ -79,7 +98,7 @@ function Inner() {
                 }))}
               />
             </Field>
-            <Field label="Year">
+            <Field label={t("labels.year")}>
               <select
                 value={year}
                 onChange={(e) => setYear(Number(e.target.value))}
@@ -97,7 +116,7 @@ function Inner() {
                 href={`/destinations/${destination.slug}`}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 rounded-xl bg-primary/10 px-4 py-3 text-sm font-semibold text-primary hover:bg-primary/15 transition-colors"
               >
-                See {destination.name} page
+                {t("seePage", { name: destination.name })}
                 <ArrowRight className="h-4 w-4" strokeWidth={2.25} />
               </Link>
             </div>
@@ -117,7 +136,7 @@ function Inner() {
                   }`}
                 >
                   <Icon className="h-4 w-4" strokeWidth={2.25} />
-                  {p.label}
+                  {tp(p.key)}
                 </button>
               );
             })}
@@ -129,24 +148,28 @@ function Inner() {
         <div className="flex items-baseline justify-between mb-6">
           <div>
             <h1 className="font-display text-3xl font-semibold tracking-tight">
-              {destination.flag} {destination.name}, {year}
+              {t("header", {
+                flag: destination.flag,
+                name: destination.name,
+                year,
+              })}
             </h1>
             <p className="mt-1 text-sm text-muted-foreground">
-              From {origin?.flag} {origin?.name} · Priority:{" "}
-              <span className="capitalize">
-                {priority.replace("-", " ")}
-              </span>
+              {t("fromOrigin", {
+                origin: `${origin?.flag ?? ""} ${origin?.name ?? ""}`.trim(),
+                priority: tp(priorityKeyFor[priority]),
+              })}
             </p>
           </div>
           <span className="text-xs font-mono text-muted-foreground">
-            {results.length} windows evaluated
+            {t("windowsEvaluated", { count: results.length })}
           </span>
         </div>
 
         {recommend.length > 0 && (
           <ResultGroup
-            title="Recommended"
-            description="Highest-scoring windows for your priority."
+            title={t("groups.recommend.title")}
+            description={t("groups.recommend.description")}
             results={recommend}
             accent="recommend"
           />
@@ -154,8 +177,8 @@ function Inner() {
 
         {acceptable.length > 0 && (
           <ResultGroup
-            title="Acceptable"
-            description="OK, but not optimal — consider if your dates are locked."
+            title={t("groups.acceptable.title")}
+            description={t("groups.acceptable.description")}
             results={acceptable}
             accent="acceptable"
           />
@@ -163,8 +186,8 @@ function Inner() {
 
         {avoid.length > 0 && (
           <ResultGroup
-            title="Avoid"
-            description="Strong signals against traveling during these windows."
+            title={t("groups.avoid.title")}
+            description={t("groups.avoid.description")}
             results={avoid}
             accent="avoid"
           />
@@ -172,11 +195,14 @@ function Inner() {
 
         <NextStepPanel destination={destination} />
       </section>
+
+      <span className="hidden">{tCommon("loading")}</span>
     </div>
   );
 }
 
 function NextStepPanel({ destination }: { destination: Destination }) {
+  const t = useTranslations("search.nextStep");
   const heroImage = citiesForCountry(destination.slug)[0]?.image;
 
   return (
@@ -206,10 +232,10 @@ function NextStepPanel({ destination }: { destination: Destination }) {
         </div>
         <div className="p-8 sm:p-10 flex flex-col justify-center">
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">
-            Next step
+            {t("eyebrow")}
           </span>
           <h2 className="mt-3 font-display text-2xl sm:text-3xl font-semibold tracking-tight">
-            Plan your {destination.name} trip
+            {t("title", { name: destination.name })}
           </h2>
           {destination.tagline && (
             <p className="mt-3 text-muted-foreground leading-relaxed">
@@ -220,7 +246,7 @@ function NextStepPanel({ destination }: { destination: Destination }) {
             href={`/destinations/${destination.slug}`}
             className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-foreground text-background px-5 py-3 text-sm font-semibold hover:opacity-90 transition-opacity"
           >
-            Read the {destination.name} guide
+            {t("cta", { name: destination.name })}
             <ArrowRight className="h-4 w-4" strokeWidth={2.25} />
           </Link>
         </div>
@@ -292,23 +318,19 @@ function ResultCard({
 }: {
   result: ReturnType<typeof scoreWindows>[number];
 }) {
-  const badge = {
-    recommend: {
-      label: "Best",
-      bg: "bg-success/10",
-      text: "text-[rgb(20_83_45)]",
-    },
-    acceptable: {
-      label: "OK",
-      bg: "bg-warning/15",
-      text: "text-[rgb(113_63_18)]",
-    },
-    avoid: {
-      label: "Avoid",
-      bg: "bg-danger/10",
-      text: "text-[rgb(127_29_29)]",
-    },
-  }[result.recommendation];
+  const t = useTranslations("search.card");
+  const labelMap = {
+    recommend: t("best"),
+    acceptable: t("ok"),
+    avoid: t("avoid"),
+  } as const;
+  const styleMap = {
+    recommend: { bg: "bg-success/10", text: "text-[rgb(20_83_45)]" },
+    acceptable: { bg: "bg-warning/15", text: "text-[rgb(113_63_18)]" },
+    avoid: { bg: "bg-danger/10", text: "text-[rgb(127_29_29)]" },
+  } as const;
+  const badge = styleMap[result.recommendation];
+  const label = labelMap[result.recommendation];
 
   return (
     <article className="rounded-xl border border-border bg-card p-5 hover:shadow-soft transition-shadow">
@@ -316,7 +338,7 @@ function ResultCard({
         <span
           className={`inline-flex items-center rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${badge.bg} ${badge.text}`}
         >
-          {badge.label}
+          {label}
         </span>
         <span className="text-xs font-mono text-muted-foreground">
           {result.overall}/100
@@ -332,7 +354,7 @@ function ResultCard({
             className="text-xs text-muted-foreground leading-relaxed flex items-start gap-2"
           >
             <span className="mt-1.5 h-1 w-1 rounded-full bg-foreground/40 flex-shrink-0" />
-            {reason}
+            {reason.text}
           </li>
         ))}
       </ul>
@@ -340,16 +362,13 @@ function ResultCard({
   );
 }
 
-const PRIORITIES = [
-  { value: "balanced", label: "Balanced", icon: Scale },
-  { value: "cheapest", label: "Cheapest", icon: Wallet },
-  { value: "least-crowded", label: "Less crowded", icon: Trees },
-  { value: "best-weather", label: "Best weather", icon: Sun },
-];
-
 export default function SearchClient() {
   return (
-    <Suspense fallback={<div className="p-10 text-center text-muted-foreground">Loading…</div>}>
+    <Suspense
+      fallback={
+        <div className="p-10 text-center text-muted-foreground">Loading…</div>
+      }
+    >
       <Inner />
     </Suspense>
   );

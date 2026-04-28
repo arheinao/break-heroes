@@ -1,9 +1,14 @@
+import { setRequestLocale } from "next-intl/server";
 import {
   LogoSunrise,
   LogoCalendar,
   LogoCompass,
   Wordmark,
 } from "@/components/Logos";
+
+export function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "de" }, { locale: "es" }];
+}
 
 const ICON_OPTIONS = [
   {
@@ -26,7 +31,13 @@ const ICON_OPTIONS = [
   },
 ];
 
-export default function LogosPreview() {
+export default async function LogosPreview({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <div className="mx-auto max-w-4xl px-5 py-16 space-y-16">
       <header>

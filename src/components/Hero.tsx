@@ -1,13 +1,23 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { Scale, Wallet, Trees, Sun } from "lucide-react";
 import Combobox from "@/components/Combobox";
 import { destinations } from "@/lib/data";
 
+const PRIORITIES = [
+  { value: "balanced", icon: Scale },
+  { value: "cheapest", icon: Wallet },
+  { value: "least-crowded", icon: Trees },
+  { value: "best-weather", icon: Sun },
+] as const;
+
 export default function Hero() {
   const router = useRouter();
+  const t = useTranslations("hero");
+  const tp = useTranslations("priority");
   const [destination, setDestination] = useState("");
   const [priority, setPriority] = useState<
     "cheapest" | "least-crowded" | "best-weather" | "balanced"
@@ -15,10 +25,17 @@ export default function Hero() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const params = new URLSearchParams();
-    if (destination) params.set("destination", destination);
-    params.set("priority", priority);
-    router.push(`/search?${params.toString()}`);
+    const search = new URLSearchParams();
+    if (destination) search.set("destination", destination);
+    search.set("priority", priority);
+    router.push(`/search?${search.toString()}`);
+  };
+
+  const priorityKey: Record<string, "balanced" | "cheapest" | "lessCrowded" | "bestWeather"> = {
+    balanced: "balanced",
+    cheapest: "cheapest",
+    "least-crowded": "lessCrowded",
+    "best-weather": "bestWeather",
   };
 
   return (
@@ -33,17 +50,19 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-primary" />
             </span>
-            New — timing intelligence, not another booking site
+            {t("badge")}
           </div>
 
           <h1 className="font-display text-balance text-5xl sm:text-6xl md:text-7xl font-semibold tracking-tight leading-[1.05] max-w-4xl">
-            Find the <span className="text-primary">best time</span> to travel
-            — not just the cheapest.
+            {t.rich("title", {
+              highlight: (chunks) => (
+                <span className="text-primary">{chunks}</span>
+              ),
+            })}
           </h1>
 
           <p className="mt-6 text-pretty text-lg sm:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            We analyze public holidays, school breaks, crowds, and seasonality
-            to tell you exactly when to go — and when to avoid.
+            {t("subtitle")}
           </p>
 
           <form
@@ -51,10 +70,10 @@ export default function Hero() {
             className="mt-12 w-full max-w-3xl bg-card rounded-2xl border border-border shadow-float p-2 text-left"
           >
             <div className="grid sm:grid-cols-[1fr_auto] gap-2">
-              <Field label="Where to?">
+              <Field label={t("whereTo")}>
                 <Combobox
-                  ariaLabel="Destination"
-                  placeholder="Pick a destination"
+                  ariaLabel={t("whereTo")}
+                  placeholder={t("pickDestination")}
                   value={destination}
                   onChange={setDestination}
                   options={destinations.map((d) => ({
@@ -69,14 +88,14 @@ export default function Hero() {
                 type="submit"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground px-6 py-4 font-semibold hover:brightness-110 transition-all shadow-soft"
               >
-                Find my dates
+                {t("findMyDates")}
                 <ArrowIcon />
               </button>
             </div>
 
             <div className="mt-3 px-2 pb-1 pt-2 flex flex-wrap items-center gap-2">
               <span className="text-xs text-muted-foreground mr-1">
-                Priority:
+                {t("priority")}
               </span>
               {PRIORITIES.map((p) => {
                 const Icon = p.icon;
@@ -100,7 +119,7 @@ export default function Hero() {
                     }`}
                   >
                     <Icon className="h-3.5 w-3.5" strokeWidth={2.25} />
-                    {p.label}
+                    {tp(priorityKey[p.value])}
                   </button>
                 );
               })}
@@ -108,7 +127,16 @@ export default function Hero() {
           </form>
 
           <div className="mt-8 flex items-center justify-center text-xs text-muted-foreground">
-            <Stat value={`${destinations.length}`} label="countries covered" />
+            <span className="inline-flex items-baseline gap-1.5">
+              {t.rich("stat", {
+                count: destinations.length,
+                bold: (chunks) => (
+                  <span className="font-semibold text-foreground">
+                    {chunks}
+                  </span>
+                ),
+              })}
+            </span>
           </div>
         </div>
       </div>
@@ -133,15 +161,6 @@ function Field({
   );
 }
 
-function Stat({ value, label }: { value: string; label: string }) {
-  return (
-    <span className="inline-flex items-baseline gap-1.5">
-      <span className="font-semibold text-foreground">{value}</span>
-      <span>{label}</span>
-    </span>
-  );
-}
-
 function ArrowIcon() {
   return (
     <svg
@@ -159,10 +178,3 @@ function ArrowIcon() {
     </svg>
   );
 }
-
-const PRIORITIES = [
-  { value: "balanced", label: "Balanced", icon: Scale },
-  { value: "cheapest", label: "Cheapest", icon: Wallet },
-  { value: "least-crowded", label: "Less crowded", icon: Trees },
-  { value: "best-weather", label: "Best weather", icon: Sun },
-];

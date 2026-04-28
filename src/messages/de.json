@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "brand": "BreakHeroes",
+    "title": "BreakHeroes — Reisen zur richtigen Zeit",
+    "description": "Finde die beste Zeit zum Reisen — nicht nur die günstigste. Wir analysieren Feiertage, Andrang und Saisonalität, um dir genau zu sagen, wann du reisen solltest — und wann nicht.",
+    "ogDescription": "Timing-Intelligenz für Reisende. Finde die besten Zeitfenster, vermeide die schlechtesten."
+  },
+  "common": {
+    "viewAll": "Alle ansehen",
+    "readMore": "Mehr lesen",
+    "loading": "Lädt…",
+    "noMatches": "Keine Treffer.",
+    "language": "Sprache"
+  },
+  "months": {
+    "Jan": "Jan",
+    "Feb": "Feb",
+    "Mar": "Mär",
+    "Apr": "Apr",
+    "May": "Mai",
+    "Jun": "Jun",
+    "Jul": "Jul",
+    "Aug": "Aug",
+    "Sep": "Sep",
+    "Oct": "Okt",
+    "Nov": "Nov",
+    "Dec": "Dez"
+  },
+  "header": {
+    "destinations": "Reiseziele",
+    "findDates": "Termine finden",
+    "methodology": "Methodik",
+    "startPlanning": "Jetzt planen"
+  },
+  "footer": {
+    "tagline": "Reise-Timing-Intelligenz. Wähle das richtige Zeitfenster, nicht nur den günstigsten Flug.",
+    "product": "Produkt",
+    "resources": "Ressourcen",
+    "company": "Unternehmen",
+    "links": {
+      "destinations": "Reiseziele",
+      "findDates": "Termine finden",
+      "methodology": "Methodik",
+      "howItWorks": "Wie es funktioniert",
+      "ourData": "Unsere Daten",
+      "faq": "FAQ",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "contact": "Kontakt"
+    },
+    "copyright": "© {year} BreakHeroes. Alle Rechte vorbehalten.",
+    "disclaimer": "Empfehlungen sind richtungsweisend. Preise und Nachfrage variieren."
+  },
+  "hero": {
+    "badge": "Neu — Timing-Intelligenz, keine weitere Buchungsseite",
+    "title": "Finde die <highlight>beste Zeit</highlight> zum Reisen — nicht einfach die günstigste.",
+    "subtitle": "Wir analysieren Feiertage, Schulferien, Andrang und Saisonalität, um dir genau zu sagen, wann du reisen solltest — und wann nicht.",
+    "whereTo": "Wohin?",
+    "pickDestination": "Reiseziel wählen",
+    "findMyDates": "Termine finden",
+    "priority": "Priorität:",
+    "stat": "<bold>{count}</bold> {count, plural, one {Land} other {Länder}} abgedeckt"
+  },
+  "priority": {
+    "balanced": "Ausgewogen",
+    "cheapest": "Günstigster",
+    "lessCrowded": "Weniger voll",
+    "bestWeather": "Bestes Wetter"
+  },
+  "howItWorks": {
+    "eyebrow": "Wie es funktioniert",
+    "title": "Drei Signale, eine klare Antwort",
+    "subtitle": "Wir verbinden die Faktoren, die deine Reise wirklich prägen — nicht nur die Flugpreise.",
+    "originPressure": {
+      "title": "Druck vom Heimatmarkt",
+      "description": "Wenn die Schulferien deines Heimatlands mit deinen Reisedaten zusammenfallen, schießen Nachfrage und Preise für Abflüge in die Höhe.",
+      "examples": {
+        "uk": "Britische Halbferien treiben die Nachfrage hoch",
+        "us": "US-Thanksgiving lässt Flugpreise um 30 %+ steigen",
+        "shoulder": "Nebensaison-Fenster bieten verstecktes Potenzial"
+      }
+    },
+    "destinationDisruption": {
+      "title": "Störungen am Reiseziel",
+      "description": "Lokale Feiertage schließen Sehenswürdigkeiten, füllen Städte oder verändern Preise — unabhängig davon, woher du kommst.",
+      "examples": {
+        "goldenWeek": "Goldene Woche in Japan",
+        "augustEurope": "August in Südeuropa",
+        "lunarNewYear": "Chinesisches Neujahr in ganz Asien"
+      }
+    },
+    "seasonality": {
+      "title": "Saisonalität",
+      "description": "Wetter, Tageslicht und Naturereignisse entscheiden, ob die Reisedaten wirklich angenehm sind — oder grauenhaft.",
+      "examples": {
+        "kyoto": "Kirschblüte in Kyoto",
+        "typhoon": "Taifunsaison in Südostasien",
+        "shoulder": "Nebensaisonen mit idealem Wetter"
+      }
+    }
+  },
+  "exampleResult": {
+    "eyebrow": "In Aktion",
+    "title": "Beispiel: Japan im Frühling",
+    "subtitle": "Dieselbe Reise kann doppelt so teuer sein oder sich wie ein anderes Land anfühlen — je nach Woche. So sieht Timing-Intelligenz für eine Familie aus dem Vereinigten Königreich aus.",
+    "bullets": {
+      "goldenWeekDrop": "Preise fallen stark nach Ende der Goldenen Woche",
+      "blossomShift": "Kirschblüte verschiebt sich pro Region um 7–10 Tage",
+      "ukEaster": "UK-Osterferien erhöhen den Abflug-Druck"
+    },
+    "cta": "Vollständige Japan-Analyse ansehen",
+    "card": {
+      "title": "Japan",
+      "subtitle": "Aus Vereinigtes Königreich · Apr–Mai 2026",
+      "windows": "{count} Zeitfenster",
+      "best": "Beste",
+      "ok": "OK",
+      "avoid": "Meiden",
+      "rows": {
+        "may": {
+          "dates": "12. Mai – 20. Mai",
+          "reasons": {
+            "cheaperFlights": "Nach Goldener Woche: ~25 % günstigere Flüge",
+            "crowdsDrop": "Andrang in Kyoto und Tokio fällt stark",
+            "weather": "Mildes Wetter, wenig Regen"
+          }
+        },
+        "apr15": {
+          "dates": "15. Apr – 23. Apr",
+          "reasons": {
+            "lateBlossom": "Späte Kirschblüte in nördlichen Regionen",
+            "ukEaster": "UK-Ostern erhöht Abflug-Druck",
+            "weather": "Wetter überwiegend angenehm"
+          }
+        },
+        "apr29": {
+          "dates": "29. Apr – 5. Mai",
+          "reasons": {
+            "peak": "Goldene Woche: Spitze des Inlandsreiseverkehrs",
+            "closures": "Die meisten Museen und Geschäfte geschlossen",
+            "flightsUp": "Flüge 40 %+ über dem saisonalen Durchschnitt"
+          }
+        }
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Reiseziele",
+    "title": "Beginne mit einem Reiseziel, das du liebst",
+    "viewAll": "Alle ansehen",
+    "viewAllMobile": "Alle Reiseziele ansehen",
+    "goodMonths": "{count, plural, one {# guter Monat} other {# gute Monate}}"
+  },
+  "destinationsIndex": {
+    "metaTitle": "Alle Reiseziele",
+    "metaDescription": "Stöbere durch alle Reiseziele auf BreakHeroes. Finde die besten Zeiten, vermeide Spitzenandrang und hohe Preise.",
+    "eyebrow": "Reiseziele",
+    "title": "Jedes Reiseziel, perfekt getimt",
+    "subtitle": "Kuratierte Timing-Intelligenz für jedes Reiseziel. Kein generisches \"Beste Reisezeit\"-Geschwafel."
+  },
+  "countryPage": {
+    "metaTitle": "Beste Reisezeit für {name}",
+    "back": "← Alle Reiseziele",
+    "monthlyOverview": {
+      "title": "Monatsübersicht",
+      "subtitle": "Jeder Monat klassifiziert nach allgemeiner Reise-Eignung.",
+      "legend": {
+        "best": "Beste",
+        "ok": "Akzeptabel",
+        "avoid": "Meiden"
+      }
+    },
+    "majorDisruptions": {
+      "title": "Wichtige Störungen",
+      "subtitle": "Lokale Ereignisse und Feiertage, die deine Reise prägen."
+    },
+    "whatLocalsKnow": {
+      "title": "Was Einheimische wissen"
+    },
+    "weather": {
+      "title": "Wetter"
+    },
+    "readMore": {
+      "title": "Mehr über {name} lesen",
+      "subtitle": "Reiseführer und Tipps aus dem Beevago-Blog."
+    }
+  },
+  "cityPage": {
+    "metaTitle": "Beste Reisezeit für {name}, {country}",
+    "bestTimePrefix": "Beste Zeit:",
+    "typicalStay": "Übliche Aufenthaltsdauer: {min}–{max} Tage",
+    "monthlyOverview": {
+      "title": "Monatsübersicht",
+      "subtitle": "Jeder Monat klassifiziert nach lokalem Wetter, Andrang und Preisen."
+    },
+    "seasons": {
+      "title": "Jahreszeiten",
+      "crowds": "Andrang: {value}",
+      "price": "Preis: {value}"
+    },
+    "majorDisruptions": {
+      "title": "Wichtige Störungen",
+      "subtitle": "Landesweite Ereignisse, die jede Reise nach {country} prägen."
+    },
+    "whatLocalsKnow": {
+      "title": "Was Einheimische wissen",
+      "subtitle": "Insider-Wissen zu {country}, das die beste Reisezeit prägt."
+    },
+    "topExperiences": {
+      "title": "Top-Erlebnisse"
+    },
+    "readMore": {
+      "city": "Mehr über {name} lesen",
+      "country": "Mehr aus {country}",
+      "citySubtitle": "Reiseführer und Tipps aus dem Beevago-Blog.",
+      "countrySubtitle": "Weitere Beevago-Reiseführer in {country}."
+    },
+    "moreAbout": "Mehr zu {country}",
+    "readGuide": "{country}-Reiseführer lesen →"
+  },
+  "countryCities": {
+    "title": "Städte und Regionen in {country}",
+    "subtitle": "Wähle ein Reiseziel für stadtspezifisches Timing, Wetter und Andrang.",
+    "best": "Beste: {months}"
+  },
+  "recommender": {
+    "title": "Termine finden",
+    "liveRanking": "Live-Ranking",
+    "travelingFrom": "Reise aus",
+    "year": "Jahr",
+    "priority": "Priorität",
+    "bestWindows": "Beste Zeitfenster",
+    "avoid": "Meiden"
+  },
+  "search": {
+    "metaTitle": "Termine finden",
+    "metaDescription": "Wähle ein Reiseziel und eine Priorität. Wir zeigen dir die besten und schlechtesten Zeitfenster — mit klaren Begründungen.",
+    "labels": {
+      "destination": "Reiseziel",
+      "from": "Von",
+      "year": "Jahr"
+    },
+    "placeholders": {
+      "destination": "Länder durchsuchen…",
+      "from": "Von wo fliegst du?"
+    },
+    "seePage": "Seite zu {name} ansehen",
+    "header": "{flag} {name}, {year}",
+    "fromOrigin": "Aus {origin} · Priorität: {priority}",
+    "windowsEvaluated": "{count} Zeitfenster ausgewertet",
+    "groups": {
+      "recommend": {
+        "title": "Empfohlen",
+        "description": "Höchst bewertete Zeitfenster für deine Priorität."
+      },
+      "acceptable": {
+        "title": "Akzeptabel",
+        "description": "OK, aber nicht optimal — abzuwägen, wenn deine Daten festliegen."
+      },
+      "avoid": {
+        "title": "Meiden",
+        "description": "Starke Signale gegen eine Reise in diesem Zeitfenster."
+      }
+    },
+    "card": {
+      "best": "Beste",
+      "ok": "OK",
+      "avoid": "Meiden"
+    },
+    "nextStep": {
+      "eyebrow": "Nächster Schritt",
+      "title": "Plane deine {name}-Reise",
+      "cta": "{name}-Reiseführer lesen"
+    }
+  },
+  "posts": {
+    "readOn": "Auf Beevago lesen →"
+  },
+  "upcomingHolidays": {
+    "title": "Feiertage {year}",
+    "total": "{count} insgesamt",
+    "major": "Hoch",
+    "more": "{count} weitere Feiertage in {country} bis {year}."
+  },
+  "severity": {
+    "severe": "Schwerwiegend",
+    "high": "Hoch",
+    "medium": "Mittel",
+    "low": "Niedrig",
+    "local": "Lokal",
+    "none": "Keine"
+  },
+  "scoring": {
+    "noOrigin": "Kein Herkunftsland gewählt — durchschnittliche Nachfrage angenommen.",
+    "noLocalDisruptions": "Keine größeren lokalen Störungen in diesem Zeitfenster.",
+    "schoolBreakSummary": "{breakName}-Überschneidung — {scopeNote}, Abflug-Nachfrage {demandLabel}.",
+    "scopeNote": {
+      "single": "eine Region in den Ferien",
+      "multiple": "{count} Regionen/Gruppen in den Ferien"
+    },
+    "demand": {
+      "severe": "schwerwiegend",
+      "high": "hoch",
+      "medium": "mittel",
+      "low": "niedrig",
+      "none": "keine"
+    },
+    "outsideSchoolBreaks": "Außerhalb der wichtigen {origin}-Schulferien — Nachfrage-Druck ist niedrig.",
+    "originPublicHolidays": "{origin}-Feiertage im Zeitfenster: {names} — verlängerte Wochenenden treiben die Preise hoch.",
+    "schoolBreakDrives": "{origin}-{breakName} treibt die Abflug-Nachfrage ({impact}).",
+    "destLocalHolidaysHigh": "Lokale Feiertage in diesem Zeitfenster: {names} — Schließungen und mehr Inlandsreisen erwartet.",
+    "destLocalHolidaysMild": "{count} Feiertage in diesem Zeitfenster — leichte Beeinträchtigung wahrscheinlich.",
+    "seasonBest": "{months} ist eine Bestsaison für {name}.",
+    "seasonShoulder": "{months} ist eine akzeptable Nebensaison.",
+    "seasonOff": "{months} liegt außerhalb der idealen Saison von {name}.",
+    "rainy": "Regenzeit-Überschneidung — mit Schauern rechnen.",
+    "typhoon": "Taifunsaison — Reise-Beeinträchtigung möglich.",
+    "disruptionLine": "{name}: {note}"
+  },
+  "about": {
+    "metaTitle": "Wie BreakHeroes funktioniert",
+    "metaDescription": "Die Methodik hinter unseren Reise-Timing-Empfehlungen — Druck vom Heimatmarkt, Störungen am Reiseziel und Saisonalität.",
+    "eyebrow": "Methodik",
+    "title": "Wie wir die beste Zeit auswählen",
+    "intro": "Die meisten Reiseseiten optimieren für Flüge. Wir optimieren dafür, dass die Reise tatsächlich gut wird.",
+    "how": {
+      "heading": "Drei Signale, eine Bewertung",
+      "p1": "Jedes mögliche Zeitfenster wird auf drei unabhängigen Ebenen bewertet. Wir gewichten sie nach deiner Priorität (günstigste, weniger voll, bestes Wetter oder ausgewogen) und kombinieren sie zu einer Endpunktzahl von 0 bis 100.",
+      "originPressure": {
+        "heading": "1. Druck vom Heimatmarkt",
+        "body": "Nachfrage <em>aus</em> deinem Heimatland. Wenn britische Halbferien mit deinen Daten zusammenfallen, schießen Flüge ab London hoch — selbst wenn dein Reiseziel ruhig ist. Wir verfolgen Schulkalender und große Feiertage deines Marktes, um diesen Druck zu messen."
+      },
+      "destinationDisruption": {
+        "heading": "2. Störungen am Reiseziel",
+        "body": "Lokale Kräfte am Reiseziel — Goldene Woche in Japan, Ferragosto in Italien, Tết in Vietnam. Sie verändern, was geöffnet ist, wie voll Städte sind und ob die Reise wirklich funktioniert. Druck vom Heimatmarkt und Störungen am Reiseziel sind <em>unterschiedliche</em> Signale, die wir getrennt modellieren."
+      },
+      "seasonality": {
+        "heading": "3. Saisonalität",
+        "body": "Wetter, Tageslicht, Naturereignisse. Kirschblüten erreichen ihren Höhepunkt in einer bestimmten Woche, Taifunsaison ist real, und Nebensaisonen kombinieren oft gutes Wetter mit niedriger Nachfrage. Wir kodieren für jedes Reiseziel beste, akzeptable und schlechte Monate sowie Wetter-Modifikatoren wie Regen- und Taifunsaison."
+      }
+    },
+    "data": {
+      "heading": "Woher die Daten kommen",
+      "p1": "Feiertagsdaten werden aus staatlichen Regelwerken berechnet — feste Daten, Osterberechnung, Mondkalender-Feiertage und Wochenend-Verschiebungsregeln. Schulferiendaten sind aus Veröffentlichungen der Bildungsministerien zusammengestellt.",
+      "p2": "Alle Daten liegen im Repository. Nichts wird zur Laufzeit nachgeladen. Das hält die Seite schnell, günstig und verfügbar — selbst wenn vorgelagerte APIs ausfallen."
+    },
+    "limits": {
+      "heading": "Was wir nicht tun",
+      "prices": {
+        "label": "Echtzeit-Preise.",
+        "body": "Wir scrapen keine Flüge oder Hotels. Unser „günstiger\"-Signal basiert auf saisonalen und feiertags-nahen Mustern, nicht auf Live-Verfügbarkeit."
+      },
+      "bookings": {
+        "label": "Buchungen.",
+        "body": "Wir sind eine Timing-Schicht, kein Wiederverkäufer. Wenn du dein Zeitfenster gefunden hast, buche bei dem Anbieter deiner Wahl."
+      },
+      "guarantees": {
+        "label": "Garantien.",
+        "body": "Unsere Empfehlungen sind richtungsweisend. Wetter variiert, Veranstaltungen werden verschoben, und Preise können jeden überraschen."
+      }
+    },
+    "faq": {
+      "heading": "FAQ",
+      "q1": {
+        "q": "Warum Monatsfenster statt genauer Daten?",
+        "a": "Die meisten Reisenden haben ein paar Wochen Flexibilität, kein bestimmtes Datum. Monatsfenster geben uns klare, vergleichbare Signale. Wir werden auf Wochen-Fenster verfeinern, sobald die Daten besser werden."
+      },
+      "q2": {
+        "q": "Werdet ihr weitere Herkunftsländer hinzufügen?",
+        "a": "Ja — die MVP-Version startet mit dem Vereinigten Königreich. Wir erweitern auf weitere große Märkte je nach Nachfrage."
+      },
+      "q3": {
+        "q": "Kann ich darauf für eine große Reise vertrauen?",
+        "a": "Nutze es als einen Input. Wir geben dir Signale, die die großen Buchungsseiten verstecken — aber die endgültige Entscheidung sollte deine Einschränkungen, Flexibilität und Risikobereitschaft berücksichtigen."
+      }
+    },
+    "cta": {
+      "title": "Bereit, dein Zeitfenster zu finden?",
+      "subtitle": "Wähle ein Reiseziel und wir bewerten jeden Monat für dich.",
+      "button": "Suche starten →"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Sprache",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

@@ -1,5 +1,11 @@
 import rules from "@/data/timing-rules.json";
-import type { Destination, LayerResult, TravelWindow } from "./types";
+import type {
+  Destination,
+  LayerResult,
+  Reason,
+  Translator,
+  TravelWindow,
+} from "./types";
 import { getHolidaysInRange } from "@/lib/holidays";
 
 const MONTH_SHORT = [
@@ -10,8 +16,9 @@ const MONTH_SHORT = [
 export function scoreDestinationDisruption(
   window: TravelWindow,
   destination: Destination,
+  t: Translator,
 ): LayerResult {
-  const reasons: string[] = [];
+  const reasons: Reason[] = [];
   let maxImpact = 0;
 
   for (const dis of destination.majorDisruptions) {
@@ -20,7 +27,10 @@ export function scoreDestinationDisruption(
 
     const impact = rules.severityScores[dis.severity] ?? 0;
     if (impact > maxImpact) maxImpact = impact;
-    reasons.push(`${dis.name}: ${dis.note}`);
+    reasons.push({
+      tone: "negative",
+      text: t("disruptionLine", { name: dis.name, note: dis.note }),
+    });
   }
 
   const exactHolidays = getHolidaysInRange(
@@ -35,22 +45,24 @@ export function scoreDestinationDisruption(
     );
     if (highImpact.length) {
       const names = highImpact.slice(0, 3).map((h) => h.name).join(", ");
-      reasons.push(
-        `Local public holidays this window: ${names} — expect closures and higher domestic travel.`,
-      );
+      reasons.push({
+        tone: "negative",
+        text: t("destLocalHolidaysHigh", { names }),
+      });
       const holidayImpact = rules.severityScores.medium;
       if (holidayImpact > maxImpact) maxImpact = holidayImpact;
     } else if (exactHolidays.length >= 3) {
-      reasons.push(
-        `${exactHolidays.length} public holidays in this window — mild disruption likely.`,
-      );
+      reasons.push({
+        tone: "neutral",
+        text: t("destLocalHolidaysMild", { count: exactHolidays.length }),
+      });
     }
   }
 
   const score = 100 - maxImpact;
 
   if (!reasons.length) {
-    reasons.push("No major local disruptions in this window.");
+    reasons.push({ tone: "positive", text: t("noLocalDisruptions") });
   }
 
   return { score, reasons };

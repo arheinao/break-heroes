@@ -1,5 +1,6 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import type { BeevagoDestination } from "@/lib/beevago";
 
 export default function CountryCities({
@@ -9,16 +10,15 @@ export default function CountryCities({
   countryName: string;
   cities: BeevagoDestination[];
 }) {
+  const t = useTranslations("countryCities");
   if (!cities.length) return null;
 
   return (
     <div>
       <h2 className="font-display text-2xl font-semibold tracking-tight">
-        Cities & regions in {countryName}
+        {t("title", { country: countryName })}
       </h2>
-      <p className="mt-2 text-muted-foreground">
-        Drill into a destination for city-specific timing, weather, and crowds.
-      </p>
+      <p className="mt-2 text-muted-foreground">{t("subtitle")}</p>
       <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {cities.map((c) => (
           <li key={c.id}>
@@ -40,7 +40,7 @@ export default function CountryCities({
                 <h3 className="font-semibold text-base drop-shadow">{c.name}</h3>
                 {c.bestTime && (
                   <p className="mt-0.5 text-xs text-white/80">
-                    Best: {c.bestTime}
+                    {t("best", { months: c.bestTime })}
                   </p>
                 )}
               </div>

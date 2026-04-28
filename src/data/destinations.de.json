@@ -1,0 +1,227 @@
+{
+  "japan": {
+    "tagline": "Kirschblüten, Tempel — und ein Timing, das wichtiger ist, als du denkst.",
+    "weather": {
+      "summary": "Vier ausgeprägte Jahreszeiten. Frühling und Herbst bieten das verlässlichste Wetter."
+    },
+    "highlights": [
+      "Die Kirschblüte verschiebt sich nach Breitengrad — Tokio Ende März, Hokkaido Anfang Mai.",
+      "Herbstlaub zieht von Anfang November (Norden) bis Anfang Dezember (Kyoto).",
+      "Nach der Goldenen Woche (Mitte Mai) ist das beste Preis-Leistungs-Fenster der Nebensaison."
+    ],
+    "majorDisruptions": {
+      "golden_week": {
+        "name": "Goldene Woche",
+        "approxDates": "29. Apr – 5. Mai",
+        "note": "Spitze des Inlandsreiseverkehrs. Die meisten Museen und kleineren Geschäfte sind geschlossen. Flüge 40 %+ über dem saisonalen Durchschnitt."
+      },
+      "obon": {
+        "name": "Obon",
+        "approxDates": "13. Aug – 16. Aug",
+        "note": "Wichtiges Ahnenfest. Shinkansen und Inlandsflüge stark ausgebucht."
+      },
+      "new_year": {
+        "name": "Shōgatsu (Neujahr)",
+        "approxDates": "29. Dez – 3. Jan",
+        "note": "Viele Betriebe sind mehrere Tage geschlossen. Ruhig, aber eingeschränkt."
+      }
+    }
+  },
+  "portugal": {
+    "tagline": "Sonne, Surf und Nebensaisonen, die den Rest Europas blass aussehen lassen.",
+    "weather": {
+      "summary": "Mildes Mittelmeerklima. Die Atlantikküste bleibt kühler als Spanien."
+    },
+    "highlights": [
+      "Nebensaisonen (Apr–Mai, Sep–Okt) bieten warmes Wetter ohne Spitzenandrang.",
+      "Die Algarve hat ihren Höhepunkt im Juli–August mit 2- bis 3-fachen Übernachtungspreisen.",
+      "Lissabon und Porto sind außerhalb des Winterregens das ganze Jahr über angenehm."
+    ],
+    "majorDisruptions": {
+      "august_closures": {
+        "name": "August-Schließungen",
+        "approxDates": "1. Aug – 31. Aug",
+        "note": "Viele familiengeführte Restaurants und kleine Läden schließen für einen Monat."
+      },
+      "semana_santa": {
+        "name": "Semana Santa (Karwoche)",
+        "approxDates": "Osterwoche",
+        "note": "Prozessionen im ganzen Land. Übernachtungen in Großstädten teurer."
+      }
+    }
+  },
+  "italy": {
+    "tagline": "Europas beliebtestes Land. Timing ist alles.",
+    "weather": {
+      "summary": "Mediterran. Heiße trockene Sommer, milde feuchte Winter. Alpenregionen unterscheiden sich."
+    },
+    "highlights": [
+      "September ist wohl der beste Allround-Monat — warm, wenig Andrang, Erntezeit.",
+      "Das Hochwasser in Venedig erreicht im Nov–Dez seinen Höhepunkt; mit älteren Reisenden meiden.",
+      "Cinque Terre und Amalfi sind im Juli–August überlaufen."
+    ],
+    "majorDisruptions": {
+      "ferragosto": {
+        "name": "Ferragosto",
+        "approxDates": "15. Aug",
+        "note": "Nationaler Feiertag. Städte leeren sich, Küstenorte sind voll ausgelastet."
+      },
+      "august_closures": {
+        "name": "August-Schließungen",
+        "approxDates": "1. Aug – 31. Aug",
+        "note": "Viele familiengeführte Restaurants und Läden schließen für einen Monat."
+      },
+      "christmas": {
+        "name": "Weihnachten und Epiphanie",
+        "approxDates": "23. Dez – 6. Jan",
+        "note": "Rom und Vatikan sind voll; viele Betriebe mit reduzierten Öffnungszeiten."
+      }
+    }
+  },
+  "thailand": {
+    "tagline": "Tropische Rhythmen, große saisonale Schwankungen — günstig, wenn niemand sonst hinfährt.",
+    "weather": {
+      "summary": "Tropischer Monsun. Die Trockenzeit von Nov–Mär ist die natürliche Hauptsaison."
+    },
+    "highlights": [
+      "Nov–Feb hat perfektes Wetter, ist aber auch westliche Hochsaison.",
+      "Ende April – Anfang Juni ist heiß, eher trocken, mit günstigen Preisen und wenig Andrang.",
+      "Die Inseln im Süden sind unterschiedlich: Golfseite und Andamanenseite haben gegenläufige Regenzeiten."
+    ],
+    "majorDisruptions": {
+      "songkran": {
+        "name": "Songkran (Thailändisches Neujahr)",
+        "approxDates": "13. Apr – 15. Apr",
+        "note": "Landesweites Wasserfest. Bangkok teilweise stillgelegt. Flüge teuer."
+      },
+      "chinese_new_year": {
+        "name": "Anstieg zum chinesischen Neujahr",
+        "approxDates": "Ende Jan – Mitte Feb",
+        "note": "Riesige Tourismuswelle aus China. Phuket und Bangkok sind voll."
+      }
+    }
+  },
+  "greece": {
+    "tagline": "Inseln, Ruinen — und der Zauber der Nebensaison.",
+    "weather": {
+      "summary": "Mediterran. Heiße trockene Sommer, milde Winter auf den Inseln."
+    },
+    "highlights": [
+      "Späten Mai und September sind ideal — warmes Meer, erträglicher Andrang.",
+      "Santorini ist im Juli–August überlaufen; besser Paros oder Naxos.",
+      "Athen ist Apr–Mai und Okt–Nov angenehm, im Juli–August brutal heiß."
+    ],
+    "majorDisruptions": {
+      "orthodox_easter": {
+        "name": "Orthodoxes Ostern",
+        "approxDates": "Variiert (oft später als das westliche Ostern)",
+        "note": "Großer Inlandsreiseverkehr. Fähren ausgebucht, Inseln festlich."
+      },
+      "august_peak": {
+        "name": "August-Hochsaison",
+        "approxDates": "1. Aug – 31. Aug",
+        "note": "Inlands- und internationale Spitzen überschneiden sich. Preise verdoppeln sich, Fähren überfüllt."
+      }
+    }
+  },
+  "spain": {
+    "tagline": "Regionale Kalender erzeugen versteckte Zeitfenster — wenn du sie kennst.",
+    "weather": {
+      "summary": "Mediterran an der Küste, kontinental im Inland. Im Juli–August glühend heiß."
+    },
+    "highlights": [
+      "Andalusien ist im August unerträglich — 40 °C+ keine Seltenheit.",
+      "September ist landesweit der beste Allround-Monat.",
+      "Regionale Feiertage variieren je nach autonomer Gemeinschaft — vergleiche Katalonien und Madrid."
+    ],
+    "majorDisruptions": {
+      "semana_santa": {
+        "name": "Semana Santa (Karwoche)",
+        "approxDates": "Osterwoche",
+        "note": "Sevilla, Malaga und Andalusien sind voll mit Prozessionen und Touristen."
+      },
+      "la_tomatina": {
+        "name": "La Tomatina",
+        "approxDates": "Letzter Mittwoch im August",
+        "note": "Winziges Buñol, treibt aber die Preise in der Region Valencia hoch."
+      }
+    }
+  },
+  "croatia": {
+    "tagline": "Adriaküste, unterschätzte Nebensaisonen.",
+    "weather": {
+      "summary": "Mediterran an der Küste, kontinental im Inland."
+    },
+    "highlights": [
+      "Ende Mai mit warmem Meer, geöffneten Restaurants und wenigen Kreuzfahrtschiffen.",
+      "Plitvice ist im Mai und Oktober ideal — angenehmes Wetter, lebendige Farben.",
+      "Hvar ist im Juli–August stark überlaufen; Korčula und Vis bleiben ruhiger."
+    ],
+    "majorDisruptions": {
+      "august_peak": {
+        "name": "August-Hochsaison",
+        "approxDates": "1. Aug – 31. Aug",
+        "note": "Hochsaison für mitteleuropäische Reisende. Dubrovnik und Split sind voll."
+      }
+    }
+  },
+  "morocco": {
+    "tagline": "Märkte, Wüsten, Berge — je nach Saison völlig unterschiedlich.",
+    "weather": {
+      "summary": "Riesige Spannweite. Sahara im Sommer brutal; Atlasgebirge im Winter verschneit."
+    },
+    "highlights": [
+      "März–April ist ideal für Wüstentrekking und Marrakech-Medina-Wetter.",
+      "Juli–August ist in Marrakech drückend — meiden, außer du fährst in den Atlas.",
+      "Achte auf das Ramadan-Datum: beeinflusst die Restaurant-Öffnungszeiten stark."
+    ],
+    "majorDisruptions": {
+      "ramadan": {
+        "name": "Ramadan",
+        "approxDates": "Variiert (Mondkalender)",
+        "note": "Viele Restaurants tagsüber geschlossen. Souks abends lebendiger."
+      },
+      "eid_al_fitr": {
+        "name": "Eid al-Fitr",
+        "approxDates": "Tag nach Ramadan-Ende",
+        "note": "Nationaler Feiertag. Manche Betriebe geschlossen, Verkehr stark."
+      }
+    }
+  },
+  "vietnam": {
+    "tagline": "Norden, Mitte, Süden — drei Klimazonen, ein Land.",
+    "weather": {
+      "summary": "Tropisch. Der Norden hat ausgeprägte Jahreszeiten, der Süden nur Trocken-/Regenzeit."
+    },
+    "highlights": [
+      "Tết meiden, wenn du offene Restaurants und günstige Flüge willst.",
+      "November ist für den Großteil des Landes ideal.",
+      "Halong-Bucht am besten Okt–Dez; Mekongdelta am besten Dez–Apr."
+    ],
+    "majorDisruptions": {
+      "tet": {
+        "name": "Tết (Mondneujahr)",
+        "approxDates": "Ende Jan – Mitte Feb",
+        "note": "Größter nationaler Feiertag. Viele Betriebe eine Woche geschlossen. Verkehr voll ausgebucht."
+      }
+    }
+  },
+  "iceland": {
+    "tagline": "Vulkane, Polarlichter — und drastisch unterschiedliche Jahreszeiten.",
+    "weather": {
+      "summary": "Subpolar ozeanisch. Sommer mit 20+ Stunden Tageslicht; Winter mit 4 Stunden."
+    },
+    "highlights": [
+      "Polarlichtsaison ist Sep–Apr; Höchstwahrscheinlichkeit Okt–Feb.",
+      "Mitternachtssonne im Juni — atemberaubend, aber überlaufen.",
+      "Hochland-F-Straßen nur Jun–Sep geöffnet."
+    ],
+    "majorDisruptions": {
+      "christmas_new_year": {
+        "name": "Weihnachten / Neujahr",
+        "approxDates": "20. Dez – 3. Jan",
+        "note": "Reykjavik überlaufen. Preise springen hoch. Polarlicht-Saison ist Spitze."
+      }
+    }
+  }
+}

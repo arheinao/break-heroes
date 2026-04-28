@@ -7,10 +7,15 @@ const __dirname = dirname(__filename);
 
 const WP_API = process.env.WORDPRESS_API_URL ?? "https://cms.beevago.com";
 const PUBLIC_SITE = process.env.BEEVAGO_PUBLIC_SITE ?? "https://www.beevago.com";
-const LANG = process.env.BEEVAGO_LANG ?? "en";
+const LANGS = (process.env.BEEVAGO_LANGS ?? "en,de,es")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
 const PER_PAGE = 100;
 
-const OUTPUT = resolve(__dirname, "../src/data/beevago-posts.json");
+function outputPath(lang) {
+  return resolve(__dirname, `../src/data/beevago-posts.${lang}.json`);
+}
 
 function authHeader() {
   const u = process.env.WORDPRESS_USERNAME;
@@ -21,7 +26,7 @@ function authHeader() {
 
 function buildHeaders() {
   const h = {
-    "Accept": "application/json",
+    Accept: "application/json",
     "User-Agent": "break-heroes-fetcher/1.0",
   };
   const auth = authHeader();
@@ -57,7 +62,7 @@ function decodeEntities(s) {
   return s
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-fA-F]+);/g, (_, h) =>
-      String.fromCodePoint(parseInt(h, 16))
+      String.fromCodePoint(parseInt(h, 16)),
     )
     .replace(/&([a-zA-Z]+);/g, (m, name) => NAMED_ENTITIES[name] ?? m);
 }
@@ -79,27 +84,27 @@ function extractTerms(post, taxonomy) {
 }
 
 function countryCodeFromTerm(slug) {
-  // slugs are like "country-me", "country-jp"
   const m = slug.match(/^country-([a-z]{2})$/i);
   return m ? m[1].toUpperCase() : null;
 }
 
-async function fetchPage(page) {
-  const url = `${WP_API}/wp-json/wp/v2/posts?per_page=${PER_PAGE}&page=${page}&lang=${LANG}&_embed=1&_fields=id,slug,date,title,excerpt,featured_media,_links,_embedded`;
+async function fetchPage(lang, page) {
+  const url = `${WP_API}/wp-json/wp/v2/posts?per_page=${PER_PAGE}&page=${page}&lang=${lang}&_embed=1&_fields=id,slug,date,title,excerpt,featured_media,_links,_embedded`;
   const res = await fetch(url, { headers: buildHeaders() });
   if (!res.ok) {
-    throw new Error(`Failed page ${page}: ${res.status} ${res.statusText}`);
+    throw new Error(`[${lang}] Failed page ${page}: ${res.status} ${res.statusText}`);
   }
   const totalPages = Number(res.headers.get("x-wp-totalpages")) || 1;
   const posts = await res.json();
   return { posts, totalPages };
 }
 
-async function main() {
+async function fetchLang(lang) {
+  console.log(`\n=== Fetching lang=${lang} ===`);
   const all = [];
   let page = 1;
   while (true) {
-    const { posts, totalPages } = await fetchPage(page);
+    const { posts, totalPages } = await fetchPage(lang, page);
     all.push(...posts);
     process.stdout.write(`  page ${page}/${totalPages} (${posts.length} posts)\n`);
     if (page >= totalPages) break;
@@ -120,7 +125,7 @@ async function main() {
       date: p.date,
       title: stripTags(p.title?.rendered ?? ""),
       excerpt: stripTags(p.excerpt?.rendered ?? ""),
-      url: `${PUBLIC_SITE}/${LANG}/blog/${p.slug}`,
+      url: `${PUBLIC_SITE}/${lang}/blog/${p.slug}`,
       image,
       destinations,
       countryCodes,
@@ -129,7 +134,8 @@ async function main() {
 
   trimmed.sort((a, b) => (a.date < b.date ? 1 : -1));
 
-  await writeFile(OUTPUT, JSON.stringify(trimmed, null, 2) + "\n", "utf8");
+  const out = outputPath(lang);
+  await writeFile(out, JSON.stringify(trimmed, null, 2) + "\n", "utf8");
 
   const cityCount = new Set();
   const countryCount = new Set();
@@ -138,9 +144,18 @@ async function main() {
     p.countryCodes.forEach((c) => countryCount.add(c));
   }
 
-  console.log(`\nFetched ${trimmed.length} posts.`);
-  console.log(`Tagged across ${cityCount.size} unique destinations and ${countryCount.size} country codes.`);
-  console.log(`Output: ${OUTPUT}`);
+  console.log(`  → ${trimmed.length} posts (${cityCount.size} cities, ${countryCount.size} countries) → ${out}`);
+}
+
+async function main() {
+  for (const lang of LANGS) {
+    try {
+      await fetchLang(lang);
+    } catch (err) {
+      console.error(err);
+      console.error(`Skipping ${lang} due to error.`);
+    }
+  }
 }
 
 main().catch((err) => {

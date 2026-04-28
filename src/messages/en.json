@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "brand": "BreakHeroes",
+    "title": "BreakHeroes — Travel at the right time",
+    "description": "Find the best time to travel — not just the cheapest. We analyze holidays, crowds, and seasonality to tell you exactly when to go, and when to avoid.",
+    "ogDescription": "Timing intelligence for travelers. Find the best windows, avoid the worst."
+  },
+  "common": {
+    "viewAll": "View all",
+    "readMore": "Read more",
+    "loading": "Loading…",
+    "noMatches": "No matches.",
+    "language": "Language"
+  },
+  "months": {
+    "Jan": "Jan",
+    "Feb": "Feb",
+    "Mar": "Mar",
+    "Apr": "Apr",
+    "May": "May",
+    "Jun": "Jun",
+    "Jul": "Jul",
+    "Aug": "Aug",
+    "Sep": "Sep",
+    "Oct": "Oct",
+    "Nov": "Nov",
+    "Dec": "Dec"
+  },
+  "header": {
+    "destinations": "Destinations",
+    "findDates": "Find dates",
+    "methodology": "Methodology",
+    "startPlanning": "Start planning"
+  },
+  "footer": {
+    "tagline": "Travel timing intelligence. Pick the right window, not just the cheapest flight.",
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company",
+    "links": {
+      "destinations": "Destinations",
+      "findDates": "Find dates",
+      "methodology": "Methodology",
+      "howItWorks": "How it works",
+      "ourData": "Our data",
+      "faq": "FAQ",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "contact": "Contact"
+    },
+    "copyright": "© {year} BreakHeroes. All rights reserved.",
+    "disclaimer": "Recommendations are directional. Prices and demand vary."
+  },
+  "hero": {
+    "badge": "New — timing intelligence, not another booking site",
+    "title": "Find the <highlight>best time</highlight> to travel — not just the cheapest.",
+    "subtitle": "We analyze public holidays, school breaks, crowds, and seasonality to tell you exactly when to go — and when to avoid.",
+    "whereTo": "Where to?",
+    "pickDestination": "Pick a destination",
+    "findMyDates": "Find my dates",
+    "priority": "Priority:",
+    "stat": "<bold>{count}</bold> {count, plural, one {country} other {countries}} covered"
+  },
+  "priority": {
+    "balanced": "Balanced",
+    "cheapest": "Cheapest",
+    "lessCrowded": "Less crowded",
+    "bestWeather": "Best weather"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Three signals, one clear answer",
+    "subtitle": "We combine the forces that actually shape your trip — not just flight prices.",
+    "originPressure": {
+      "title": "Origin pressure",
+      "description": "When your home country's school breaks line up with your dates, demand (and prices) surge on outbound flights.",
+      "examples": {
+        "uk": "UK half-term spikes outbound demand",
+        "us": "US Thanksgiving pushes flight prices 30%+",
+        "shoulder": "Shoulder windows reveal hidden value"
+      }
+    },
+    "destinationDisruption": {
+      "title": "Destination disruption",
+      "description": "Local holidays close attractions, pack cities, or move prices at your destination independent of your origin.",
+      "examples": {
+        "goldenWeek": "Golden Week in Japan",
+        "augustEurope": "August in Southern Europe",
+        "lunarNewYear": "Chinese New Year impact across Asia"
+      }
+    },
+    "seasonality": {
+      "title": "Seasonality",
+      "description": "Weather, daylight, and natural events decide whether the dates are actually pleasant — or miserable.",
+      "examples": {
+        "kyoto": "Cherry blossom peak in Kyoto",
+        "typhoon": "Typhoon season in Southeast Asia",
+        "shoulder": "Shoulder months with ideal weather"
+      }
+    }
+  },
+  "exampleResult": {
+    "eyebrow": "See it in action",
+    "title": "Example: Japan in spring",
+    "subtitle": "The same trip can cost 2× or feel like a different country depending on the week. Here's what timing intelligence looks like for a family traveling from the UK.",
+    "bullets": {
+      "goldenWeekDrop": "Prices drop sharply after Golden Week ends",
+      "blossomShift": "Cherry blossoms shift 7–10 days per region",
+      "ukEaster": "UK Easter holiday adds outbound demand pressure"
+    },
+    "cta": "See full Japan breakdown",
+    "card": {
+      "title": "Japan",
+      "subtitle": "From United Kingdom · Apr–May 2026",
+      "windows": "{count} windows",
+      "best": "Best",
+      "ok": "OK",
+      "avoid": "Avoid",
+      "rows": {
+        "may": {
+          "dates": "May 12 – May 20",
+          "reasons": {
+            "cheaperFlights": "Post-Golden Week: ~25% cheaper flights",
+            "crowdsDrop": "Crowds drop sharply in Kyoto & Tokyo",
+            "weather": "Mild weather, low rainfall"
+          }
+        },
+        "apr15": {
+          "dates": "Apr 15 – Apr 23",
+          "reasons": {
+            "lateBlossom": "Late cherry blossom in northern regions",
+            "ukEaster": "UK Easter adds outbound pressure",
+            "weather": "Weather mostly pleasant"
+          }
+        },
+        "apr29": {
+          "dates": "Apr 29 – May 5",
+          "reasons": {
+            "peak": "Golden Week: peak domestic travel",
+            "closures": "Most museums & shops closed",
+            "flightsUp": "Flights 40%+ above seasonal average"
+          }
+        }
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Destinations",
+    "title": "Start with a destination you love",
+    "viewAll": "View all",
+    "viewAllMobile": "View all destinations",
+    "goodMonths": "{count, plural, one {# good month} other {# good months}}"
+  },
+  "destinationsIndex": {
+    "metaTitle": "All destinations",
+    "metaDescription": "Browse every destination on BreakHeroes. Find the best times, avoid peak crowds and prices.",
+    "eyebrow": "Destinations",
+    "title": "Every destination, timed right",
+    "subtitle": "Curated timing intelligence for each destination. No generic \"best time to visit\" fluff."
+  },
+  "countryPage": {
+    "metaTitle": "Best time to visit {name}",
+    "back": "← All destinations",
+    "monthlyOverview": {
+      "title": "Monthly overview",
+      "subtitle": "Each month classified by overall suitability for travel.",
+      "legend": {
+        "best": "Best",
+        "ok": "Acceptable",
+        "avoid": "Avoid"
+      }
+    },
+    "majorDisruptions": {
+      "title": "Major disruptions",
+      "subtitle": "Local events and holidays that reshape your trip."
+    },
+    "whatLocalsKnow": {
+      "title": "What locals know"
+    },
+    "weather": {
+      "title": "Weather"
+    },
+    "readMore": {
+      "title": "Read more about {name}",
+      "subtitle": "Guides and tips from the Beevago blog."
+    }
+  },
+  "cityPage": {
+    "metaTitle": "Best time to visit {name}, {country}",
+    "bestTimePrefix": "Best time:",
+    "typicalStay": "Typical stay: {min}–{max} days",
+    "monthlyOverview": {
+      "title": "Monthly overview",
+      "subtitle": "Each month classified using local weather, crowds, and prices."
+    },
+    "seasons": {
+      "title": "Seasons",
+      "crowds": "Crowds: {value}",
+      "price": "Price: {value}"
+    },
+    "majorDisruptions": {
+      "title": "Major disruptions",
+      "subtitle": "Country-wide events that reshape any trip to {country}."
+    },
+    "whatLocalsKnow": {
+      "title": "What locals know",
+      "subtitle": "Insider context for {country} that shapes the best time to visit."
+    },
+    "topExperiences": {
+      "title": "Top experiences"
+    },
+    "readMore": {
+      "city": "Read more about {name}",
+      "country": "More from {country}",
+      "citySubtitle": "Guides and tips from the Beevago blog.",
+      "countrySubtitle": "Other Beevago guides across {country}."
+    },
+    "moreAbout": "More about {country}",
+    "readGuide": "Read the {country} guide →"
+  },
+  "countryCities": {
+    "title": "Cities & regions in {country}",
+    "subtitle": "Drill into a destination for city-specific timing, weather, and crowds.",
+    "best": "Best: {months}"
+  },
+  "recommender": {
+    "title": "Find my dates",
+    "liveRanking": "Live ranking",
+    "travelingFrom": "Traveling from",
+    "year": "Year",
+    "priority": "Priority",
+    "bestWindows": "Best windows",
+    "avoid": "Avoid"
+  },
+  "search": {
+    "metaTitle": "Find your dates",
+    "metaDescription": "Pick a destination and priority. We'll show you the best and worst windows — with plain-language reasons.",
+    "labels": {
+      "destination": "Destination",
+      "from": "From",
+      "year": "Year"
+    },
+    "placeholders": {
+      "destination": "Search countries…",
+      "from": "Where are you flying from?"
+    },
+    "seePage": "See {name} page",
+    "header": "{flag} {name}, {year}",
+    "fromOrigin": "From {origin} · Priority: {priority}",
+    "windowsEvaluated": "{count} windows evaluated",
+    "groups": {
+      "recommend": {
+        "title": "Recommended",
+        "description": "Highest-scoring windows for your priority."
+      },
+      "acceptable": {
+        "title": "Acceptable",
+        "description": "OK, but not optimal — consider if your dates are locked."
+      },
+      "avoid": {
+        "title": "Avoid",
+        "description": "Strong signals against traveling during these windows."
+      }
+    },
+    "card": {
+      "best": "Best",
+      "ok": "OK",
+      "avoid": "Avoid"
+    },
+    "nextStep": {
+      "eyebrow": "Next step",
+      "title": "Plan your {name} trip",
+      "cta": "Read the {name} guide"
+    }
+  },
+  "posts": {
+    "readOn": "Read on Beevago →"
+  },
+  "upcomingHolidays": {
+    "title": "Public holidays {year}",
+    "total": "{count} total",
+    "major": "Major",
+    "more": "{count} more holidays in {country} through {year}."
+  },
+  "severity": {
+    "severe": "Severe",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "local": "Local",
+    "none": "None"
+  },
+  "scoring": {
+    "noOrigin": "No origin market selected — assuming average demand.",
+    "noLocalDisruptions": "No major local disruptions in this window.",
+    "schoolBreakSummary": "{breakName} overlap — {scopeNote}, outbound demand {demandLabel}.",
+    "scopeNote": {
+      "single": "single region on break",
+      "multiple": "{count} regions/groups on break"
+    },
+    "demand": {
+      "severe": "severe",
+      "high": "high",
+      "medium": "medium",
+      "low": "low",
+      "none": "none"
+    },
+    "outsideSchoolBreaks": "Outside major {origin} school breaks — demand pressure is low.",
+    "originPublicHolidays": "{origin} public holidays during window: {names} — long weekends pull prices up.",
+    "schoolBreakDrives": "{origin} {breakName} drives outbound demand ({impact}).",
+    "destLocalHolidaysHigh": "Local public holidays this window: {names} — expect closures and higher domestic travel.",
+    "destLocalHolidaysMild": "{count} public holidays in this window — mild disruption likely.",
+    "seasonBest": "{months} is a best-season window for {name}.",
+    "seasonShoulder": "{months} is an acceptable shoulder window.",
+    "seasonOff": "{months} falls outside {name}'s ideal season.",
+    "rainy": "Rainy season overlap — expect showers.",
+    "typhoon": "Typhoon season — travel disruption possible.",
+    "disruptionLine": "{name}: {note}"
+  },
+  "about": {
+    "metaTitle": "How BreakHeroes works",
+    "metaDescription": "The methodology behind our travel timing recommendations — origin pressure, destination disruption, and seasonality.",
+    "eyebrow": "Methodology",
+    "title": "How we pick the best time",
+    "intro": "Most travel sites optimize for flights. We optimize for whether the trip is actually going to be good.",
+    "how": {
+      "heading": "Three signals, one score",
+      "p1": "Every candidate date window gets scored on three independent layers. We weight them based on your priority (cheapest, least-crowded, best weather, or balanced), then combine them into a final score from 0 to 100.",
+      "originPressure": {
+        "heading": "1. Origin pressure",
+        "body": "Demand <em>from</em> your home country. When UK school half-term lines up with your dates, outbound flights from London spike — even if your destination is quiet. We track school calendars and major holidays for your origin market to measure this pressure."
+      },
+      "destinationDisruption": {
+        "heading": "2. Destination disruption",
+        "body": "Local forces at your destination — Golden Week in Japan, Ferragosto in Italy, Tết in Vietnam. These change what's open, how crowded cities are, and whether the trip actually works. Origin pressure and destination disruption are <em>different</em> signals and we model them separately."
+      },
+      "seasonality": {
+        "heading": "3. Seasonality",
+        "body": "Weather, daylight, natural events. Cherry blossoms peak at a specific week, typhoon season is real, and shoulder months often pair great weather with low demand. We encode each destination's best, acceptable, and poor months, plus weather modifiers like rainy and typhoon seasons."
+      }
+    },
+    "data": {
+      "heading": "Where the data comes from",
+      "p1": "Public holiday data is computed from government-sourced rule sets — fixed dates, Easter calculations, lunar-calendar holidays, and weekend-shift rules. School holiday data is curated from education ministry publications.",
+      "p2": "All data lives in the repository. Nothing is fetched at runtime. This keeps the site fast, cheap, and available even if upstream APIs go down."
+    },
+    "limits": {
+      "heading": "What we don't do",
+      "prices": {
+        "label": "Real-time prices.",
+        "body": "We don't scrape flights or hotels. Our \"cheaper\" signal is based on seasonal and holiday-adjacent patterns, not live inventory."
+      },
+      "bookings": {
+        "label": "Bookings.",
+        "body": "We're a timing layer, not a reseller. When you find your window, book through the provider of your choice."
+      },
+      "guarantees": {
+        "label": "Guarantees.",
+        "body": "Our recommendations are directional. Weather varies, events get rescheduled, and prices can surprise anyone."
+      }
+    },
+    "faq": {
+      "heading": "FAQ",
+      "q1": {
+        "q": "Why monthly windows instead of exact dates?",
+        "a": "Most travelers have a few weeks of flexibility, not a specific date. Monthly windows let us give you clear, comparable signals. We'll refine to week-level windows as data improves."
+      },
+      "q2": {
+        "q": "Will you add more origin countries?",
+        "a": "Yes — the MVP ships with UK. We'll expand to other major markets based on demand."
+      },
+      "q3": {
+        "q": "Can I trust this for a big trip?",
+        "a": "Use it as one input. We're giving you signal the big booking sites hide — but the final call should factor your constraints, flexibility, and appetite for risk."
+      }
+    },
+    "cta": {
+      "title": "Ready to find your window?",
+      "subtitle": "Pick a destination and we'll score every month for you.",
+      "button": "Start searching →"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español"
+  }
+}

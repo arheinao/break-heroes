@@ -14,9 +14,14 @@ export interface TravelWindow {
   label?: string;
 }
 
+export interface Reason {
+  tone: "positive" | "negative" | "neutral";
+  text: string;
+}
+
 export interface LayerResult {
   score: number;
-  reasons: string[];
+  reasons: Reason[];
 }
 
 export interface WindowScore {
@@ -26,8 +31,13 @@ export interface WindowScore {
   seasonality: LayerResult;
   overall: number;
   recommendation: "recommend" | "acceptable" | "avoid";
-  explanation: string[];
+  explanation: Reason[];
 }
+
+export type Translator = (
+  key: string,
+  values?: Record<string, string | number>,
+) => string;
 
 export interface Destination {
   slug: string;

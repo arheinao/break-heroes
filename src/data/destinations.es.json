@@ -1,0 +1,227 @@
+{
+  "japan": {
+    "tagline": "Cerezos, templos y un timing más decisivo de lo que crees.",
+    "weather": {
+      "summary": "Cuatro estaciones marcadas. La primavera y el otoño ofrecen el clima más fiable."
+    },
+    "highlights": [
+      "El pico de la floración cambia con la latitud — Tokio a finales de marzo, Hokkaido a principios de mayo.",
+      "El follaje otoñal va desde principios de noviembre (norte) hasta principios de diciembre (Kioto).",
+      "Después de Golden Week (mediados de mayo) es la mejor ventana de temporada intermedia."
+    ],
+    "majorDisruptions": {
+      "golden_week": {
+        "name": "Golden Week",
+        "approxDates": "29 abr – 5 may",
+        "note": "Pico de viajes nacionales. La mayoría de museos y comercios pequeños cierran. Vuelos un 40 %+ por encima del promedio estacional."
+      },
+      "obon": {
+        "name": "Obon",
+        "approxDates": "13 ago – 16 ago",
+        "note": "Importante festividad de honra a los antepasados. Shinkansen y vuelos nacionales muy reservados."
+      },
+      "new_year": {
+        "name": "Shōgatsu (Año Nuevo)",
+        "approxDates": "29 dic – 3 ene",
+        "note": "Muchos comercios cierran varios días. Tranquilo pero limitado."
+      }
+    }
+  },
+  "portugal": {
+    "tagline": "Sol, surf y temporadas intermedias que avergüenzan al resto de Europa.",
+    "weather": {
+      "summary": "Clima mediterráneo suave. La costa atlántica es más fresca que España."
+    },
+    "highlights": [
+      "Los meses intermedios (abr–may, sep–oct) ofrecen clima cálido sin multitudes.",
+      "El Algarve alcanza su pico en julio–agosto con precios de alojamiento 2–3× más altos.",
+      "Lisboa y Oporto son agradables todo el año salvo las lluvias de invierno."
+    ],
+    "majorDisruptions": {
+      "august_closures": {
+        "name": "Cierres de agosto",
+        "approxDates": "1 ago – 31 ago",
+        "note": "Muchos restaurantes familiares y pequeños comercios cierran durante el mes."
+      },
+      "semana_santa": {
+        "name": "Semana Santa",
+        "approxDates": "Semana de Pascua",
+        "note": "Procesiones por todo el país. El alojamiento sube en las grandes ciudades."
+      }
+    }
+  },
+  "italy": {
+    "tagline": "El país más querido de Europa. El timing lo es todo.",
+    "weather": {
+      "summary": "Mediterráneo. Veranos calurosos y secos, inviernos suaves y húmedos. Las regiones alpinas son distintas."
+    },
+    "highlights": [
+      "Septiembre es probablemente el mejor mes integral — cálido, poco abarrotado, época de cosecha.",
+      "El acqua alta en Venecia llega a su pico en nov–dic; evítalo si viajas con personas mayores.",
+      "Cinque Terre y Amalfi son agobiantes en julio–agosto."
+    ],
+    "majorDisruptions": {
+      "ferragosto": {
+        "name": "Ferragosto",
+        "approxDates": "15 ago",
+        "note": "Festivo nacional. Las ciudades se vacían pero los destinos costeros están al máximo."
+      },
+      "august_closures": {
+        "name": "Cierres de agosto",
+        "approxDates": "1 ago – 31 ago",
+        "note": "Muchos restaurantes y comercios familiares cierran durante el mes."
+      },
+      "christmas": {
+        "name": "Navidad y Epifanía",
+        "approxDates": "23 dic – 6 ene",
+        "note": "Roma y Vaticano abarrotados; muchos comercios con horarios reducidos."
+      }
+    }
+  },
+  "thailand": {
+    "tagline": "Ritmos tropicales, grandes contrastes estacionales — barato cuando nadie más va.",
+    "weather": {
+      "summary": "Monzón tropical. La estación seca de nov–mar es la temporada alta natural."
+    },
+    "highlights": [
+      "Nov–feb tiene clima perfecto pero también es pico para el turismo occidental.",
+      "Final de abril – principios de junio es caluroso, relativamente seco, con precios bajos y poca gente.",
+      "Las islas del sur se dividen: lado del Golfo y lado de Andamán tienen estaciones de lluvias opuestas."
+    ],
+    "majorDisruptions": {
+      "songkran": {
+        "name": "Songkran (Año Nuevo Tailandés)",
+        "approxDates": "13 abr – 15 abr",
+        "note": "Festival nacional del agua. Bangkok parcialmente paralizada. Vuelos caros."
+      },
+      "chinese_new_year": {
+        "name": "Pico del Año Nuevo Chino",
+        "approxDates": "Finales ene – mediados feb",
+        "note": "Enorme afluencia turística desde China. Phuket y Bangkok abarrotados."
+      }
+    }
+  },
+  "greece": {
+    "tagline": "Islas, ruinas y la magia de la temporada intermedia.",
+    "weather": {
+      "summary": "Mediterráneo. Veranos calurosos y secos, inviernos suaves en las islas."
+    },
+    "highlights": [
+      "Finales de mayo y septiembre son ideales — mar cálido, multitudes manejables.",
+      "Santorini es agobiante en julio–agosto; mejor visita Paros o Naxos.",
+      "Atenas es agradable abr–may y oct–nov, brutal en julio–agosto."
+    ],
+    "majorDisruptions": {
+      "orthodox_easter": {
+        "name": "Pascua Ortodoxa",
+        "approxDates": "Variable (a menudo después de la Pascua occidental)",
+        "note": "Gran movimiento doméstico. Los ferris se llenan, las islas se llenan de fiesta."
+      },
+      "august_peak": {
+        "name": "Pico de agosto",
+        "approxDates": "1 ago – 31 ago",
+        "note": "Coincide el pico nacional e internacional. Precios al doble, ferris llenos."
+      }
+    }
+  },
+  "spain": {
+    "tagline": "Los calendarios regionales abren ventanas ocultas — si las conoces.",
+    "weather": {
+      "summary": "Mediterráneo en la costa, continental en el interior. Calor abrasador en julio–agosto."
+    },
+    "highlights": [
+      "Andalucía es brutal en agosto — los 40 °C+ son comunes.",
+      "Septiembre es el mejor mes integral en todo el país.",
+      "Los festivos regionales varían por comunidad autónoma — compara Cataluña y Madrid."
+    ],
+    "majorDisruptions": {
+      "semana_santa": {
+        "name": "Semana Santa",
+        "approxDates": "Semana de Pascua",
+        "note": "Sevilla, Málaga y Andalucía abarrotadas con procesiones y turistas."
+      },
+      "la_tomatina": {
+        "name": "La Tomatina",
+        "approxDates": "Último miércoles de agosto",
+        "note": "Buñol es diminuto pero dispara los precios de alojamiento en la zona de Valencia."
+      }
+    }
+  },
+  "croatia": {
+    "tagline": "Costa adriática, temporadas intermedias infravaloradas.",
+    "weather": {
+      "summary": "Mediterráneo en la costa, continental en el interior."
+    },
+    "highlights": [
+      "A finales de mayo: mar cálido, restaurantes abiertos y pocos cruceros.",
+      "Plitvice está perfecto en mayo y octubre — clima agradable, colores vibrantes.",
+      "Hvar se satura en julio–agosto; Korčula y Vis se mantienen más tranquilas."
+    ],
+    "majorDisruptions": {
+      "august_peak": {
+        "name": "Pico de agosto",
+        "approxDates": "1 ago – 31 ago",
+        "note": "Pico para los viajeros centroeuropeos. Dubrovnik y Split saturadas."
+      }
+    }
+  },
+  "morocco": {
+    "tagline": "Mercados, desiertos, montañas — totalmente distintos según la estación.",
+    "weather": {
+      "summary": "Gran variedad. Sáhara brutal en verano; el Atlas con nieve en invierno."
+    },
+    "highlights": [
+      "Marzo–abril es lo mejor para trekking en el desierto y el clima de la medina de Marrakech.",
+      "Julio–agosto es agobiante en Marrakech — evítalo salvo que vayas al Atlas.",
+      "Comprueba las fechas del Ramadán: afecta mucho los horarios de los restaurantes."
+    ],
+    "majorDisruptions": {
+      "ramadan": {
+        "name": "Ramadán",
+        "approxDates": "Variable (lunar)",
+        "note": "Muchos restaurantes cerrados durante el día. Los souks por la tarde son más animados."
+      },
+      "eid_al_fitr": {
+        "name": "Eid al-Fitr",
+        "approxDates": "Día siguiente al fin del Ramadán",
+        "note": "Festivo nacional. Algunos comercios cerrados, transporte saturado."
+      }
+    }
+  },
+  "vietnam": {
+    "tagline": "Norte, centro, sur — tres climas distintos, un solo país.",
+    "weather": {
+      "summary": "Tropical. El norte tiene estaciones marcadas; el sur sólo seco/lluvioso."
+    },
+    "highlights": [
+      "Evita Tết si quieres restaurantes abiertos y vuelos baratos.",
+      "Noviembre es ideal para la mayor parte del país.",
+      "La bahía de Halong va mejor de oct–dic; el delta del Mekong de dic–abr."
+    ],
+    "majorDisruptions": {
+      "tet": {
+        "name": "Tết (Año Nuevo Lunar)",
+        "approxDates": "Finales ene – mediados feb",
+        "note": "El mayor festivo nacional. Muchos comercios cerrados durante una semana. Transporte totalmente reservado."
+      }
+    }
+  },
+  "iceland": {
+    "tagline": "Volcanes, auroras y estaciones radicalmente distintas.",
+    "weather": {
+      "summary": "Subpolar oceánico. Verano con 20+ horas de luz; invierno con 4."
+    },
+    "highlights": [
+      "La temporada de auroras es sep–abr; máxima probabilidad oct–feb.",
+      "Sol de medianoche en junio — espectacular pero abarrotado.",
+      "Las carreteras F del interior solo abren jun–sep."
+    ],
+    "majorDisruptions": {
+      "christmas_new_year": {
+        "name": "Navidad / Año Nuevo",
+        "approxDates": "20 dic – 3 ene",
+        "note": "Reikiavik abarrotada. Los precios suben. La temporada de auroras en su pico."
+      }
+    }
+  }
+}

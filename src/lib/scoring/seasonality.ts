@@ -1,4 +1,10 @@
-import type { Destination, LayerResult, TravelWindow } from "./types";
+import type {
+  Destination,
+  LayerResult,
+  Reason,
+  Translator,
+  TravelWindow,
+} from "./types";
 
 const MONTH_SHORT = [
   "Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -8,11 +14,12 @@ const MONTH_SHORT = [
 export function scoreSeasonality(
   window: TravelWindow,
   destination: Destination,
+  t: Translator,
 ): LayerResult {
   const windowMonthShorts = monthShortsInWindow(window);
 
   let score = 50;
-  const reasons: string[] = [];
+  const reasons: Reason[] = [];
 
   const bestHits = windowMonthShorts.filter((m) =>
     destination.bestMonths.includes(m),
@@ -26,17 +33,28 @@ export function scoreSeasonality(
 
   if (bestHits.length) {
     score = 90;
-    reasons.push(
-      `${bestHits.join(", ")} is a best-season window for ${destination.name}.`,
-    );
+    reasons.push({
+      tone: "positive",
+      text: t("seasonBest", {
+        months: bestHits.join(", "),
+        name: destination.name,
+      }),
+    });
   } else if (okHits.length) {
     score = 65;
-    reasons.push(`${okHits.join(", ")} is an acceptable shoulder window.`);
+    reasons.push({
+      tone: "neutral",
+      text: t("seasonShoulder", { months: okHits.join(", ") }),
+    });
   } else if (poorHits.length) {
     score = 25;
-    reasons.push(
-      `${poorHits.join(", ")} falls outside ${destination.name}'s ideal season.`,
-    );
+    reasons.push({
+      tone: "negative",
+      text: t("seasonOff", {
+        months: poorHits.join(", "),
+        name: destination.name,
+      }),
+    });
   }
 
   if (destination.weather.rainy) {
@@ -45,7 +63,7 @@ export function scoreSeasonality(
     );
     if (rainyHit) {
       score = Math.max(score - 10, 15);
-      reasons.push("Rainy season overlap — expect showers.");
+      reasons.push({ tone: "negative", text: t("rainy") });
     }
   }
 
@@ -55,7 +73,7 @@ export function scoreSeasonality(
     );
     if (typhoonHit) {
       score = Math.max(score - 20, 10);
-      reasons.push("Typhoon season — travel disruption possible.");
+      reasons.push({ tone: "negative", text: t("typhoon") });
     }
   }
 

@@ -1,7 +1,8 @@
-import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import {
   beevagoDestinations,
   findBeevagoCity,
@@ -9,7 +10,7 @@ import {
   cityAsDestination,
   MONTHS,
 } from "@/lib/beevago";
-import { findDestination } from "@/lib/data";
+import { findDestination, localizedDestination } from "@/lib/data";
 import UpcomingHolidays from "@/components/UpcomingHolidays";
 import DestinationRecommender from "../DestinationRecommender";
 import BeevagoPosts from "@/components/BeevagoPosts";
@@ -25,13 +26,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ country: string; city: string }>;
+  params: Promise<{ locale: string; country: string; city: string }>;
 }): Promise<Metadata> {
-  const { country, city } = await params;
+  const { locale, country, city } = await params;
   const destination = findBeevagoCity(country, city);
   if (!destination) return {};
+  const t = await getTranslations({ locale, namespace: "cityPage" });
   return {
-    title: `Best time to visit ${destination.name}, ${destination.countryName}`,
+    title: t("metaTitle", {
+      name: destination.name,
+      country: destination.countryName,
+    }),
     description: destination.description,
   };
 }
@@ -39,21 +44,31 @@ export async function generateMetadata({
 export default async function CityDestinationPage({
   params,
 }: {
-  params: Promise<{ country: string; city: string }>;
+  params: Promise<{ locale: string; country: string; city: string }>;
 }) {
-  const { country, city } = await params;
+  const { locale, country, city } = await params;
+  setRequestLocale(locale);
   const destination = findBeevagoCity(country, city);
   if (!destination) notFound();
 
-  const curatedCountry = findDestination(country);
+  const t = await getTranslations("cityPage");
+  const tMonths = await getTranslations("months");
+  const tSeverity = await getTranslations("severity");
+
+  const baseCuratedCountry = findDestination(country);
+  const curatedCountry = baseCuratedCountry
+    ? localizedDestination(baseCuratedCountry, locale)
+    : undefined;
   const monthClassification = classifyMonths(destination.visitWindows);
   const cityDestination = cityAsDestination(destination, curatedCountry);
 
-  const cityPosts = postsForCity(destination.slug, 6);
+  const cityPosts = postsForCity(destination.slug, locale, 6);
   const cityPostIds = new Set(cityPosts.map((p) => p.id));
-  const countryPosts = postsForCountryCode(destination.countryCode, 8).filter(
-    (p) => !cityPostIds.has(p.id)
-  );
+  const countryPosts = postsForCountryCode(
+    destination.countryCode,
+    locale,
+    8,
+  ).filter((p) => !cityPostIds.has(p.id));
 
   return (
     <div>
@@ -84,9 +99,13 @@ export default async function CityDestinationPage({
               {destination.description}
             </p>
             <p className="mt-4 text-sm text-white/70">
-              Best time: <span className="font-medium">{destination.bestTime}</span>
+              {t("bestTimePrefix")}{" "}
+              <span className="font-medium">{destination.bestTime}</span>
               {" · "}
-              Typical stay: {destination.minDays}–{destination.maxDays} days
+              {t("typicalStay", {
+                min: destination.minDays,
+                max: destination.maxDays,
+              })}
             </p>
           </div>
         </div>
@@ -97,10 +116,10 @@ export default async function CityDestinationPage({
           <div className="space-y-10">
             <div>
               <h2 className="font-display text-2xl font-semibold tracking-tight">
-                Monthly overview
+                {t("monthlyOverview.title")}
               </h2>
               <p className="mt-2 text-muted-foreground">
-                Each month classified using local weather, crowds, and prices.
+                {t("monthlyOverview.subtitle")}
               </p>
               <div className="mt-6 grid grid-cols-4 sm:grid-cols-6 md:grid-cols-12 gap-1.5">
                 {MONTHS.map((m) => {
@@ -116,7 +135,7 @@ export default async function CityDestinationPage({
                             : "bg-muted text-muted-foreground"
                       }`}
                     >
-                      {m}
+                      {tMonths(m as never)}
                     </div>
                   );
                 })}
@@ -125,7 +144,7 @@ export default async function CityDestinationPage({
 
             <div>
               <h2 className="font-display text-2xl font-semibold tracking-tight">
-                Seasons
+                {t("seasons.title")}
               </h2>
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 {destination.visitWindows.map((w) => (
@@ -149,12 +168,12 @@ export default async function CityDestinationPage({
                     <div className="mt-3 flex flex-wrap gap-2 text-[10px] uppercase tracking-wider">
                       {w.crowds && (
                         <span className="rounded bg-muted px-2 py-0.5 text-muted-foreground">
-                          Crowds: {w.crowds}
+                          {t("seasons.crowds", { value: w.crowds })}
                         </span>
                       )}
                       {w.priceLevel && (
                         <span className="rounded bg-muted px-2 py-0.5 text-muted-foreground">
-                          Price: {w.priceLevel}
+                          {t("seasons.price", { value: w.priceLevel })}
                         </span>
                       )}
                     </div>
@@ -166,10 +185,12 @@ export default async function CityDestinationPage({
             {curatedCountry && curatedCountry.majorDisruptions.length > 0 && (
               <div>
                 <h2 className="font-display text-2xl font-semibold tracking-tight">
-                  Major disruptions
+                  {t("majorDisruptions.title")}
                 </h2>
                 <p className="mt-2 text-muted-foreground">
-                  Country-wide events that reshape any trip to {curatedCountry.name}.
+                  {t("majorDisruptions.subtitle", {
+                    country: curatedCountry.name,
+                  })}
                 </p>
                 <div className="mt-6 space-y-3">
                   {curatedCountry.majorDisruptions.map((d) => (
@@ -179,7 +200,10 @@ export default async function CityDestinationPage({
                     >
                       <div className="flex items-start justify-between gap-3">
                         <h3 className="font-semibold">{d.name}</h3>
-                        <SeverityBadge severity={d.severity} />
+                        <SeverityBadge
+                          severity={d.severity}
+                          label={tSeverity(d.severity as never)}
+                        />
                       </div>
                       <p className="mt-1 text-sm text-muted-foreground">
                         {d.approxDates}
@@ -194,10 +218,10 @@ export default async function CityDestinationPage({
             {curatedCountry && curatedCountry.highlights.length > 0 && (
               <div>
                 <h2 className="font-display text-2xl font-semibold tracking-tight">
-                  What locals know
+                  {t("whatLocalsKnow.title")}
                 </h2>
                 <p className="mt-2 text-muted-foreground">
-                  Insider context for {curatedCountry.name} that shapes the best time to visit.
+                  {t("whatLocalsKnow.subtitle", { country: curatedCountry.name })}
                 </p>
                 <ul className="mt-4 space-y-3">
                   {curatedCountry.highlights.map((h) => (
@@ -213,7 +237,7 @@ export default async function CityDestinationPage({
             {destination.attractions.length > 0 && (
               <div>
                 <h2 className="font-display text-2xl font-semibold tracking-tight">
-                  Top experiences
+                  {t("topExperiences.title")}
                 </h2>
                 <ul className="mt-4 space-y-3">
                   {destination.attractions.slice(0, 6).map((a) => (
@@ -237,14 +261,16 @@ export default async function CityDestinationPage({
 
             <BeevagoPosts
               posts={cityPosts}
-              title={`Read more about ${destination.name}`}
-              subtitle="Guides and tips from the Beevago blog."
+              title={t("readMore.city", { name: destination.name })}
+              subtitle={t("readMore.citySubtitle")}
             />
 
             <BeevagoPosts
               posts={countryPosts}
-              title={`More from ${destination.countryName}`}
-              subtitle={`Other Beevago guides across ${destination.countryName}.`}
+              title={t("readMore.country", { country: destination.countryName })}
+              subtitle={t("readMore.countrySubtitle", {
+                country: destination.countryName,
+              })}
             />
           </div>
 
@@ -258,7 +284,9 @@ export default async function CityDestinationPage({
 
             {curatedCountry && (
               <div className="rounded-2xl border border-border bg-muted/30 p-5">
-                <h3 className="font-semibold">More about {curatedCountry.name}</h3>
+                <h3 className="font-semibold">
+                  {t("moreAbout", { country: curatedCountry.name })}
+                </h3>
                 <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
                   {curatedCountry.tagline}
                 </p>
@@ -266,7 +294,7 @@ export default async function CityDestinationPage({
                   href={`/destinations/${curatedCountry.slug}`}
                   className="mt-3 inline-flex text-sm font-medium text-primary hover:underline"
                 >
-                  Read the {curatedCountry.name} guide →
+                  {t("readGuide", { country: curatedCountry.name })}
                 </Link>
               </div>
             )}
@@ -277,7 +305,13 @@ export default async function CityDestinationPage({
   );
 }
 
-function SeverityBadge({ severity }: { severity: string }) {
+function SeverityBadge({
+  severity,
+  label,
+}: {
+  severity: string;
+  label: string;
+}) {
   const styles: Record<string, string> = {
     severe: "bg-danger/15 text-[rgb(127_29_29)]",
     high: "bg-danger/10 text-[rgb(127_29_29)]",
@@ -291,7 +325,7 @@ function SeverityBadge({ severity }: { severity: string }) {
     <span
       className={`inline-flex items-center rounded-md ${cls} px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider`}
     >
-      {severity}
+      {label}
     </span>
   );
 }
